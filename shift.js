@@ -64,15 +64,20 @@ const ShiftGame = (() => {
   ];
   const clamp = n => Math.max(0, Math.min(100, n));
   const initial = () => ({round: 0, phase: 'intro', service: 70, team: 70, margin: 70,
-    history: [], guestMood: 'neutral', staffMood: 'calm', queue: 0});
+    history: [], guestMood: 'neutral', staffMood: 'calm', queue: 0, arrivals: 0,
+    pressure: {chef: 0, waiter: 0, guest: 0}, spritePressure: {},
+    supportUsed: {chef: 0, waiter: 0, guest: 0},
+    lastActor: null, lastSprite: null, lastReaction: null});
   function choose(state, choiceIndex) {
     if (state.phase !== 'choice' || state.round >= events.length) return state;
     const choice = events[state.round].choices[choiceIndex];
     if (!choice) return state;
     return {...state, phase: 'feedback', service: clamp(state.service + choice.impact[0]),
       team: clamp(state.team + choice.impact[1]), margin: clamp(state.margin + choice.impact[2]),
-      guestMood: choice.mood[0], staffMood: choice.mood[1], queue: choice.queue,
-      history: [...state.history, choiceIndex]};
+      guestMood: choice.mood[0], staffMood: choice.mood[1],
+      queue: Math.min(6, choice.queue + Math.ceil(state.arrivals / 2)),
+      history: [...state.history, choiceIndex], lastReaction: null,
+      lastActor: null, lastSprite: null};
   }
   function next(state) {
     if (state.phase === 'intro') return {...state, phase: 'choice'};
@@ -85,7 +90,52 @@ const ShiftGame = (() => {
     entries.sort((a, b) => a[1] - b[1]);
     return entries[0][0];
   }
-  return {events, initial, choose, next, ending};
+  function interact(state, action, actor, spriteId) {
+    if (!['choice', 'feedback'].includes(state.phase)) return state;
+    if (action === 'arrive') {
+      if (state.arrivals >= 4) return {...state, lastReaction: 'full'};
+      const incoming=Math.min(2,4-state.arrivals);
+      return {...state, arrivals: state.arrivals + incoming,
+        service: clamp(state.service - 2*incoming), team: clamp(state.team - 3*incoming),
+        margin: clamp(state.margin + Math.ceil(2.5*incoming)),
+        queue: Math.min(6, state.queue + incoming),
+        guestMood: 'worried', lastActor: 'guest',lastSprite:null,
+        lastReaction: incoming===1?'arrivalOne':'arrivals'};
+    }
+    if (!['chef', 'waiter', 'guest'].includes(actor)) return state;
+    const target=spriteId||actor+'0';
+    if (action === 'press') {
+      const pressure={...state.pressure,[actor]:state.pressure[actor]+1};
+      const spritePressure={...state.spritePressure,[target]:(state.spritePressure[target]||0)+1};
+      const angry=spritePressure[target] >= (actor === 'guest' ? 2 : 3);
+      const effects=actor === 'guest' ? (angry?[-9,0,-5]:[-4,0,0]) :
+        angry?[-7,-9,0]:[3,-5,0];
+      const guestLeaves=actor==='guest' && spritePressure[target] >= 4 && state.arrivals > 0;
+      return {...state, pressure, spritePressure, service:clamp(state.service+effects[0]),
+        team:clamp(state.team+effects[1]), margin:clamp(state.margin+effects[2]-(guestLeaves?4:0)),
+        queue:Math.max(0,Math.min(6,state.queue+(angry?1:-1))),
+        arrivals:Math.max(0,state.arrivals-(guestLeaves?1:0)),
+        lastActor:actor, lastSprite:target, lastReaction:guestLeaves?'walkout':
+          actor+(angry?'Angry':'Pressed')};
+    }
+    if (action === 'support') {
+      if (!(state.spritePressure[target]>0) || state.supportUsed[actor]>=2)
+        return {...state,lastActor:actor,lastSprite:target,lastReaction:'noSupport'};
+      const relief=Math.min(2,state.spritePressure[target]);
+      const pressure={...state.pressure,[actor]:Math.max(0,state.pressure[actor]-relief)};
+      const spritePressure={...state.spritePressure,[target]:state.spritePressure[target]-relief};
+      const supportUsed={...state.supportUsed,[actor]:state.supportUsed[actor]+1};
+      const effects=actor==='chef'?[-2,9,0]:actor==='waiter'?[5,7,0]:[8,0,-3];
+      return {...state,pressure,spritePressure,supportUsed,service:clamp(state.service+effects[0]),
+        team:clamp(state.team+effects[1]),margin:clamp(state.margin+effects[2]),
+        queue:Math.max(0,state.queue-(actor==='chef'?0:1)),
+        guestMood:actor==='guest'?'happy':state.guestMood,
+        staffMood:actor==='guest'?state.staffMood:'focused',
+        lastActor:actor,lastSprite:target,lastReaction:actor+'Supported'};
+    }
+    return state;
+  }
+  return {events, initial, choose, next, ending, interact};
 })();
 
 window.initShift = ({getLang}) => {
@@ -98,10 +148,14 @@ window.initShift = ({getLang}) => {
   const metrics = document.getElementById('shiftMetrics');
   const progress = document.getElementById('shiftProgress');
   const feedback = document.getElementById('shiftFeedback');
+  const controls = document.getElementById('shiftControls');
+  const reaction = document.getElementById('shiftReaction');
   const t = pair => pair[getLang() === 'es' ? 1 : 0];
   let state = ShiftGame.initial();
   let visible = true;
   let transitionAt = 0;
+  let entranceFrom = 99;
+  let hitAreas = [];
   const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
   const colors = {navy:'#172b3e', wall:'#253b50', wallLight:'#314d61', floor:'#8b7769',
     tile:'#a99179', cream:'#f3e7cc', gold:'#e3b873', red:'#cf746a', green:'#8dbba0',
@@ -131,13 +185,22 @@ window.initShift = ({getLang}) => {
     fill(x-8,y-9,16,17,variant%2?colors.skinDark:colors.skin);
     if(role==='guest')fill(x-9,y-13,18,5,variant%2?'#563b35':'#302d35');
     face(x,y,mood);
+    if(mood==='angry'){
+      fill(x-16,y-17,3,3,colors.red);fill(x+13,y-18,3,3,colors.red);
+      fill(x-18,y-23,2,2,colors.gold);fill(x+17,y-24,2,2,colors.gold);
+    }
   }
   function bubble(x,y,symbol,color=colors.cream) {
     fill(x-9,y-12,18,17,colors.dark);fill(x-7,y-10,14,13,color);
     fill(x-1,y+3,4,4,color);word(symbol,x-4,y+1,colors.dark,11);
   }
+  const actorMood=(actor,spriteId=actor+'0')=>
+    (state.spritePressure[spriteId]||0)>=(actor==='guest'?2:3)?'angry':
+    (state.spritePressure[spriteId]||0)>0?(actor==='guest'?'worried':'stressed'):
+    actor==='guest'?state.guestMood:state.staffMood;
   function scene(ms) {
     if (!ctx) return;
+    hitAreas=[];
     const tick=reduced?0:ms/250;
     fill(0,0,480,270,colors.navy);
     fill(0,0,480,160,colors.wall);
@@ -163,25 +226,47 @@ window.initShift = ({getLang}) => {
       fill(x+43,195,11,3,colors.gold);
     }
     const wobble=(n)=>reduced?0:Math.sin(tick+n)*1.4;
-    person(70,92,'chef',state.staffMood,wobble(0));
-    person(153,92,'chef',state.staffMood,wobble(2),1);
-    person(249+Math.round(Math.sin(tick/2)*Math.min(state.queue,3)*3),126,
-      'waiter',state.staffMood,wobble(1),1);
-    const guests=state.phase==='intro'?2:state.round===0?4:5;
+    const drawPerson=(x,y,role,mood,bob,variant,actor,spriteId)=>{
+      person(x,y,role,mood,bob+(mood==='angry'&&!reduced?Math.sin(tick*5)*2:0),variant);
+      hitAreas.push({actor,spriteId,x,y});
+      if(state.lastSprite===spriteId&&state.phase!=='intro'){
+        fill(x-17,y-24,7,2,colors.gold);fill(x-17,y-24,2,7,colors.gold);
+        fill(x+10,y-24,7,2,colors.gold);fill(x+15,y-24,2,7,colors.gold);
+      }
+    };
+    drawPerson(70,92,'chef',actorMood('chef','chef0'),wobble(0),0,'chef','chef0');
+    drawPerson(153,92,'chef',actorMood('chef','chef1'),wobble(2),1,'chef','chef1');
+    const waiterX=249+Math.round(Math.sin(tick/2)*Math.min(state.queue,3)*3);
+    drawPerson(waiterX,126,'waiter',actorMood('waiter','waiter0'),wobble(1),1,'waiter','waiter0');
+    const baseGuests=state.phase==='intro'?2:state.round===0?4:5;
+    const guests=baseGuests+state.arrivals;
+    const destinations=[[305,158],[341,165],[394,158],[430,165],[465,158],
+      [282,199],[326,199],[373,199],[420,199]];
     const arriving=Math.max(0,Math.min(1,(ms-transitionAt)/650));
     for(let i=0;i<guests;i++){
-      const destination=[305,341,394,430,465][i];
-      const x=destination+(i>=2?(1-arriving)*(490-destination):0);
-      const y=i%2?165:158;
-      const mood=i%3===0?state.guestMood:
-        state.guestMood==='angry'?'worried':state.guestMood==='happy'?'neutral':state.guestMood;
-      person(x,y,'guest',mood,wobble(i+3),i);
+      const [destination,y]=destinations[i];
+      const x=destination+(i>=entranceFrom?(1-arriving)*(490-destination):0);
+      const guestMood=actorMood('guest','guest'+i);
+      const mood=i%3===0?guestMood:
+        guestMood==='angry'?'worried':guestMood==='happy'?'neutral':guestMood;
+      drawPerson(x,y,'guest',mood,wobble(i+3),i,'guest','guest'+i);
     }
     if(state.phase!=='intro'){
-      const guestIcon=state.guestMood==='happy'?'♥':state.guestMood==='neutral'?'…':'!';
-      const staffIcon=state.staffMood==='stressed'?'!':state.staffMood==='focused'?'✓':'…';
-      bubble(337,133,guestIcon,state.guestMood==='happy'?colors.green:state.guestMood==='neutral'?colors.cream:colors.red);
-      bubble(153,62,staffIcon,state.staffMood==='stressed'?colors.red:colors.green);
+      const guestMood=actorMood('guest',state.lastActor==='guest'?state.lastSprite:'guest0');
+      const chefMood=actorMood('chef',state.lastActor==='chef'?state.lastSprite:'chef1');
+      const waiterMood=actorMood('waiter','waiter0');
+      const guestSpot=hitAreas.find(area=>area.spriteId===state.lastSprite&&area.actor==='guest')||
+        hitAreas.find(area=>area.spriteId==='guest1');
+      const chefSpot=hitAreas.find(area=>area.spriteId===state.lastSprite&&area.actor==='chef')||
+        hitAreas.find(area=>area.spriteId==='chef1');
+      bubble(guestSpot?.x||341,(guestSpot?.y||165)-25,
+        guestMood==='happy'?'♥':guestMood==='neutral'?'…':'!',
+        guestMood==='happy'?colors.green:guestMood==='neutral'?colors.cream:colors.red);
+      bubble(chefSpot?.x||153,(chefSpot?.y||92)-30,
+        chefMood==='angry'||chefMood==='stressed'?'!':'✓',
+        chefMood==='angry'||chefMood==='stressed'?colors.red:colors.green);
+      bubble(250,94,waiterMood==='angry'||waiterMood==='stressed'?'!':'✓',
+        waiterMood==='angry'||waiterMood==='stressed'?colors.red:colors.green);
     }
     // Status strip belongs to the imagined game, not real business metrics.
     fill(0,248,480,22,colors.dark);
@@ -205,8 +290,62 @@ window.initShift = ({getLang}) => {
   }
   const button=(label,action,index='')=>'<button type="button" class="shift-button" data-shift="'+action+'"'+
     (index!==''?' data-choice="'+index+'"':'')+'>'+label+'</button>';
+  const actorName=actor=>t(({chef:['cook','cocinero'],waiter:['waiter','camarero'],
+    guest:['guest','cliente']})[actor]);
+  const reactionText=key=>t(({
+    arrivals:['Two walk-ins arrive at once. More covers, more tickets, more pressure.',
+      'Aparecen dos clientes de golpe. Más cubiertos, más comandas, más presión.'],
+    arrivalOne:['Another guest arrives. The room is now at capacity.',
+      'Llega otro cliente. La sala ya está al máximo.'],
+    full:['The dining room is full. Deal with the guests already here.',
+      'La sala está llena. Atiende a quienes ya han llegado.'],
+    chefPressed:['The cook speeds up, but the team feels the push.',
+      'El cocinero acelera, pero el equipo nota la presión.'],
+    chefAngry:['The cook is fed up. More pressure is slowing the pass down.',
+      'El cocinero se cabrea. Más presión ya está frenando el pase.'],
+    waiterPressed:['The waiter hurries between tables. The team absorbs the rush.',
+      'El camarero corre entre mesas. El equipo absorbe las prisas.'],
+    waiterAngry:['The waiter snaps: the orders keep coming, but no one is listening.',
+      'El camarero salta: siguen entrando comandas, pero nadie escucha.'],
+    guestPressed:['You ask the table to decide now. They start looking uncomfortable.',
+      'Pides a la mesa que decida ya. Empiezan a sentirse incómodos.'],
+    guestAngry:['The guests have had enough of being rushed. Their patience drops.',
+      'Los clientes se hartan de las prisas. Su paciencia cae.'],
+    walkout:['One angry guest leaves. You lose the sale and the room notices.',
+      'Un cliente enfadado se marcha. Pierdes la venta y la sala se da cuenta.'],
+    chefSupported:['You give the cook room to breathe. The pass steadies.',
+      'Das aire al cocinero. El pase recupera el ritmo.'],
+    waiterSupported:['You clarify priorities with the waiter. Tables get better information.',
+      'Aclaras prioridades con el camarero. Las mesas reciben mejor información.'],
+    guestSupported:['You explain the wait and offer an alternative. The table relaxes.',
+      'Explicas la espera y propones una alternativa. La mesa se relaja.'],
+    noSupport:['That support option is not available right now.',
+      'Esa ayuda no está disponible ahora mismo.']
+  })[key]||['','']);
+  const control=(label,action,actor='',disabled=false,sprite='')=>
+    '<button type="button" data-shift="'+action+'"'+
+    (actor?' data-actor="'+actor+'"':'')+(sprite?' data-sprite="'+sprite+'"':'')+
+    (disabled?' disabled':'')+'>'+label+'</button>';
   function render() {
     metrics.innerHTML=meter('service',state.service)+meter('team',state.team)+meter('margin',state.margin);
+    const active=['choice','feedback'].includes(state.phase);
+    const canSupport=active&&state.lastActor&&state.lastSprite&&
+      state.spritePressure[state.lastSprite]>0&&
+      state.supportUsed[state.lastActor]<2;
+    controls.innerHTML='<div class="shift-controls-head"><span class="shift-controls-title">'+t([
+      'CLICK A CHARACTER TO RUSH THEM','PULSA UN PERSONAJE PARA METERLE PRISA'])+'</span>'+
+      '<span class="shift-extra">'+t(['EXTRA GUESTS: ','CLIENTES EXTRA: '])+state.arrivals+
+      '</span></div><div class="shift-control-buttons">'+
+      control('+ '+Math.min(2,4-state.arrivals)+' '+t(['SURPRISE GUESTS','CLIENTES SORPRESA']),
+        'arrive','',!active||state.arrivals>=4)+
+      control(t(['RUSH COOK','APURAR COCINA']),'press','chef',!active)+
+      control(t(['RUSH WAITER','APURAR SALA']),'press','waiter',!active)+
+      control(t(['RUSH GUEST','APURAR CLIENTE']),'press','guest',!active)+
+      (state.lastActor?control(t(['SUPPORT ','AYUDAR A '])+actorName(state.lastActor).toUpperCase(),
+        'support',state.lastActor,!canSupport,state.lastSprite||''):'')+'</div>';
+    reaction.textContent=state.lastReaction?reactionText(state.lastReaction):
+      t(['Start the shift, then tap a character or surprise the team with new guests.',
+        'Empieza el turno y pulsa un personaje o sorprende al equipo con más clientes.']);
     progress.textContent=state.phase==='intro'?t(['NEW GAME · 3 INCIDENTS','NUEVA PARTIDA · 3 INCIDENCIAS']):
       state.phase==='end'?t(['SHIFT COMPLETE','TURNO TERMINADO']):
       t(['INCIDENT','INCIDENCIA'])+' '+(state.round+1)+' / 3';
@@ -253,19 +392,37 @@ window.initShift = ({getLang}) => {
     label.textContent=t(['Fictional restaurant scene: two cooks, a waiter and guests. Current guest mood: ',
       'Escena ficticia de restaurante: dos cocineros, un camarero y clientes. Estado de los clientes: '])+
       t(({happy:['happy','contentos'],neutral:['neutral','neutrales'],worried:['worried','preocupados'],
-        angry:['upset','descontentos']})[state.guestMood]);
+        angry:['upset','descontentos']})[actorMood('guest',state.lastActor==='guest'?state.lastSprite:'guest0')]);
     feedback.textContent=state.phase==='feedback'?t(ShiftGame.events[state.round].choices[state.history.at(-1)].reply):'';
     scene(0);
+    canvas.style.cursor=active?'pointer':'default';
   }
   root.addEventListener('click',event=>{
     const control=event.target.closest('[data-shift]');
     if(!control || !root.contains(control))return;
-    if(control.dataset.shift==='restart')state=ShiftGame.initial();
-    else if(control.dataset.shift==='choose')state=ShiftGame.choose(state,Number(control.dataset.choice));
-    else if(control.dataset.shift==='next')state=ShiftGame.next(state);
+    const action=control.dataset.shift;
+    const oldGuestCount=(state.phase==='intro'?2:state.round===0?4:5)+state.arrivals;
+    if(action==='restart')state=ShiftGame.initial();
+    else if(action==='choose')state=ShiftGame.choose(state,Number(control.dataset.choice));
+    else if(action==='next')state=ShiftGame.next(state);
+    else if(['arrive','press','support'].includes(action))
+      state=ShiftGame.interact(state,action,control.dataset.actor,control.dataset.sprite);
+    entranceFrom=action==='arrive'||(action==='next'&&oldGuestCount===2)?oldGuestCount:99;
     transitionAt=window.performance?.now?.() || 0;
     render();
-    panel.querySelector('button')?.focus({preventScroll:true});
+    if(['next','choose','restart'].includes(action))panel.querySelector('button')?.focus({preventScroll:true});
+  });
+  canvas.addEventListener('click',event=>{
+    if(!['choice','feedback'].includes(state.phase))return;
+    const rect=canvas.getBoundingClientRect();
+    const x=(event.clientX-rect.left)*canvas.width/rect.width;
+    const y=(event.clientY-rect.top)*canvas.height/rect.height;
+    const hit=[...hitAreas].reverse().find(area=>Math.abs(x-area.x)<=16&&
+      y>=area.y-21&&y<=area.y+34);
+    if(!hit)return;
+    state=ShiftGame.interact(state,'press',hit.actor,hit.spriteId);
+    entranceFrom=99;
+    render();
   });
   window.renderShift=render;
   render();
