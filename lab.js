@@ -448,6 +448,15 @@ window.initLab = ({getLang, esc, euro}) => {
       state.labor.periods.forEach((period, i) => { period[key] = i === 0 ? next : 0; });
     }
   }
+  function syncVisibleInputs(changed) {
+    byId('labInputs').querySelectorAll('input[data-group][data-key]').forEach(input => {
+      if (input !== changed) input.value = value(state[input.dataset.group][input.dataset.key]);
+    });
+    byId('labInputs').querySelectorAll('input[data-period][data-period-key]').forEach(input => {
+      if (input !== changed) input.value = value(
+        state.labor.periods[Number(input.dataset.period)][input.dataset.periodKey]);
+    });
+  }
   function updateState(input) {
     if (input.dataset.period !== undefined) {
       state.labor.periods[Number(input.dataset.period)][input.dataset.periodKey] = clampInput(input);
@@ -483,6 +492,7 @@ window.initLab = ({getLang, esc, euro}) => {
         }
       }
     }
+    syncVisibleInputs(input);
     updateResults();
   }
 
