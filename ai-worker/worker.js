@@ -26,7 +26,7 @@ export default {
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers:cors(origin)});
   if(request.method!=='POST')return json({error:'Method not allowed'},405,origin,{Allow:'POST, OPTIONS'});
   const type=request.headers.get('Content-Type')||'';
-  if(!/^application\\/json(?:\\s*;|$)/i.test(type))return json({error:'JSON required'},415,origin);
+  if(type.split(';')[0].trim().toLowerCase()!=='application/json')return json({error:'JSON required'},415,origin);
   const declared=Number(request.headers.get('Content-Length')||0);
   if(declared>MAX_BODY_BYTES)return json({error:'Request too large'},413,origin);
   let raw='';
