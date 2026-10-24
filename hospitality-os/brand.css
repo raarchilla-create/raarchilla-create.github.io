@@ -1,0 +1,28 @@
+/* hopta. brand system v1 — typography and application skin */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root{--hopta-navy:#0b2948;--hopta-navy-deep:#071e35;--hopta-beige:#c9b99a;--hopta-sand:#f5f4f0;--hopta-white:#fafaf8;--hopta-ink:#203447;--hopta-muted:#6c7b88;--hopta-line:#e5e7e6;font-family:Inter,system-ui,-apple-system,sans-serif;color:var(--hopta-ink);background:var(--hopta-sand)}
+body{background:var(--hopta-sand);color:var(--hopta-ink);font-family:Inter,system-ui,-apple-system,sans-serif}
+header{background:var(--hopta-navy-deep);padding:14px 18px 12px;border-bottom:2px solid var(--hopta-beige)}
+header .brand-wordmark{font-family:Inter,system-ui,sans-serif;display:inline-block;font-size:30px;font-weight:800;font-style:italic;letter-spacing:-2.5px;line-height:1;color:#fff;transform:skew(-5deg);transform-origin:left center}
+header .brand-dot{color:var(--hopta-beige);font-style:normal;letter-spacing:0}
+header small{color:#c4cdd3;font-size:10px;letter-spacing:.13em;text-transform:uppercase;margin-top:5px}
+main{max-width:1100px}
+.card{background:#fff;border:1px solid var(--hopta-line);border-radius:14px;box-shadow:0 3px 18px rgba(11,41,72,.045)}
+h2,h3{color:var(--hopta-navy-deep);letter-spacing:-.035em}h2{font-weight:750}p,.muted{color:var(--hopta-muted)}
+button{background:var(--hopta-navy);border-radius:9px;letter-spacing:-.01em;transition:background .15s ease,transform .15s ease}
+button:hover{background:#16446c}button:active{transform:translateY(1px)}
+button.secondary{background:#edf0ef;color:var(--hopta-navy)}button.secondary:hover{background:#e0e6e5}
+button.danger{background:#b54747}
+input,select,textarea{border-color:#dce2e3;border-radius:9px;color:var(--hopta-navy-deep);font-family:inherit}
+input:focus,select:focus,textarea:focus{outline:2px solid rgba(201,185,154,.65);outline-offset:1px;border-color:var(--hopta-beige)}
+.metric{background:#f7f8f7;border:1px solid #eceeed;border-radius:11px}
+.metric b,.big{color:var(--hopta-navy);letter-spacing:-.04em}
+.pill,.tag{background:#eee9df!important;color:#665941!important}
+.step,details{border-color:var(--hopta-line)}
+nav{background:#fff;border-top:1px solid var(--hopta-line);box-shadow:0 -4px 18px rgba(11,41,72,.04)}
+nav button{background:transparent;color:#798591}nav button.active{background:#f0eee9;color:var(--hopta-navy);font-weight:750}
+nav button:hover{background:#f5f4f0;color:var(--hopta-navy)}
+a{color:#145078}#toast{background:var(--hopta-navy-deep)}
+::selection{background:#e9ddc8;color:var(--hopta-navy-deep)}
+@media(min-width:900px){header{padding-left:max(24px,calc((100vw - 1060px)/2))}main{padding-top:26px}}
+@media(prefers-reduced-motion:reduce){button{transition:none}}
