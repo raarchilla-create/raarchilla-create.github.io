@@ -48,7 +48,8 @@ const LabMath = (() => {
       const simulatedCost = recipeCost * (1 + finite(data.costChange) / 100);
       const simulatedUnits = units * (1 + finite(data.unitsChange) / 100);
       return {
-        name: dish.name, price: dishPrice, units, recipeCost, unitMargin,
+        name: dish.name, nameEs: dish.nameEs, nameEdited: dish.nameEdited,
+        price: dishPrice, units, recipeCost, unitMargin,
         costPct: dishPrice ? 100 * recipeCost / dishPrice : 0,
         contribution: unitMargin * units,
         simulatedContribution: (simulatedPrice - simulatedCost) * simulatedUnits
@@ -113,7 +114,20 @@ const LabMath = (() => {
       simplePayback: savings > monthly ? initial / (savings - monthly) : null
     };
   }
-  return {labor, food, roi, money};
+  function convertUnit(item, nextUnit) {
+    const factors = {kg: 1000, g: 1, L: 1000, ml: 1, ud: 1};
+    const dimension = unit => ['kg', 'g'].includes(unit) ? 'mass' :
+      ['L', 'ml'].includes(unit) ? 'volume' : 'count';
+    const previousUnit = item.unit || 'ud';
+    if (!(nextUnit in factors)) return item;
+    if (dimension(previousUnit) === dimension(nextUnit)) {
+      item.qty *= factors[previousUnit] / factors[nextUnit];
+      item.unitCost *= factors[nextUnit] / factors[previousUnit];
+    }
+    item.unit = nextUnit;
+    return item;
+  }
+  return {labor, food, roi, money, convertUnit};
 })();
 
 window.initLab = ({getLang, esc, euro}) => {
@@ -127,6 +141,8 @@ window.initLab = ({getLang, esc, euro}) => {
   const clean = value => esc(String(value));
   const text = (en, es) => clean(t(en, es));
   const value = numberValue => String(Number.isFinite(Number(numberValue)) ? numberValue : 0);
+  const displayName = item => getLang() === 'es' && !item.nameEdited && item.nameEs
+    ? item.nameEs : item.name;
 
   const defaults = {
     labor: {
@@ -140,18 +156,18 @@ window.initLab = ({getLang, esc, euro}) => {
     food: {
       price: 15, cost: 4.5, target: 30, priceChange: 0, costChange: 0, unitsChange: 0,
       menu: [
-        {name: 'Pasta', price: 14, units: 420, ingredients: [
-          {name: 'Pasta', qty: 0.13, unitCost: 4, yieldPct: 100},
-          {name: 'Sauce', qty: 0.18, unitCost: 6, yieldPct: 95},
-          {name: 'Cheese', qty: 0.03, unitCost: 13, yieldPct: 95}
+        {name: 'Pasta', nameEs: 'Pasta', price: 14, units: 420, ingredients: [
+          {name: 'Pasta', nameEs: 'Pasta', qty: 0.13, unit: 'kg', unitCost: 4, yieldPct: 100},
+          {name: 'Sauce', nameEs: 'Salsa', qty: 0.18, unit: 'kg', unitCost: 6, yieldPct: 95},
+          {name: 'Cheese', nameEs: 'Queso', qty: 0.03, unit: 'kg', unitCost: 13, yieldPct: 95}
         ]},
-        {name: 'Burger', price: 16, units: 300, ingredients: [
-          {name: 'Beef', qty: 0.18, unitCost: 14, yieldPct: 90},
-          {name: 'Bread and sides', qty: 1, unitCost: 2.4, yieldPct: 100}
+        {name: 'Burger', nameEs: 'Hamburguesa', price: 16, units: 300, ingredients: [
+          {name: 'Beef', nameEs: 'Ternera', qty: 0.18, unit: 'kg', unitCost: 14, yieldPct: 90},
+          {name: 'Bread and sides', nameEs: 'Pan y guarnición', qty: 1, unit: 'ud', unitCost: 2.4, yieldPct: 100}
         ]},
-        {name: 'Salad', price: 13, units: 170, ingredients: [
-          {name: 'Vegetables', qty: 0.25, unitCost: 6, yieldPct: 85},
-          {name: 'Cheese and dressing', qty: 1, unitCost: 1.2, yieldPct: 100}
+        {name: 'Salad', nameEs: 'Ensalada', price: 13, units: 170, ingredients: [
+          {name: 'Vegetables', nameEs: 'Verduras', qty: 0.25, unit: 'kg', unitCost: 6, yieldPct: 85},
+          {name: 'Cheese and dressing', nameEs: 'Queso y aliño', qty: 1, unit: 'ud', unitCost: 1.2, yieldPct: 100}
         ]}
       ]
     },
@@ -209,14 +225,22 @@ window.initLab = ({getLang, esc, euro}) => {
   }
 
   function ingredientRows(dish, dishIndex) {
-    return dish.ingredients.map((item, ingredientIndex) =>
+    return dish.ingredients.map((item, ingredientIndex) => {
+      const unit = item.unit || 'ud';
+      const units = ['kg', 'g', 'L', 'ml', 'ud'].map(option =>
+        '<option value="' + option + '"' + (option === unit ? ' selected' : '') + '>' +
+        (option === 'ud' ? t('item', 'ud.') : option) + '</option>').join('');
+      return (
       '<div class="lab-ingredient-row"><label><span>' + text('Ingredient', 'Ingrediente') +
       '</span><input type="text" maxlength="40" data-dish="' + dishIndex +
       '" data-ingredient="' + ingredientIndex + '" data-ingredient-key="name" value="' +
-      clean(item.name) + '"></label><label><span>' + text('Qty', 'Cant.') +
+      clean(displayName(item)) + '"></label><label><span>' + text('Qty', 'Cant.') +
       '</span><input type="number" min="0" step="any" data-dish="' + dishIndex +
       '" data-ingredient="' + ingredientIndex + '" data-ingredient-key="qty" value="' +
-      value(item.qty) + '"></label><label><span>' + text('€/unit', '€/unidad') +
+      value(item.qty) + '"></label><label><span>' + text('Unit', 'Unidad') +
+      '</span><select data-dish="' + dishIndex + '" data-ingredient="' + ingredientIndex +
+      '" data-ingredient-key="unit">' + units + '</select></label><label><span>' +
+      clean('€/' + (unit === 'ud' ? t('item', 'ud.') : unit)) +
       '</span><input type="number" min="0" step="any" data-dish="' + dishIndex +
       '" data-ingredient="' + ingredientIndex + '" data-ingredient-key="unitCost" value="' +
       value(item.unitCost) + '"></label><label><span>' + text('Yield %', 'Rend. %') +
@@ -224,8 +248,8 @@ window.initLab = ({getLang, esc, euro}) => {
       '" data-ingredient="' + ingredientIndex + '" data-ingredient-key="yieldPct" value="' +
       value(item.yieldPct) + '"></label><button type="button" class="lab-row-delete" data-action="remove-ingredient" data-dish="' +
       dishIndex + '" data-ingredient="' + ingredientIndex + '" aria-label="' +
-      text('Remove ingredient', 'Quitar ingrediente') + '">×</button></div>'
-    ).join('');
+      text('Remove ingredient', 'Quitar ingrediente') + '">×</button></div>');
+    }).join('');
   }
   function foodInputs() {
     const quick = '<div class="lab-field-grid">' +
@@ -240,7 +264,7 @@ window.initLab = ({getLang, esc, euro}) => {
       i + '">' + text('Remove dish', 'Quitar plato') + '</button></div><div class="lab-field-grid">' +
       '<label class="lab-field"><span>' + text('Name', 'Nombre') +
       '</span><input type="text" maxlength="60" data-dish="' + i + '" data-dish-key="name" value="' +
-      clean(dish.name) + '"></label><label class="lab-field"><span>' +
+      clean(displayName(dish)) + '"></label><label class="lab-field"><span>' +
       text('Price excl. tax (€)', 'Precio sin IVA (€)') +
       '</span><input type="number" min="0" step="any" data-dish="' + i +
       '" data-dish-key="price" value="' + value(dish.price) +
@@ -251,8 +275,8 @@ window.initLab = ({getLang, esc, euro}) => {
       '<button type="button" class="lab-link" data-action="add-ingredient" data-dish="' + i +
       '">+ ' + text('Add ingredient', 'Añadir ingrediente') + '</button></div>'
     ).join('');
-    return note('Recipe cost uses usable yield. The menu matrix compares only the dishes entered here.',
-      'El escandallo considera el rendimiento útil. La matriz compara solo los platos introducidos aquí.') +
+    return note('Quantity and cost use the selected unit. Weight and volume conversions preserve recipe cost; check values when switching unit types. The menu matrix compares only these dishes.',
+      'Cantidad y coste usan la unidad elegida. Al convertir peso o volumen se conserva el coste; revisa los valores si cambias de tipo de unidad. La matriz compara solo estos platos.') +
       dishCards + '<button type="button" class="lab-add" data-action="add-dish">+ ' +
       text('Add dish', 'Añadir plato') + '</button><h4>' +
       text('What-if scenario', 'Simulación de cambios') + '</h4><div class="lab-field-grid">' +
@@ -333,7 +357,7 @@ window.initLab = ({getLang, esc, euro}) => {
       opportunity: t('Opportunity', 'Oportunidad'), review: t('Review', 'Revisar')
     };
     const rows = result.dishes.map(dish =>
-      '<tr><th scope="row">' + clean(dish.name || t('Unnamed dish', 'Plato sin nombre')) +
+      '<tr><th scope="row">' + clean(displayName(dish) || t('Unnamed dish', 'Plato sin nombre')) +
       '</th><td>' + euro(dish.recipeCost) + '</td><td>' + percentage(dish.costPct) +
       '</td><td>' + euro(dish.unitMargin) + '</td><td>' + number(dish.units, 0) +
       '</td><td>' + euro(dish.contribution) + '</td><td><span class="lab-category">' +
@@ -466,9 +490,12 @@ window.initLab = ({getLang, esc, euro}) => {
     } else if (input.dataset.ingredient !== undefined) {
       const item = state.food.menu[Number(input.dataset.dish)].ingredients[Number(input.dataset.ingredient)];
       item[input.dataset.ingredientKey] = input.type === 'text' ? input.value : clampInput(input);
+      if (input.dataset.ingredientKey === 'name') item.nameEdited = true;
     } else if (input.dataset.dishKey) {
-      state.food.menu[Number(input.dataset.dish)][input.dataset.dishKey] =
+      const dish = state.food.menu[Number(input.dataset.dish)];
+      dish[input.dataset.dishKey] =
         input.type === 'text' ? input.value : clampInput(input);
+      if (input.dataset.dishKey === 'name') dish.nameEdited = true;
     } else if (input.dataset.group) {
       const group = input.dataset.group;
       const key = input.dataset.key;
@@ -500,6 +527,13 @@ window.initLab = ({getLang, esc, euro}) => {
     if (event.target instanceof HTMLInputElement) updateState(event.target);
   });
   byId('labInputs').addEventListener('change', event => {
+    if (event.target instanceof HTMLSelectElement && event.target.dataset.ingredientKey === 'unit') {
+      const item = state.food.menu[Number(event.target.dataset.dish)]
+        .ingredients[Number(event.target.dataset.ingredient)];
+      LabMath.convertUnit(item, event.target.value);
+      render();
+      return;
+    }
     if (event.target instanceof HTMLInputElement) {
       event.target.value = event.target.type === 'number'
         ? value(clampInput(event.target)) : event.target.value;
@@ -512,13 +546,15 @@ window.initLab = ({getLang, esc, euro}) => {
     const action = button.dataset.action;
     const dishIndex = Number(button.dataset.dish);
     if (action === 'add-dish') {
-      state.food.menu.push({name: t('New dish', 'Nuevo plato'), price: 0, units: 0,
-        ingredients: [{name: t('Ingredient', 'Ingrediente'), qty: 1, unitCost: 0, yieldPct: 100}]});
+      state.food.menu.push({name: t('New dish', 'Nuevo plato'), nameEdited: true, price: 0, units: 0,
+        ingredients: [{name: t('Ingredient', 'Ingrediente'), nameEdited: true,
+          qty: 1, unit: 'ud', unitCost: 0, yieldPct: 100}]});
     } else if (action === 'remove-dish' && state.food.menu.length > 1) {
       state.food.menu.splice(dishIndex, 1);
     } else if (action === 'add-ingredient') {
       state.food.menu[dishIndex].ingredients.push({
-        name: t('Ingredient', 'Ingrediente'), qty: 1, unitCost: 0, yieldPct: 100
+        name: t('Ingredient', 'Ingrediente'), nameEdited: true,
+        qty: 1, unit: 'ud', unitCost: 0, yieldPct: 100
       });
     } else if (action === 'remove-ingredient' && state.food.menu[dishIndex].ingredients.length > 1) {
       state.food.menu[dishIndex].ingredients.splice(Number(button.dataset.ingredient), 1);
@@ -537,7 +573,7 @@ window.initLab = ({getLang, esc, euro}) => {
   });
   byId('labExport').addEventListener('click', () => {
     const title = byId('labHeading').textContent;
-    const inputs = [...byId('labInputs').querySelectorAll('input')].map(input => {
+    const inputs = [...byId('labInputs').querySelectorAll('input,select')].map(input => {
       const label = input.closest('label');
       return (label?.querySelector('span')?.textContent || input.getAttribute('aria-label') || '') +
         ': ' + input.value;
