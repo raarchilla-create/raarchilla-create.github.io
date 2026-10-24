@@ -541,7 +541,9 @@ window.initLab = ({getLang, esc, euro}) => {
     const link = document.createElement('a');
     link.href = url;
     link.download = 'hosteleria-' + active + '-resumen.txt';
+    document.body.appendChild(link);
     link.click();
+    link.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
   state.labor.rate = state.labor.cost / state.labor.hours;
