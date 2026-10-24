@@ -1,0 +1,241 @@
+{
+  "version": "1.0",
+  "updated": "2026-10-24",
+  "notice": "Original, generalized hospitality operations guidance. No client-specific records, proprietary platform documentation or confidential metrics.",
+  "entries": [
+    {
+      "id": "product-mix",
+      "category": "Food Cost",
+      "title": {
+        "en": "Product mix before price negotiation",
+        "es": "Mix de ventas antes de negociar precios"
+      },
+      "answer": {
+        "en": "Analyse units sold, selling prices, ingredient cost, contribution margin, time of day and preparation effort. Rank products by volume and contribution; then decide which recipes, portions or menu positions to adjust. Supplier negotiation comes after you understand what matters.",
+        "es": "Analiza unidades vendidas, precios, coste de ingredientes, margen de contribución, franja horaria y esfuerzo de preparación. Ordena productos por volumen y contribución; después decide qué recetas, raciones o posiciones de carta ajustar. La negociación viene después de entender qué importa."
+      },
+      "keywords": "product mix menu engineering food cost ventas platos margen precio coste"
+    },
+    {
+      "id": "potato-example",
+      "category": "Food Cost",
+      "title": {
+        "en": "Peeled potatoes: price versus total cost",
+        "es": "Patata pelada: precio frente a coste total"
+      },
+      "answer": {
+        "en": "Compare total cost per usable kilo: purchase price plus peeling minutes at loaded labor cost, yield loss, storage and quality. A more expensive pre-prepared ingredient can be cheaper operationally if it frees capacity at the right time. Test with actual timings rather than assumptions.",
+        "es": "Compara el coste total por kilo útil: precio de compra, minutos de pelado al coste laboral completo, merma, almacenamiento y calidad. Un ingrediente preparado más caro puede ser más rentable si libera capacidad en el momento adecuado. Cronometra el proceso en lugar de asumir."
+      },
+      "keywords": "patata pelada peeled potato mise en place prep waste merma tiempo"
+    },
+    {
+      "id": "recipe-standardization",
+      "category": "Food Cost",
+      "title": {
+        "en": "Standardise recipes before trusting margins",
+        "es": "Estandariza recetas antes de fiarte de los márgenes"
+      },
+      "answer": {
+        "en": "Define ingredients, gross and net quantities, yields, portions and substitutions. Link recipe versions to purchasing and sales. Review variance between theoretical and actual consumption; investigate portioning, waste, counting errors and data mapping.",
+        "es": "Define ingredientes, cantidades brutas y netas, rendimientos, raciones y sustituciones. Vincula versiones de recetas a compras y ventas. Revisa desviaciones entre consumo teórico y real; investiga racionado, merma, errores de inventario y mapeos."
+      },
+      "keywords": "escandallo receta recipe yield portions stock variance theoretical actual"
+    },
+    {
+      "id": "purchasing",
+      "category": "Purchasing",
+      "title": {
+        "en": "Negotiate with evidence and a clear specification",
+        "es": "Negocia con datos y especificaciones claras"
+      },
+      "answer": {
+        "en": "Aggregate demand by ingredient and period. Specify unit, quality, pack size, delivery cadence and substitutions. Compare effective cost including yield, transport, minimum orders, credit terms and operational handling. Measure supplier reliability as well as price.",
+        "es": "Agrupa la demanda por ingrediente y periodo. Define unidad, calidad, formato, frecuencia de entrega y sustituciones. Compara coste efectivo incluyendo rendimiento, transporte, pedido mínimo, condiciones y manipulación. Mide fiabilidad además de precio."
+      },
+      "keywords": "supplier procurement proveedor negociación compras price lead time"
+    },
+    {
+      "id": "inventory",
+      "category": "Food Cost",
+      "title": {
+        "en": "Inventory variance is a diagnostic signal",
+        "es": "La desviación de inventario es una señal diagnóstica"
+      },
+      "answer": {
+        "en": "Reconcile opening stock plus receipts minus closing stock with expected recipe consumption. Before blaming theft or waste, validate units, conversion factors, delayed deliveries, returns, transfers and recipe mappings. Use a short weekly exception list rather than counting everything every day.",
+        "es": "Concilia stock inicial más recepciones menos stock final con el consumo esperado por recetas. Antes de atribuirlo a robos o mermas, valida unidades, conversiones, entregas tardías, devoluciones, transferencias y recetas. Usa una lista semanal de excepciones."
+      },
+      "keywords": "stock inventory variance inventario diferencias mermas trazabilidad"
+    },
+    {
+      "id": "demand-workforce",
+      "category": "Workforce",
+      "title": {
+        "en": "Staff when work happens, not only when sales peak",
+        "es": "Planifica cuando hay trabajo, no solo cuando suben las ventas"
+      },
+      "answer": {
+        "en": "Build a demand profile by 15–60 minute interval from sales, transactions, covers and service complexity. Add prep, cleaning, deliveries, breaks and management tasks. Define minimum safe coverage and skill mix. Compare planned versus actual hours and service outcomes.",
+        "es": "Construye demanda por intervalos de 15–60 minutos con ventas, transacciones, comensales y complejidad del servicio. Añade preparación, limpieza, entregas, descansos y gestión. Define cobertura mínima segura y perfiles necesarios. Compara horas planificadas y reales con resultados de servicio."
+      },
+      "keywords": "schedule staffing forecast ventas franja demanda cuadrante horas labor"
+    },
+    {
+      "id": "tuesday-saturday",
+      "category": "Workforce",
+      "title": {
+        "en": "The Tuesday versus Saturday staffing trade-off",
+        "es": "El dilema del martes frente al sábado"
+      },
+      "answer": {
+        "en": "Do not move hours from a quiet Tuesday to a busy Saturday based only on incremental sales. Quantify lost Tuesday service, waiting times, preparation backlogs, fatigue, overtime, turnover and skill coverage. Protect a realistic operational floor before optimizing marginal demand.",
+        "es": "No muevas horas de un martes tranquilo al sábado solo por ventas incrementales. Cuantifica servicio perdido el martes, esperas, retrasos de preparación, fatiga, horas extra, rotación y cobertura de competencias. Protege un mínimo operativo realista antes de optimizar la demanda marginal."
+      },
+      "keywords": "martes sabado saturday tuesday mínimos plantilla overtime burnout"
+    },
+    {
+      "id": "labor-kpis",
+      "category": "Workforce",
+      "title": {
+        "en": "Use labor KPIs together, not in isolation",
+        "es": "Interpreta los KPIs laborales en conjunto"
+      },
+      "answer": {
+        "en": "Labor percentage = labor cost divided by sales. Sales per labor hour = sales divided by worked hours. Transactions per labor hour and minutes per transaction add workload context. Monitor forecast accuracy, overtime, coverage, employee experience and guest service alongside these ratios.",
+        "es": "Porcentaje de personal = coste laboral dividido entre ventas. Ventas por hora trabajada = ventas divididas entre horas. Transacciones por hora y minutos por transacción añaden contexto de carga. Vigila precisión del forecast, horas extra, cobertura, experiencia del equipo y servicio."
+      },
+      "keywords": "labor cost splh tplh mpt productividad productividad laboral kpi"
+    },
+    {
+      "id": "workforce-governance",
+      "category": "Workforce",
+      "title": {
+        "en": "From forecast to plan to actual",
+        "es": "Del forecast a la planificación y a lo real"
+      },
+      "answer": {
+        "en": "Compare expected demand, ideal hours, manager schedule and actual worked hours. Separate model error, managerial overrides and operational exceptions. Review differences weekly, document decisions and update assumptions. Automation is useful only when managers can explain and trust the result.",
+        "es": "Compara demanda prevista, horas ideales, cuadrante del responsable y horas reales. Separa error del modelo, cambios manuales y excepciones operativas. Revisa diferencias semanalmente, documenta decisiones y actualiza hipótesis. La automatización sirve cuando los responsables entienden y confían en el resultado."
+      },
+      "keywords": "forecast ideal plan actual optimization optimización manager"
+    },
+    {
+      "id": "sustainable-shifts",
+      "category": "People & Culture",
+      "title": {
+        "en": "Sustainable shifts are an operating constraint",
+        "es": "Las jornadas sostenibles son una condición operativa"
+      },
+      "answer": {
+        "en": "Design staffing around lawful hours, breaks, predictable rest and practical shift lengths. Evaluate retention, training costs and service consistency; apparent savings from chronic understaffing may create expensive turnover and lost expertise. Legal requirements depend on jurisdiction and agreement.",
+        "es": "Diseña plantillas respetando jornada legal, descansos, previsibilidad y turnos practicables. Evalúa retención, coste de formación y consistencia del servicio; el ahorro aparente por falta crónica de personal puede generar rotación cara y pérdida de oficio. La normativa depende de país y convenio."
+      },
+      "keywords": "jornada descansos turnos sostenibilidad rotación hospitality"
+    },
+    {
+      "id": "systems-integration",
+      "category": "Integrations",
+      "title": {
+        "en": "Integrate POS, inventory, workforce and finance for decisions",
+        "es": "Integra TPV, inventario, personal y finanzas para decidir"
+      },
+      "answer": {
+        "en": "Start with decisions and concrete KPIs, then map data sources: sales by interval, sales per labor hour, ingredient variance, invoice exceptions and actual versus scheduled hours. Define owners, refresh cadence, IDs, validation, retries and reconciliation. A successful API call is not proof of correct business data.",
+        "es": "Empieza por decisiones y KPIs concretos; después mapea fuentes: ventas por franja, ventas por hora, diferencias de ingredientes, facturas rechazadas y horas reales frente a previstas. Define responsables, frecuencia, identificadores, validación, reintentos y conciliación. Una API correcta no garantiza datos de negocio correctos."
+      },
+      "keywords": "api erp pos sap integration integrations kpi ids retries"
+    },
+    {
+      "id": "people-integration",
+      "category": "Integrations",
+      "title": {
+        "en": "Integrate people as deliberately as systems",
+        "es": "Integra personas con el mismo cuidado que sistemas"
+      },
+      "answer": {
+        "en": "Connect kitchen and dining room, BOH and FOH, purchasing, HR and operations. Agree what each team needs before service, how changes are communicated and who owns exceptions. Shared KPIs and short cross-functional reviews prevent local optimization that damages the overall guest experience.",
+        "es": "Conecta cocina y sala, BOH y FOH, compras, RR. HH. y operaciones. Acordad qué necesita cada equipo antes del servicio, cómo comunicar cambios y quién resuelve excepciones. KPIs compartidos y revisiones breves evitan optimizar un área perjudicando la experiencia global."
+      },
+      "keywords": "cocina sala boh foh communication coordinación handoff"
+    },
+    {
+      "id": "integration-reliability",
+      "category": "Integrations",
+      "title": {
+        "en": "Design for failed deliveries and duplicate events",
+        "es": "Diseña para entregas fallidas y eventos duplicados"
+      },
+      "answer": {
+        "en": "Define a source of truth and external identifiers, idempotency keys, incremental versus full updates, validation and retry rules. Track failed records in a visible queue with ownership. Test delayed, duplicated and corrected events before rollout; document the recovery playbook.",
+        "es": "Define fuente de verdad e identificadores externos, claves de idempotencia, cargas incrementales o completas, validaciones y reintentos. Sigue los fallos en una cola visible con responsable. Prueba eventos tardíos, duplicados y corregidos antes de desplegar; documenta recuperación."
+      },
+      "keywords": "api idempotency full import delta retries exceptions integration"
+    },
+    {
+      "id": "implementation",
+      "category": "Digital Transformation",
+      "title": {
+        "en": "A go-live is not adoption",
+        "es": "Una puesta en marcha no es adopción"
+      },
+      "answer": {
+        "en": "Define success as observable behaviors: managers complete schedules on time, teams investigate stock variance, employees use workflows without support and exceptions are resolved. Observe a real busy shift before configuring. Pilot, measure, adjust, then scale.",
+        "es": "Define éxito como comportamientos observables: responsables que cierran cuadrantes a tiempo, equipos que investigan diferencias, empleados autónomos e incidencias resueltas. Observa un servicio real antes de configurar. Pilota, mide, ajusta y escala."
+      },
+      "keywords": "onboarding rollout adoption digital transformation implantación"
+    },
+    {
+      "id": "enablement",
+      "category": "Enablement",
+      "title": {
+        "en": "Certify practical capabilities, not course completion",
+        "es": "Certifica capacidades prácticas, no cursos completados"
+      },
+      "answer": {
+        "en": "Build role-based paths for operations, onboarding, support and commercial teams. Assess practical evidence: build a rota, diagnose a food cost variance, reconcile a failed integration and explain the business impact. Separate feature complexity from depth of mastery and role needs.",
+        "es": "Crea rutas por rol para operaciones, onboarding, soporte y ventas. Evalúa evidencias prácticas: construir un cuadrante, diagnosticar desviaciones de food cost, conciliar una integración fallida y explicar el impacto. Separa complejidad de la función, dominio y necesidades del rol."
+      },
+      "keywords": "enablement formación certification learning role skills"
+    },
+    {
+      "id": "compliance",
+      "category": "Compliance",
+      "title": {
+        "en": "Digitise checks without digitising bureaucracy",
+        "es": "Digitaliza controles sin digitalizar burocracia"
+      },
+      "answer": {
+        "en": "Start from risk and the decision the record supports. Use digital food safety checks, temperature exceptions, corrective actions, timestamps and audit trails where they reduce omissions and speed response. Avoid asking staff to fill forms that nobody reviews.",
+        "es": "Parte del riesgo y de la decisión que respalda el registro. Utiliza controles digitales de seguridad alimentaria, excepciones de temperatura, acciones correctivas, sellos temporales y trazabilidad cuando reduzcan olvidos y aceleren respuestas. Evita formularios que nadie revisa."
+      },
+      "keywords": "haccp appcc compliance temperaturas trazabilidad food safety"
+    },
+    {
+      "id": "ai",
+      "category": "Applied AI",
+      "title": {
+        "en": "Use AI only after the process and data make sense",
+        "es": "Usa IA cuando proceso y datos tengan sentido"
+      },
+      "answer": {
+        "en": "Choose a specific decision or repetitive task, establish data quality and an accountable human owner, and test against a baseline. Suitable experiments include finding procedures, explaining anomalies and drafting action summaries. Keep confidential data out of public tools and check outputs.",
+        "es": "Elige una decisión concreta o tarea repetitiva, asegura calidad de datos y un responsable humano, y prueba frente a una línea base. Experimentos útiles: localizar procedimientos, explicar anomalías y redactar resúmenes de acciones. No compartas datos confidenciales en herramientas públicas y verifica resultados."
+      },
+      "keywords": "ai ia automation automatización assistant rag knowledge"
+    },
+    {
+      "id": "roi",
+      "category": "Value & ROI",
+      "title": {
+        "en": "Calculate value without pretending every hour is cash",
+        "es": "Calcula valor sin convertir cada hora en dinero automáticamente"
+      },
+      "answer": {
+        "en": "Separate capacity released, avoidable overtime, measurable waste, error reduction and actual cash savings. First-year ROI compares attributable benefits with implementation and recurring costs. Validate adoption and sensitivity assumptions; time saved is not automatically a payroll reduction.",
+        "es": "Separa capacidad liberada, horas extra evitables, merma medible, reducción de errores y ahorro de caja real. El ROI del primer año compara beneficios atribuibles con implantación y costes recurrentes. Valida adopción e hipótesis; tiempo ahorrado no equivale automáticamente a reducir nómina."
+      },
+      "keywords": "roi savings ahorro retorno payback horas valor"
+    }
+  ]
+}
