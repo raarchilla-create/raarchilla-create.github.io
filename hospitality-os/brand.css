@@ -31,3 +31,8 @@ a{color:#145078}#toast{background:var(--hopta-navy-deep)}
 header .brand-logo{display:block;object-fit:contain;object-position:left center;width:164px;height:44px;filter:brightness(0) invert(1)}
 header{position:sticky}header small{margin-top:0}
 @media(min-width:700px){header .brand-logo{width:185px;height:49px}}
+
+/* Preserve the exact navy/beige two-tone wordmark on a light header */
+header{background:#fafaf8;border-bottom:1px solid #e5e7e6;color:#0b2948}
+header .brand-logo{filter:none}
+header small{color:#647587}
