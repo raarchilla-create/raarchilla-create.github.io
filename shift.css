@@ -1,0 +1,58 @@
+/* Survive the Shift: deliberately self-contained retro game styling. */
+.shift-intro{max-width:760px}
+.shift-intro .lead{margin-bottom:25px}
+.shift-frame{background:#122335;color:#f3e7cc;border:5px solid #243b53;border-radius:15px;
+  box-shadow:0 25px 0 -13px #9d7859,0 34px 42px #13283a33;overflow:hidden}
+.shift-header{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  padding:13px 19px;background:#172b3e;border-bottom:3px solid #426077;
+  color:#e3b873;font:700 12px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;
+  text-transform:uppercase;letter-spacing:.09em}
+.shift-header strong{color:#f3e7cc;font-size:15px;letter-spacing:.04em}
+.shift-light{width:9px;height:9px;display:inline-block;background:#89b99a;
+  box-shadow:0 0 0 3px #89b99a33;margin-right:10px}
+.shift-body{display:grid;grid-template-columns:minmax(0,1.22fr) minmax(330px,.78fr)}
+.shift-stage{border-right:3px solid #426077;background:#172b3e;min-width:0;display:flex;flex-direction:column}
+.shift-stage canvas{display:block;width:100%;height:auto;aspect-ratio:480/270;image-rendering:pixelated}
+.shift-stage-footer{display:flex;justify-content:space-between;gap:10px;align-items:center;
+  border-top:3px solid #426077;padding:9px 14px;color:#d5c6a9;
+  font:700 11px/1.3 ui-monospace,SFMono-Regular,Consolas,monospace;text-transform:uppercase}
+.shift-console{min-width:0;padding:22px;background:#1d3145;display:flex;flex-direction:column;justify-content:center}
+.shift-progress{color:#e3b873;font:700 11px/1.3 ui-monospace,SFMono-Regular,Consolas,monospace;
+  text-transform:uppercase;letter-spacing:.11em;margin-bottom:12px}
+.shift-console h3{color:#f3e7cc;margin:5px 0 11px;font-size:clamp(23px,2.5vw,32px);line-height:1.12}
+.shift-console p{color:#e4daca;font-size:14px;line-height:1.62;margin:0 0 15px}
+.shift-console .shift-time{color:#e3b873;font:700 12px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;
+  text-transform:uppercase;letter-spacing:.06em;margin:0 0 7px}
+.shift-console .shift-fine{font-size:11px;color:#b9b7b1}
+.shift-choices{display:grid;gap:8px;margin-top:8px}
+.shift-button{display:flex;align-items:center;gap:11px;width:100%;text-align:left;background:#263d51;
+  border:2px solid #4c6475;color:#fff1d9;padding:11px 12px;
+  font:700 12px/1.35 ui-monospace,SFMono-Regular,Consolas,monospace;
+  transition:background .16s,transform .16s,border-color .16s}
+.shift-button:hover,.shift-button:focus-visible{background:#344f62;border-color:#e3b873;
+  transform:translateX(3px);outline:0}
+.shift-key{display:inline-flex;align-items:center;justify-content:center;min-width:23px;height:23px;
+  color:#172b3e;background:#e3b873;font-size:11px}
+.shift-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;
+  padding:17px 20px 20px;background:#172b3e;border-top:3px solid #426077}
+.shift-meter{min-width:0}.shift-meter>div:first-child{display:flex;justify-content:space-between;gap:8px;
+  font:700 11px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;
+  text-transform:uppercase;letter-spacing:.07em;color:#e4daca}
+.shift-meter strong{color:#e3b873}
+.shift-track{height:9px;background:#31495c;margin-top:7px;box-shadow:inset 0 0 0 1px #547083}
+.shift-track span{display:block;height:100%;background:#8dbba0;transition:width .3s}
+.shift-meter:nth-child(2) .shift-track span{background:#e3b873}
+.shift-meter:nth-child(3) .shift-track span{background:#9ab5cb}
+.shift-take{border-left:3px solid #e3b873;padding:10px 13px;margin:4px 0 18px;background:#ffffff0b}
+.shift-take strong{display:block;margin-bottom:5px;color:#e3b873;
+  font:700 11px/1.3 ui-monospace,SFMono-Regular,Consolas,monospace;text-transform:uppercase}
+.shift-take p{margin:0}
+.shift-legend{font-size:12px;color:var(--muted);margin:18px 0 0}
+#shiftFeedback.sr-only,#shiftSceneLabel.sr-only{position:absolute;width:1px;height:1px;padding:0;
+  margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:900px){.shift-body{grid-template-columns:1fr}.shift-stage{border-right:0;border-bottom:3px solid #426077}
+  .shift-console{min-height:250px}}
+@media(max-width:540px){.shift-frame{border-width:3px}.shift-header{padding:10px 12px;font-size:10px}
+  .shift-header strong{font-size:12px}.shift-console{padding:18px}.shift-metrics{gap:9px;padding:12px}
+  .shift-meter>div:first-child{font-size:9px}.shift-console h3{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.shift-button,.shift-track span{transition:none}.shift-button:hover{transform:none}}
