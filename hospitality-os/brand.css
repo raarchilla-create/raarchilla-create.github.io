@@ -26,3 +26,8 @@ a{color:#145078}#toast{background:var(--hopta-navy-deep)}
 ::selection{background:#e9ddc8;color:var(--hopta-navy-deep)}
 @media(min-width:900px){header{padding-left:max(24px,calc((100vw - 1060px)/2))}main{padding-top:26px}}
 @media(prefers-reduced-motion:reduce){button{transition:none}}
+
+/* Header wordmark and mobile safe area */
+header .brand-logo{display:block;object-fit:contain;object-position:left center;width:164px;height:44px;filter:brightness(0) invert(1)}
+header{position:sticky}header small{margin-top:0}
+@media(min-width:700px){header .brand-logo{width:185px;height:49px}}
