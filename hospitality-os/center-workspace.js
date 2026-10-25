@@ -1,6 +1,7 @@
 /* A center stays explicit while navigating its operational tools. */
 let hcToolContext=null;
 const hcTools={
+ planificacion:{label:'Planificación · 1 min',render:()=>hpPlanner()},
  diagnosticos:{label:'Diagnósticos',render:()=>assessments()},
  equipo:{label:'Personal y turnos',render:()=>opsTeam()},
  elaboraciones:{label:'Elaboraciones',render:()=>opsMenu()},
