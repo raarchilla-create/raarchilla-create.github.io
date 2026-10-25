@@ -32,7 +32,7 @@ async function hcDashboard(id){
  '<div class="card"><div class="hc-section-title"><h3>Plan de acción</h3><span>'+relevantTasks.filter(t=>!t.done).length+' pendientes</span></div>'+
  (active.length?active.slice(0,4).map(x=>'<div class="hc-action"><b>'+esc(x.title||x.name||'Hallazgo')+'</b><span>'+esc(x.priority||'')+' · '+esc(x.status||'Sin estado')+'</span></div>').join(''):'<p class="muted">Sin hallazgos abiertos registrados.</p>')+
  (overdue.length?'<p class="hc-warning">'+overdue.length+' tareas con fecha vencida.</p>':'')+
- '<button class="secondary" onclick="cases()">Gestionar hallazgos</button></div></div>'+
+ '<button class="secondary" onclick="cases()">Gestionar hallazgos</button><button onclick="hcDeviationReview(&quot;'+esc(id)+'&quot;)">Revisar desviaciones</button></div></div>'+
  '<div class="hc-two"><div class="card"><div class="hc-section-title"><h3>Coste laboral</h3><span>'+hcPct(laborPct)+' actual</span></div>'+hcTrend(records,'Coste laboral',' €')+'</div>'+
  '<div class="card"><div class="hc-section-title"><h3>Food cost</h3><span>'+hcPct(foodPct)+' actual</span></div>'+hcTrend(records,'Coste ingredientes',' €')+'</div></div>'+
  '<p class="hc-data-note">Los gráficos muestran importes registrados, no porcentajes históricos. Las cifras de ejemplo, si existen, son ficticias. No se generan datos ni tendencias cuando faltan mediciones.</p>';
@@ -70,4 +70,39 @@ async function hcSaveMeasure(id){
  if(rows.some(x=>existing.some(y=>y.metric===x.metric))&&!confirm('Ya hay mediciones de este mes. ¿Añadir nuevos registros sin borrar los anteriores?'))return;
  for(const row of rows)await put('observations',row);
  toast(rows.length+' mediciones guardadas');await hoptaCenter(id);
+}
+
+/* v3 — actionable deviation reviews; never auto-create cases */
+async function hcDeviationReview(id){
+ const s=await get('sites',id);if(!s)return;
+ const [observations,settings]=await Promise.all([all('observations'),all('settings')]);
+ const records=observations.filter(x=>x.siteId===id),t=settings.find(x=>x.id==='hopta-targets-'+id)||{};
+ const lastPeriod=records.filter(x=>x.period&&x.metric==='Ventas netas').sort((a,b)=>String(b.period).localeCompare(String(a.period)))[0]?.period;
+ const periodRows=lastPeriod?records.filter(x=>x.period===lastPeriod):[];
+ const sales=hcSafe(hcMetric(periodRows,'Ventas netas')),labor=hcSafe(hcMetric(periodRows,'Coste laboral')),food=hcSafe(hcMetric(periodRows,'Coste ingredientes'));
+ const satisfaction=hcSafe(hcMetric(records,'Satisfacción'));
+ const defs=[{key:'labor',label:'Coste laboral',value:sales>0&&labor!=null?100*labor/sales:null,target:hcSafe(t.laborTarget),unit:'%',highBad:true},{key:'food',label:'Food cost',value:sales>0&&food!=null?100*food/sales:null,target:hcSafe(t.foodTarget),unit:'%',highBad:true},{key:'service',label:'Satisfacción',value:satisfaction,target:hcSafe(t.serviceTarget),unit:'/10',highBad:false}];
+ const bad=defs.filter(x=>x.value!=null&&x.target!=null&&(x.highBad?x.value>x.target:x.value<x.target));
+ app().innerHTML='<button class="hc-back" onclick="hoptaCenter(&quot;'+esc(id)+'&quot;)">← Volver al centro</button><div class="hc-eyebrow">HOPTA / PLAN DE MEJORA</div><h2>Revisión de desviaciones</h2><p>'+esc(s.name)+' · '+(lastPeriod?'Datos económicos: '+esc(lastPeriod):'Sin período económico completo')+'</p>'+
+ '<div class="card"><h3>Indicadores y objetivos</h3>'+defs.map(x=>'<div class="hc-action"><div><b>'+x.label+'</b><div class="muted">Actual: '+(x.value==null?'Sin datos':hcNum(x.value)+x.unit)+' · Objetivo: '+(x.target==null?'Sin configurar':hcNum(x.target)+x.unit)+'</div></div><span>'+(x.target==null?'Sin objetivo':x.value==null?'Sin datos':(x.highBad?x.value>x.target:x.value<x.target)?'Desviación':'Dentro de objetivo')+'</span></div>').join('')+'</div>'+
+ '<div class="card"><h3>Oportunidades a revisar</h3><p>Estas señales no prueban la causa raíz. Puedes crear un hallazgo para investigar y asignar acciones.</p>'+
+ (bad.length?bad.map(x=>'<div class="hc-deviation"><div><b>'+x.label+'</b><p>Actual '+hcNum(x.value)+x.unit+' frente a objetivo '+hcNum(x.target)+x.unit+'</p></div><button onclick="hcCreateDeviation(&quot;'+esc(id)+'&quot;,&quot;'+x.key+'&quot;)">Crear hallazgo y tarea</button></div>').join(''):'<p class="muted">No se detectan desviaciones con los datos y objetivos disponibles. Registra indicadores y configura objetivos para activar esta revisión.</p>')+'</div>';
+}
+async function hcCreateDeviation(id,key){
+ const s=await get('sites',id);if(!s)return;
+ const [observations,settings,projects,findings]=await Promise.all([all('observations'),all('settings'),all('projects'),exAll('findings')]);
+ const records=observations.filter(x=>x.siteId===id),t=settings.find(x=>x.id==='hopta-targets-'+id)||{};
+ const period=records.filter(x=>x.period&&x.metric==='Ventas netas').sort((a,b)=>String(b.period).localeCompare(String(a.period)))[0]?.period;
+ const paired=records.filter(x=>x.period===period),sales=hcSafe(hcMetric(paired,'Ventas netas'));
+ const map={labor:{label:'Coste laboral',value:sales>0&&hcSafe(hcMetric(paired,'Coste laboral'))!=null?100*hcSafe(hcMetric(paired,'Coste laboral'))/sales:null,target:hcSafe(t.laborTarget),unit:'%',highBad:true},food:{label:'Food cost',value:sales>0&&hcSafe(hcMetric(paired,'Coste ingredientes'))!=null?100*hcSafe(hcMetric(paired,'Coste ingredientes'))/sales:null,target:hcSafe(t.foodTarget),unit:'%',highBad:true},service:{label:'Satisfacción',value:hcSafe(hcMetric(records,'Satisfacción')),target:hcSafe(t.serviceTarget),unit:'/10',highBad:false}};
+ const x=map[key];if(!x||x.value==null||x.target==null||!(x.highBad?x.value>x.target:x.value<x.target))return toast('La desviación ya no está vigente');
+ const tag='hopta-deviation-'+key+'-'+(period||'actual');
+ if(findings.some(f=>f.siteId===id&&f.deviationTag===tag&&!['Descartado','Validado'].includes(f.status)))return toast('Ya existe un hallazgo abierto para esta desviación');
+ let p=projects.find(p=>p.siteId===id&&p.hoptaPlan===true);
+ if(!p){p={id:uid(),siteId:id,hoptaPlan:true,name:'Plan de mejora · '+s.name,at:now()};await put('projects',p)}
+ const title='Revisar desviación de '+x.label,at=now(),evidence='Valor observado: '+hcNum(x.value)+x.unit+'; objetivo: '+hcNum(x.target)+x.unit+'. '+(period?'Período: '+period+'. ':'')+'Pendiente de validar causa raíz.';
+ const finding={id:uid(),siteId:id,projectId:p.id,title,category:'Indicadores operativos',priority:'Media',status:'Identificado',evidence,impact:null,deviationTag:tag,at};
+ await exPut('findings',finding);
+ await put('tasks',{id:uid(),projectId:p.id,findingId:finding.id,name:'Investigar y proponer acciones: '+x.label,done:false,at});
+ toast('Hallazgo y tarea creados');await hoptaCenter(id);
 }
