@@ -7,7 +7,7 @@ function hcButton(id,label,style=''){return '<button '+(style?'class="'+style+'"
 async function hoptaCenters(){
  const [sites,obs,ass,projects,tasks]=await Promise.all(['sites','observations','assessments','projects','tasks'].map(all));
  const findings=await exAll('findings'),staff=await exAll('contacts'),recipes=(await all('settings')).filter(x=>x.kind==='recipe');
- app().innerHTML='<div class="hc-heading"><div><div class="hc-eyebrow">HOPTA / PORTFOLIO</div><h2>Todos los centros</h2><p>Una visión de tu operación, centro a centro.</p></div><button class="secondary" onclick="go(\'mas\')">+ Nuevo centro</button></div>'+
+ app().innerHTML='<div class="hc-heading"><div><div class="hc-eyebrow">HOPTA / PORTFOLIO</div><h2>Todos los centros</h2><p>Una visión de tu operación, centro a centro.</p></div><button class="secondary" onclick="hoptaCenterNew()">+ Nuevo centro</button></div>'+
  (sites.length?'<div class="hc-summary"><div><small>Centros</small><strong>'+sites.length+'</strong></div><div><small>Mediciones</small><strong>'+obs.length+'</strong></div><div><small>Diagnósticos</small><strong>'+ass.length+'</strong></div><div><small>Hallazgos abiertos</small><strong>'+findings.filter(f=>!['Cerrado','Resuelto','Completado'].includes(f.status)).length+'</strong></div></div><div class="hc-centers">'+sites.map(s=>{
  const so=obs.filter(x=>x.siteId===s.id),sf=findings.filter(x=>x.siteId===s.id),sa=ass.filter(x=>x.siteId===s.id);
  const last=so.slice().sort((a,b)=>String(b.at||'').localeCompare(String(a.at||'')))[0];
@@ -15,7 +15,7 @@ async function hoptaCenters(){
  const sales=latest('Ventas netas')??s.monthlySales, labor=latest('Coste laboral'), food=latest('Coste ingredientes');
  const laborPct=sales>0&&labor!=null?100*labor/sales:s.laborPct;
  return '<article class="hc-site" onclick="hoptaCenter(\''+esc(s.id)+'\')" role="button" tabindex="0" onkeydown="if(event.key===\'Enter\')hoptaCenter(\''+esc(s.id)+'\')"><div class="hc-site-top"><div class="hc-monogram">'+esc(s.name.slice(0,1).toUpperCase())+'</div><div><h3>'+esc(s.name)+'</h3><span class="hc-sub">'+esc(s.type||'Establecimiento')+' · '+hcNum(s.area)+' m²</span></div><span class="hc-chevron">↗</span></div><div class="hc-site-kpis"><div><small>Ventas</small><b>'+hcMoney(sales)+'</b></div><div><small>Coste laboral</small><b>'+(laborPct!=null?hcNum(laborPct)+' %':'—')+'</b></div></div><div class="hc-site-footer"><span>'+sa.length+' diagnósticos</span><span>'+sf.length+' hallazgos</span><span>'+staff.filter(x=>x.siteId===s.id).length+' personas</span></div><div class="hc-sub">Última medición: '+hcDate(last?.at)+'</div></article>'
- }).join('')+'</div>':'<div class="card"><h3>Tu portfolio empieza aquí</h3><p>Crea el primer centro desde Administración. Después aparecerá aquí con su propia ficha y sus indicadores.</p><button onclick="go(\'mas\')">Crear primer centro</button></div>');
+ }).join('')+'</div>':'<div class="card"><h3>Tu portfolio empieza aquí</h3><p>Crea el primer centro desde Administración. Después aparecerá aquí con su propia ficha y sus indicadores.</p><button onclick="hoptaCenterNew()">Crear primer centro</button></div>');
 }
 async function hoptaCenter(id){
  const s=await get('sites',id);if(!s)return hoptaCenters();hoptaSelectedCenter=id;
