@@ -35,3 +35,26 @@ hoptaCenters=async function(){
  const heading=app().querySelector('.hc-heading');
  if(heading){const button=document.createElement('button');button.className='secondary';button.textContent='Comparar centros';button.onclick=hcCompareCenters;heading.append(button)}
 };
+
+/* Comparison evolution: percentage-point changes only when both months have comparable data. */
+const hcCompareBase=hcCompareCenters;
+hcCompareCenters=async function(){
+ await hcCompareBase();
+ const sites=await all('sites'),obs=await all('observations');
+ const months=[...new Set(obs.map(o=>o.period).filter(p=>typeof p==='string'&&/^\d{4}-\d{2}$/.test(p)))].sort().reverse();
+ const current=hcComparePeriod,previous=months.filter(p=>p<current)[0];
+ const section=document.createElement('div');section.className='card hc-evolution';
+ const monthly=(id,period,name)=>hcSafe(hcMetric(obs.filter(o=>o.siteId===id&&o.period===period),name));
+ const pct=(id,period,cost)=>{const sales=monthly(id,period,'Ventas netas'),v=monthly(id,period,cost);return sales>0&&v!=null?v/sales*100:null};
+ const delta=(a,b,unit)=>a==null||b==null?'—':(a-b>0?'+':'')+hcNum(a-b)+unit;
+ const row=s=>{
+ const sales=monthly(s.id,current,'Ventas netas'),prior=monthly(s.id,previous,'Ventas netas');
+ const labor=pct(s.id,current,'Coste laboral'),priorLabor=pct(s.id,previous,'Coste laboral');
+ const food=pct(s.id,current,'Coste ingredientes'),priorFood=pct(s.id,previous,'Coste ingredientes');
+ return '<tr><td><button class="hc-table-link" onclick="hoptaCenter(&quot;'+esc(s.id)+'&quot;)">'+esc(s.name)+'</button></td><td>'+delta(sales,prior,' €')+'</td><td>'+delta(labor,priorLabor,' pp')+'</td><td>'+delta(food,priorFood,' pp')+'</td></tr>';
+ };
+ section.innerHTML='<div class="hc-section-title"><h3>Evolución entre períodos</h3><span>'+(previous?esc(previous)+' → '+esc(current):'Sin período anterior')+'</span></div>'+
+ (previous?'<div class="hc-table-wrap"><table class="hc-comparison-table"><thead><tr><th>Centro</th><th>Variación ventas</th><th>Variación labor</th><th>Variación food cost</th></tr></thead><tbody>'+sites.map(row).join('')+'</tbody></table></div>':'<p class="muted">Registra indicadores de al menos dos meses para comparar la evolución.</p>')+
+ '<p class="hc-data-note">Las variaciones de costes son puntos porcentuales (pp), no euros. Un aumento del coste no implica necesariamente peor productividad: interpreta las cifras junto al contexto operativo.</p>';
+ const card=app().querySelector('.hc-comparison-card');if(card)card.after(section);else app().append(section);
+};
