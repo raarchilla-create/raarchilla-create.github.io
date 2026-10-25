@@ -25,7 +25,7 @@ async function hcDashboard(id){
  const relevantTasks=tasks.filter(t=>sp.some(p=>p.id===t.projectId));
  const overdue=relevantTasks.filter(t=>!t.done&&t.dueDate&&new Date(t.dueDate)<new Date());
  const el=document.createElement('section');el.className='hc-command';
- el.innerHTML='<div class="hc-section-title"><h3>Centro de mando</h3><button class="secondary" onclick="hcEditTargets(\''+esc(id)+'\')">Configurar objetivos</button></div>'+
+ el.innerHTML='<div class="hc-section-title"><h3>Centro de mando</h3><button class="secondary" onclick="hcEditTargets(\''+esc(id)+'\')">Configurar objetivos</button><button onclick="hcQuickMeasure(&quot;'+esc(id)+'&quot;)">+ Registrar indicadores</button></div>'+
  '<div class="hc-command-intro">Indicadores registrados y objetivos propios del centro. Las desviaciones son señales de revisión, no diagnósticos automáticos.</div>'+
  '<div class="hc-signals">'+hcSignal('Coste laboral',laborPct,hcSafe(targets.laborTarget),true)+hcSignal('Food cost',foodPct,hcSafe(targets.foodTarget),true)+hcSignal('Satisfacción',service,hcSafe(targets.serviceTarget),false)+'</div>'+
  '<div class="hc-two"><div class="card"><div class="hc-section-title"><h3>Evolución de ventas</h3><span>Últimas 12 mediciones</span></div>'+hcTrend(records,'Ventas netas',' €')+'</div>'+
