@@ -17,8 +17,8 @@ async function hcDashboard(id){
  const records=obs.filter(x=>x.siteId===id),sp=projects.filter(x=>x.siteId===id);
  const sales=hcSafe(hcMetric(records,'Ventas netas'))??hcSafe(s.monthlySales);
  const labor=hcSafe(hcMetric(records,'Coste laboral')),food=hcSafe(hcMetric(records,'Coste ingredientes'));
- const laborPct=sales>0&&labor!=null?labor/sales*100:hcSafe(s.laborPct);
- const foodPct=sales>0&&food!=null?food/sales*100:hcSafe(s.foodPct);
+ const lastPeriod=records.filter(x=>x.period&&x.metric==='Ventas netas').sort((a,b)=>String(b.period).localeCompare(String(a.period)))[0]?.period;const paired=lastPeriod?records.filter(x=>x.period===lastPeriod):[];const ps=hcSafe(hcMetric(paired,'Ventas netas')),pl=hcSafe(hcMetric(paired,'Coste laboral')),pf=hcSafe(hcMetric(paired,'Coste ingredientes'));const laborPct=lastPeriod?(ps>0&&pl!=null?pl/ps*100:null):(sales>0&&labor!=null?labor/sales*100:hcSafe(s.laborPct));
+ const foodPct=lastPeriod?(ps>0&&pf!=null?pf/ps*100:null):(sales>0&&food!=null?food/sales*100:hcSafe(s.foodPct));
  const service=hcSafe(hcMetric(records,'Satisfacción'))??hcSafe(s.serviceScore);
  const targets=settings.find(x=>x.id==='hopta-targets-'+id)||{};
  const active=sf.filter(x=>!['Cerrado','Resuelto','Completado'].includes(x.status));
@@ -54,3 +54,20 @@ async function hcSaveTargets(id){
 }
 const hcCenterOriginal=hoptaCenter;
 hoptaCenter=async function(id){await hcCenterOriginal(id);await hcDashboard(id)};
+
+async function hcQuickMeasure(id){
+ const s=await get('sites',id);if(!s)return;
+ const input=(key,label,unit)=>'<div><label for="hcm-'+key+'">'+label+'</label><input id="hcm-'+key+'" type="number" min="0" step="any" placeholder="Sin registrar"><small>'+unit+'</small></div>';
+ app().innerHTML='<button class="hc-back" onclick="hoptaCenter(&quot;'+esc(id)+'&quot;)">← Volver al centro</button><div class="hc-eyebrow">HOPTA / MEDICIONES</div><h2>Registrar indicadores</h2><p>'+esc(s.name)+' · Registra ventas y costes correspondientes al mismo mes.</p><div class="card hc-form"><label for="hcm-period">Período</label><input type="month" id="hcm-period" value="'+new Date().toISOString().slice(0,7)+'"><div class="hc-form-grid">'+input('sales','Ventas netas','€')+input('labor','Coste laboral','€')+input('food','Coste ingredientes','€')+input('service','Satisfacción','0–10')+'</div><label for="hcm-note">Fuente / comentario</label><input id="hcm-note" placeholder="Ej. Cierre de TPV"><p class="hc-data-note">Solo se guardan los campos completados. No se borran registros previos.</p><button onclick="hcSaveMeasure(&quot;'+esc(id)+'&quot;)">Guardar mediciones</button></div>';
+}
+async function hcSaveMeasure(id){
+ const defs=[['sales','Ventas netas','€','Personal y productividad'],['labor','Coste laboral','€','Personal y productividad'],['food','Coste ingredientes','€','Producto y costes'],['service','Satisfacción','/10','Experiencia y servicio']];
+ const period=document.getElementById('hcm-period').value;if(!/^\d{4}-\d{2}$/.test(period))return toast('Selecciona un mes');
+ const comment=document.getElementById('hcm-note').value.trim(),rows=[];
+ for(const [key,metric,unit,module] of defs){const raw=document.getElementById('hcm-'+key).value.trim();if(!raw)continue;const value=Number(raw);if(!Number.isFinite(value)||value<0||(key==='service'&&value>10))return toast('Revisa '+metric);rows.push({id:uid(),siteId:id,metric,unit,module,value,period,comment,source:'Registro rápido',at:now()})}
+ if(!rows.length)return toast('Introduce al menos un indicador');
+ const existing=(await all('observations')).filter(x=>x.siteId===id&&x.period===period);
+ if(rows.some(x=>existing.some(y=>y.metric===x.metric))&&!confirm('Ya hay mediciones de este mes. ¿Añadir nuevos registros sin borrar los anteriores?'))return;
+ for(const row of rows)await put('observations',row);
+ toast(rows.length+' mediciones guardadas');await hoptaCenter(id);
+}
