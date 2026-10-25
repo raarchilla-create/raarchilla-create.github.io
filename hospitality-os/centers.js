@@ -42,3 +42,37 @@ async function hoptaCenterEdit(id){
 async function hoptaCenterSave(id){const s=await get('sites',id);if(!s)return;for(const key of ['name','type','brand','area','tables','bar','terrace','address','notes'])s[key]=document.getElementById('hc-'+key).value.trim();if(!s.name)return toast('Introduce un nombre');await put('sites',s);toast('Centro actualizado');await hoptaCenter(id)}
 const hoptaOriginalHome=home;home=async function(){await hoptaOriginalHome();const c=document.createElement('div');c.className='card hc-entry';c.innerHTML='<div class="hc-eyebrow">HOPTA / CENTROS</div><h3>Tu red, de un vistazo</h3><p>Accede al portfolio y abre el espacio operativo de cada establecimiento.</p><button onclick="hoptaCenters()">Explorar todos los centros →</button>';app().prepend(c)};
 const hoptaOriginalMore=more;more=async function(){await hoptaOriginalMore();const c=document.createElement('div');c.className='card';c.innerHTML='<h3>Portfolio de centros</h3><p>Vista central, indicadores y configuración individual.</p><button onclick="hoptaCenters()">Ver todos los centros</button>';app().prepend(c)};
+
+/* v1.1: center onboarding, search, demo discovery, and context-safe operations */
+async function hoptaCenterNew(){
+ app().innerHTML='<button class="hc-back" onclick="hoptaCenters()">← Todos los centros</button><div class="hc-eyebrow">HOPTA / NUEVO CENTRO</div><h2>Crear establecimiento</h2><p>Define los datos básicos. Después podrás completar personal, elaboraciones, mediciones y procesos.</p><div class="card hc-form">'+
+ '<label for="hc-new-name">Nombre del centro *</label><input id="hc-new-name" placeholder="Ej. Restaurante Gran Vía" maxlength="120">'+
+ '<label for="hc-new-type">Tipo de establecimiento</label><select id="hc-new-type"><option>Restaurante</option><option>Cafetería</option><option>QSR</option><option>Hotel</option><option>Colectividades</option><option>Dark kitchen</option><option>Otro</option></select>'+
+ '<label for="hc-new-brand">Marca o grupo</label><input id="hc-new-brand" placeholder="Ej. Mesa Viva">'+
+ '<div class="hc-form-grid"><div><label for="hc-new-area">Superficie útil (m²)</label><input id="hc-new-area" type="number" min="0" step="any"></div><div><label for="hc-new-tables">Mesas</label><input id="hc-new-tables" type="number" min="0"></div><div><label for="hc-new-bar">Asientos en barra</label><input id="hc-new-bar" type="number" min="0"></div><div><label for="hc-new-terrace">Mesas terraza</label><input id="hc-new-terrace" type="number" min="0"></div></div>'+
+ '<label for="hc-new-address">Dirección</label><input id="hc-new-address" placeholder="Opcional">'+
+ '<div class="actions"><button onclick="hoptaCenterCreate()">Crear centro</button><button class="secondary" onclick="hoptaCenters()">Cancelar</button></div></div>';
+}
+async function hoptaCenterCreate(){
+ const v=k=>document.getElementById('hc-new-'+k).value.trim(),name=v('name');if(!name)return toast('Introduce el nombre del centro');
+ for(const k of ['area','tables','bar','terrace']){const x=v(k);if(x!==''&&(!Number.isFinite(Number(x))||Number(x)<0))return toast('Revisa '+k)}
+ const site={id:uid(),name,type:v('type'),brand:v('brand'),area:v('area'),tables:v('tables'),bar:v('bar'),terrace:v('terrace'),address:v('address'),at:now()};
+ await put('sites',site);toast('Centro creado');await hoptaCenter(site.id);
+}
+async function hoptaCenterSearch(q){
+ document.querySelectorAll('.hc-site').forEach(el=>{el.hidden=!el.dataset.search.includes(q.trim().toLocaleLowerCase('es'))});
+ const visible=[...document.querySelectorAll('.hc-site')].filter(x=>!x.hidden).length;
+ const counter=document.getElementById('hc-filter-count');if(counter)counter.textContent=visible+' centros visibles';
+}
+const hoptaCentersBase=hoptaCenters;
+hoptaCenters=async function(){
+ await hoptaCentersBase();
+ const heading=document.querySelector('.hc-heading');const list=document.querySelector('.hc-centers');
+ if(list){
+  const sites=await all('sites');list.querySelectorAll('.hc-site').forEach((el,i)=>{el.dataset.search=(sites[i]?.name+' '+(sites[i]?.brand||'')+' '+(sites[i]?.type||'')).toLocaleLowerCase('es')});
+  const toolbar=document.createElement('div');toolbar.className='hc-toolbar';toolbar.innerHTML='<label for="hc-search">Buscar establecimiento</label><input id="hc-search" type="search" placeholder="Nombre, marca o tipo…" oninput="hoptaCenterSearch(this.value)"><span id="hc-filter-count">'+sites.length+' centros visibles</span>';list.before(toolbar);
+ }else if(heading){const demo=document.createElement('div');demo.className='card hc-demo-entry';demo.innerHTML='<h3>¿Quieres explorar un ejemplo?</h3><p>Prueba hopta con dos restaurantes ficticios, recetas, personal y diagnósticos.</p><button onclick="hoptaCenterLoadDemo()">Cargar centros de demostración</button>';heading.after(demo)}
+}
+async function hoptaCenterLoadDemo(){await demoHub();toast('Pulsa «Cargar casos demo» para instalar los centros ficticios')}
+const hoptaOpsHubOriginal=opsHub;
+opsHub=async function(){await hoptaOpsHubOriginal();let selectEl=document.getElementById('opsSite');if(selectEl){if(opsCurrentSite)selectEl.value=opsCurrentSite;selectEl.onchange=()=>{opsCurrentSite=selectEl.value};}}
