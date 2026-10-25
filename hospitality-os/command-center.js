@@ -35,7 +35,7 @@ async function hdHome(){
   activity:hdPanel('activity','Actividad registrada','Volumen de información disponible',bars)
  };
  app().innerHTML='<div class="hd-hero"><div><div class="hd-eyebrow">HOPTA / COMMAND CENTER</div><h2>Tu operación, de un vistazo.</h2><p>Prioriza lo importante, cambia de centro y accede a tus herramientas.</p></div><button class="hd-hero-button" onclick="go(\'centros\')">Explorar centros ↗</button></div>'+
- '<div class="hd-kpis">'+metric('Establecimientos',sites.length,clusters.length+' clústers')+metric('Ventas del último período',hasSales?hcMoney(totalSales):'—',latest||'Sin mediciones mensuales')+metric('Tareas abiertas',openTasks.length,'Acciones registradas')+metric('Hallazgos abiertos',activeFindings.length,'Pendientes de resolución')+'</div>'+
+ '<div class="hd-kpis">'+metric('Establecimientos',sites.length,clusters.length+' '+(clusters.length===1?'clúster':'clústers'))+metric('Ventas del último período',hasSales?hcMoney(totalSales):'—',latest||'Sin mediciones mensuales')+metric('Tareas abiertas',openTasks.length,'Acciones registradas')+metric('Hallazgos abiertos',activeFindings.length,'Pendientes de resolución')+'</div>'+
  '<div class="hd-section-intro"><div><h3>Tu espacio de trabajo</h3><p>Ordena los paneles con las flechas y contrae lo que no necesites.</p></div><button class="secondary" onclick="localStorage.removeItem(\'hopta-dashboard-order\');hdDefault.forEach(x=>localStorage.removeItem(\'hopta-dashboard-collapse-\'+x));hdHome()">Restablecer vista</button></div>'+
  '<div class="hd-grid" id="hd-grid">'+hdDefault.map(k=>panels[k]).join('')+'</div><div class="hd-local-note">Los datos se guardan en este navegador. Sin sincronización ni copia automática en la nube.</div>';
  hdReorder();
