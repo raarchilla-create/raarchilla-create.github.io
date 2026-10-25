@@ -2,7 +2,7 @@
 const hcSafe=n=>Number.isFinite(Number(n))&&n!==''&&n!=null?Number(n):null;
 const hcPct=(v)=>v==null?'—':hcNum(v)+' %';
 const hcMetric=(records,name)=>records.filter(x=>x.metric===name&&hcSafe(x.value)!==null).sort((a,b)=>String(b.at||'').localeCompare(String(a.at||'')))[0]?.value;
-const hcSignal=(label,value,target,lowIsGood)=>{if(value==null||target==null)return '<div class="hc-signal neutral"><span>'+label+'</span><b>Sin objetivo</b></div>';let good=lowIsGood?value<=target:value>=target;return '<div class="hc-signal '+(good?'good':'bad')+'"><span>'+label+'</span><b>'+(good?'Dentro de objetivo':'Revisar desviación')+'</b></div>'};
+const hcSignal=(label,value,target,lowIsGood)=>{if(target==null)return '<div class="hc-signal neutral"><span>'+label+'</span><b>Sin objetivo</b></div>';if(value==null)return '<div class="hc-signal neutral"><span>'+label+'</span><b>Objetivo: '+hcNum(target)+(label==='Satisfacción'?'/10':' %')+' · Sin datos</b></div>';let good=lowIsGood?value<=target:value>=target;return '<div class="hc-signal '+(good?'good':'bad')+'"><span>'+label+'</span><b>'+(good?'Dentro de objetivo':'Revisar desviación')+'</b></div>'};
 function hcTrend(records,name,unit=''){
  const points=records.filter(x=>x.metric===name&&hcSafe(x.value)!==null).sort((a,b)=>String(a.at||'').localeCompare(String(b.at||''))).slice(-12);
  if(points.length<2)return '<p class="muted">Necesitas al menos dos mediciones de '+esc(name.toLowerCase())+' para mostrar una evolución.</p>';
