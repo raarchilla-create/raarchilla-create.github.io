@@ -32,7 +32,7 @@ async function hcDashboard(id){
  '<div class="card"><div class="hc-section-title"><h3>Plan de acción</h3><span>'+relevantTasks.filter(t=>!t.done).length+' pendientes</span></div>'+
  (active.length?active.slice(0,4).map(x=>'<div class="hc-action"><b>'+esc(x.title||x.name||'Hallazgo')+'</b><span>'+esc(x.priority||'')+' · '+esc(x.status||'Sin estado')+'</span></div>').join(''):'<p class="muted">Sin hallazgos abiertos registrados.</p>')+
  (overdue.length?'<p class="hc-warning">'+overdue.length+' tareas con fecha vencida.</p>':'')+
- '<button class="secondary" onclick="cases()">Gestionar hallazgos</button><button class="secondary" onclick="hcActionPlan(&quot;'+esc(id)+'&quot;)">Plan de mejora</button><button onclick="hcDeviationReview(&quot;'+esc(id)+'&quot;)">Revisar desviaciones</button></div></div>'+
+ '<button class="secondary" onclick="hcActionPlan(&quot;'+esc(id)+'&quot;)">Plan de mejora</button><button class="secondary" onclick="cases()">Gestionar hallazgos</button><button onclick="hcDeviationReview(&quot;'+esc(id)+'&quot;)">Revisar desviaciones</button></div></div>'+
  '<div class="hc-two"><div class="card"><div class="hc-section-title"><h3>Coste laboral</h3><span>'+hcPct(laborPct)+' actual</span></div>'+hcTrend(records,'Coste laboral',' €')+'</div>'+
  '<div class="card"><div class="hc-section-title"><h3>Food cost</h3><span>'+hcPct(foodPct)+' actual</span></div>'+hcTrend(records,'Coste ingredientes',' €')+'</div></div>'+
  '<p class="hc-data-note">Los gráficos muestran importes registrados, no porcentajes históricos. Las cifras de ejemplo, si existen, son ficticias. No se generan datos ni tendencias cuando faltan mediciones.</p>';
