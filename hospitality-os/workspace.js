@@ -104,3 +104,6 @@ const hwCenter=hoptaCenter;
 hoptaCenter=async function(id){hwActiveCenter=id;await hwCenter(id);await hwDecorate()};
 const hwCenters=hoptaCenters;
 hoptaCenters=async function(){await hwCenters();window.hwCurrentClusters=await hwClusters();await hwDecorate()};
+
+/* Decorate initial home view and ensure cluster cache is current. */
+window.addEventListener('load',async()=>{try{window.hwCurrentClusters=await hwClusters();await hwDecorate()}catch(error){console.warn('Workspace initialization',error)}});
