@@ -36,3 +36,18 @@ async function hcPlanSave(id,taskId){
  await put('tasks',t);toast('Acción guardada');await hcActionPlan(id);
 }
 async function hcPlanToggle(id,taskId,done){const t=await get('tasks',taskId);if(!t)return;t.done=done;t.completedAt=done?now():null;await put('tasks',t);await hcActionPlan(id)}
+
+/* Executive snapshot extension */
+const hcActionPlanBase=hcActionPlan;
+hcActionPlan=async function(id){
+ await hcActionPlanBase(id);
+ const ps=(await all('projects')).filter(p=>p.siteId===id);
+ const tasks=(await all('tasks')).filter(t=>ps.some(p=>p.id===t.projectId));
+ const done=tasks.filter(t=>t.done).length,pct=tasks.length?Math.round(done/tasks.length*100):0;
+ const estimated=tasks.reduce((n,t)=>n+(Number(t.estimatedImpact)||0),0);
+ const validated=tasks.reduce((n,t)=>n+(Number(t.verifiedImpact)||0),0);
+ const count=tasks.filter(t=>t.verifiedImpact!=null&&t.verifiedImpact!=='').length;
+ const section=document.createElement('div');section.className='card hc-executive';
+ section.innerHTML='<div class="hc-section-title"><h3>Seguimiento ejecutivo</h3><span>'+pct+' % completado</span></div><div class="hc-progress" role="progressbar" aria-valuenow="'+pct+'" aria-valuemin="0" aria-valuemax="100"><div style="width:'+pct+'%"></div></div><div class="hc-impact-grid"><div><small>Impacto estimado</small><strong>'+hcMoney(estimated)+'/mes</strong></div><div><small>Impacto declarado como validado</small><strong>'+hcMoney(validated)+'/mes</strong><small>'+count+' acciones con valor registrado</small></div></div><p class="hc-data-note">Son sumas de importes introducidos por el usuario. No se comprueba si los ahorros se solapan ni se verifica automáticamente su realización.</p>';
+ const cards=app().querySelectorAll('.card');if(cards.length)cards[0].before(section);else app().append(section);
+};
