@@ -1,0 +1,4283 @@
+{
+  "asOf": "2026-11-25",
+  "scope": "Cabezas de lista al Congreso de las 52 circunscripciones. No incluye Senado ni suplentes.",
+  "sourceSHA256": "22b31a19d9b3a63968615f65cebb7195f24caf0718faa10ff7e552f227704e9c",
+  "corrections": [
+    "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23383",
+    "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24503"
+  ],
+  "candidates": [
+    {
+      "province": "Albacete",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Amparo Torres Valencoso",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Albacete",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Adrián Moreno Contreras",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Albacete",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Isabel Ferrer de la Cruz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Albacete",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Alberto Martínez Cuartero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Albacete",
+      "party": "VOX (VOX)",
+      "name": "Rubén Herrero de Castro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Albacete",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Luisa María García Tárraga",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Albacete",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "María de los Llanos Soriano García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Albacete",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Francisco Navarro Cebrián",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Albacete",
+      "party": "Frente Amplio (FA)",
+      "name": "Juan Blanco Castellanos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Antonio Alfonso Francés Pérez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Rodrigo Pastor García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)",
+      "name": "Lydia Cañedo Oliver",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Casimiro Martín Soto",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Pablo Román Muñoz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "name": "María Teresa Pérez Díaz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "VOX (VOX)",
+      "name": "David García Gomis",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Jaime Barceló Ríos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Alicante",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Macarena Montesinos De Miguel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Anabel Mateos Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Emilio Gustavo Icasati Weidemüller",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Inmaculada María Jaén Pérez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "name": "Tania Ferre Carrión",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Eduardo José Milla Juan",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "VOX (VOX)",
+      "name": "Rocío de Meer Méndez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María Carmen Crespo Díaz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "María Mercedes Quero Molina",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Mariana García Hernández (Independiente)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Mohsin Faiz Douhab",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Jésica Jiménez Gómez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Almería",
+      "party": "Frente Amplio (FA)",
+      "name": "Zacarías Lucas Lekal Villegas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) PSE-EE (PSOE)",
+      "name": "Javier Hurtado Domínguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "EUSKAL HERRIA BILDU (EH BILDU)",
+      "name": "Mikel Otero Gabirondo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)",
+      "name": "Gorka Urtaran Agirre",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Raúl Aperribay Ganzábal (Independiente)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "VOX (VOX)",
+      "name": "Jonathan Romero Gámiz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Saioa Martín Donoso",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Garbiñe Ruiz Noriega",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA (PCTE/ELAK)",
+      "name": "Liher Calleja Montero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Leire Bengoa Chávarri",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Laura Barrenengoa Clemente",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Iñaki Oyarzábal De Miguel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "FRENTE AMPLIO-FRONTE ZABALA (FRENTE AMPLIO-FRONTE ZABALA)",
+      "name": "José Damián García-Moreno López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "FEMINISTAS AL CONGRESO (PFAC)",
+      "name": "Zuriñe Ojeda Santiago",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Álava",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Cristina Elcuaz Arana",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Juan Sánchez Pérez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Adriana Lastra Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Luis Álvarez Pérez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "VOX (VOX)",
+      "name": "José María Figaredo Álvarez-Sala",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "José Ramón Bahamonde Nava",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Ástor García Suárez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Manuel Antonio Pravia Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "PARTIDO UNIONISTA ESTADO DE ESPAÑA (PUEDE)",
+      "name": "José Luis Zapico Martínez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Ángela Pumariega Menéndez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Irene Jiménez López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Asturias",
+      "party": "FRENTE AMPLIU POR ASTURIES (FA)",
+      "name": "Juan Antonio González Ponte",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Manuel Arribas Maroto",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Julio Blanco Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Pedro Hermosa González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Jorge Moyano García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Adrián Franco Barata",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "VOX (VOX)",
+      "name": "Samuel Vázquez Álvarez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Laura Ruiz Ginés",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Héctor Palencia Rubio",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS (P.D.S.J.E.)",
+      "name": "Carmen Alicia Manchón Villaverde",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ávila",
+      "party": "Frente Amplio (FA)",
+      "name": "Pablo Garcinuño García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "María Yolanda García Seco",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Violeta Casado Sarti",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "VOX (VOX)",
+      "name": "Ignacio Hoces Íñiguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Yago De Francisco González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA (NEX)",
+      "name": "Víctor Ramos Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María Teresa Tortonda Gordillo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "Frente Amplio (FA)",
+      "name": "María del Pilar Ramos Duro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Inmaculada Soria Eugenio",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Badajoz",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Amparo Botejara Sanz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Illes Balears",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Selva Lucía Belmaña López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Illes Balears",
+      "party": "PARTIDO SOCIALISTA DE LAS ISLAS BALEARES (PSIB-PSOE)",
+      "name": "Francesca Lluch Armengol Socias",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Illes Balears",
+      "party": "VOX (VOX)",
+      "name": "María Isabel Cerezo Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Illes Balears",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Joan Luna Mateu",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Illes Balears",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Daniel Rodríguez Rincón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Illes Balears",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "José Vicente Marí Bosó",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Illes Balears",
+      "party": "ARAMÉS-FRONT AMPLI (ARAMÉS-EU-MS)",
+      "name": "Carme Gomila Domínguez (ARAMÉS-EU-MS)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "name": "Jordi Hereu Boher",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "JUNTS PER CATALUNYA (JxCat)",
+      "name": "Míriam Nogueras i Camero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "name": "Gabriel Rufián Romero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Daniel Carro Peralta",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Yolanda López Carreño",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA (PCTC)",
+      "name": "Maria Rodríguez-Farge Hijano",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "VOX (VOX)",
+      "name": "Juan José Aizcorbe Torra",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "Comuns-Front Ampli (COMUNS-FRONT AMPLI)",
+      "name": "Ada Colau Ballano",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "PARTIT POPULAR / PARTIDO POPULAR (PP)",
+      "name": "Xavier García Albiol",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "DEMOCRACIA para el siglo 21 (D21)",
+      "name": "David Andrés Díaz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Barcelona",
+      "party": "ALHORA (ALHORA)",
+      "name": "Jordi Graupera i Garcia Milà",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)",
+      "name": "Idoia Sagastizabal Unzetabarrenetxea",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) PSE-EE (PSOE)",
+      "name": "Patxi López Alvarez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "EUSKAL HERRIA BILDU (EH Bildu)",
+      "name": "Oskar Matute Garcia de Jalón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA (PCTE/ELAK)",
+      "name": "Sergio Saenz Álvarez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "VOX (VOX)",
+      "name": "Marco Antonio Moreno Asla",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "FRENTE AMPLIO (FA)",
+      "name": "Lander Martínez Hierro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Jose Manuel de Pablos Bajo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Janire Asenjo García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Oscar García Riesgo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Esther Martínez Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Bizkaia",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Luis Maria Vega Castresana",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Gonzalo Herrero Burgos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Esther Peña Camarero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Marcos Santamaría Del Olmo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Isabel Lara Benítez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "VOX (VOX)",
+      "name": "Eugenia Landaluce Miranda",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Elsa Colina Arreba",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Rubén Cabezón Milla",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Ángel Mariano Ibáñez Hernando",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Burgos",
+      "party": "Frente Amplio (FA)",
+      "name": "Fernando José Saiz Martínez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Irene Pozas García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Emilio José Paniagua Collazos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Rubén Albalá Manuel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "VOX (VOX)",
+      "name": "Marcela Reigía Vales",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Mónica Pérez Gaite",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Cristina Elena Teniente Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Álvaro Jaén Barbado",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "Frente Amplio (FA)",
+      "name": "Antonio Moreno Pérez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cáceres",
+      "party": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA (NEX)",
+      "name": "Ángel Andreo García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "José Manuel Albares Bueno",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Juan Vicente Parra Piñero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "name": "María Sánchez Barrada",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Francisco Anselmo Mesa González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Laura María Gálvez Carmona",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "VOX (VOX)",
+      "name": "Blanca Armario González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Marcelino Laínez de los Reyes",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "Frente Amplio Andaluz (FA)",
+      "name": "Esther Francisca Gil de Reboleño Lastortres",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Julio de la Torre Lorenzo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "María Gracia Clavijo Repetto",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cádiz",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María José García-Pelayo Jurado",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cantabria",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Susana Herrán Martín",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cantabria",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Raúl Díaz Roces",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cantabria",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Pablo Gómez Ruiz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cantabria",
+      "party": "VOX (VOX)",
+      "name": "Emilio Jesús Del Valle Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cantabria",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Pablo Isidro Gómez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cantabria",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María Isabel Urrutía de los Mozos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cantabria",
+      "party": "FRENTE AMPLIO (FA)",
+      "name": "María Carmen Martín García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "María Jiménez Román",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)",
+      "name": "Carolina Queral Recatalá",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "David Fuentes Pinazo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Álvaro González Álvaro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Badr Ait Lamqadem Zahiri",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "VOX (VOX)",
+      "name": "Alberto Teófilo Asarta Cuevas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "FALANGE ESPAÑOLA DE LAS JONS (FE de las JONS)",
+      "name": "Andrónico Miguel Agustín Brun",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "name": "Ignasi García Felip",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Francisca Hernández Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Castellón",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Elena Albalat Aguilella",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ciudad Real",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Isabel Rodríguez García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ciudad Real",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Raúl Abengozar Galán",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ciudad Real",
+      "party": "VOX (VOX)",
+      "name": "Ricardo Chamorro Delmo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ciudad Real",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "María Isabel Ruiz García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ciudad Real",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María Del Carmen Fúnez de Gregorio",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ciudad Real",
+      "party": "Frente Amplio (FA)",
+      "name": "Juana Caro Marín",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Alberto Mayoral de Lamo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Angel Molina Ruiz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "name": "María del Carmen Sánchez Solís",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Eladio Barrado Prieto",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "VOX (VOX)",
+      "name": "José Ramírez del Río",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Ana Isabel Bastida Burgos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Patricia María García Carmona",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "FALANGE ESPAÑOLA DE LAS JONS (FE de las JONS)",
+      "name": "Manuel Chacón Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Lorena Guerra Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "FRENTE AMPLIO ANDALUZ (FA)",
+      "name": "Sebastián Pérez Gallardo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Ana Belén Calzada Hombrado",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Córdoba",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Carmen María Valderrama Crespo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE)",
+      "name": "Obdulia Taboadela Álvarez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "VOX (VOX)",
+      "name": "Manuel Fuentes Lamas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Miguel Ángel Tellado Filgueira",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "María José García Hidalgo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA (PCTG)",
+      "name": "Daniel López García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "BLOQUE NACIONALISTA GALEGO (B.N.G.)",
+      "name": "Néstor Rego Candamil",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Joel Novoa Arias",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Isabel Faraldo Calvo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "A Coruña",
+      "party": "Frente Amplio-Fronte Ampla (FRENTE AMPLIO-FRONTE AMPLA)",
+      "name": "José Luis Piñeiro García (Xosé Lois)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Adrián Tabasco Bonilla",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Luis Carlos Sahuquillo García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Rafael García Sáez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "VOX (VOX)",
+      "name": "Ismael Iván Vélez Cipriano",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Alejandro Fernández Suárez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "José María Oviedo Oviedo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Raquel Oliver Chico",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Miguel Ángel Hernández Pedreño",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Pedro José Contreras Racionero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Cuenca",
+      "party": "FRENTE AMPLIO (FA)",
+      "name": "Francisco Javier Martínez Huerta (FA)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "EUSKAL HERRIA BILDU (EH BILDU)",
+      "name": "Oihana Etxebarrieta Legrand",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) PSE-EE (PSOE)",
+      "name": "Rafaela Romero Pozo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)",
+      "name": "Maribel Vaquero Montero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "María Pilar Julia Otegui Serranos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Leire Orbañanos Martínez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Daniel Lizarralde Aguirre",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "VOX (VOX)",
+      "name": "Juan Dios Dávila Garijo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Maite Gartzia Ontiveros",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Jon Echeverría Franco",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "EUSKADIKO LANGILEEN ALDERDI KOMUNISTA/PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI (ELAK/PCTE)",
+      "name": "Eneko Lanz Llamas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Gipuzkoa",
+      "party": "Frente Amplio (FA)",
+      "name": "Rosa Rubio Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "name": "Marc Lamuà Estañol",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Ivan Arroyo Laguna",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "JUNTS PER CATALUNYA (JxCat)",
+      "name": "Marta Madrenas i Mir",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "name": "Teresa Jordà Roura",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "Comuns-Front Ampli (COMUNS-FRONT AMPLI)",
+      "name": "Júlia Boada Danés",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA (PCTC)",
+      "name": "Tomás Ferreira Crubellati",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Arseniy Maximov Eudoqumova",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "VOX (VOX)",
+      "name": "Ignasi Mulleras Vinzia",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "ALHORA (ALHORA)",
+      "name": "Júlia Ojeda Caba",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Girona",
+      "party": "PARTIT POPULAR / PARTIDO POPULAR (PP)",
+      "name": "Diana Moya Redondo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Raúl Domínguez Rincón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "María José Sánchez Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "name": "María Alcantud López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Adrián García Barbarroja",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Rosa Alonso Domínguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "VOX (VOX)",
+      "name": "Jacobo González-Robatto Perote",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Débora Godoy Izquierdo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Alejandra Durán Parra",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Augustin Marie Ndour Ndong",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Jorge Saavedra Requena",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Granada",
+      "party": "Frente Amplio Andaluz (FA)",
+      "name": "Jesús Fernández Martín",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Carlos Calvo Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Jorge Miguel Perucha",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "José Carlos Albares Gallego",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "VOX (VOX)",
+      "name": "Ángel López Maraver",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "María Jesús Merino Poyo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "FRENTE AMPLIO (FA)",
+      "name": "Ernesto Martín Doménech",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Mario Javier Gallego Pareja",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Itziar Asenjo Domínguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Pedro Alfonso Cabello Albendea",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Guadalajara",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "name": "Juan Francisco Durán Carralero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Rafael Vicente Frías Ranea",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "PARTIDO SOCIALISTA DE HUELVA (PSOE)",
+      "name": "Gabriel Cruz Santana",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "name": "Carmen María Martín Carrasco",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "VOX (VOX)",
+      "name": "Tomás Fernández Ríos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Cristina Reina Esojo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María del Pilar Miranda Plata",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "Frente Amplio Andaluz (FA)",
+      "name": "Rebeca Martín Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "José Luis Rubio García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Juana María Gómez Lorencio",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huelva",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Hermes Gómez Escobar",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Begoña Nasarre Oliva",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Abel Escribano Bonacho",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Diego Cajal Orleans",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "VOX (VOX)",
+      "name": "Ester Blanco Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Rafael Pedraza Garrido",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Maria del Carmen Molero Lacarte",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Manuel Inurria Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Vicente Oliver Alexandre",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Ana Isabel Alós López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "CHUNTA ARAGONESISTA-FRENTE AMPLIO ARAGÓN (CHA-IU-MS-FRENTE AMPLIO)",
+      "name": "José Luis Parra Pascau (CHA)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Huesca",
+      "party": "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (FIA)",
+      "name": "José María Abad Torres",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Erika Villegas Ruiz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Isabel Uceda Cantero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "name": "Silvia Cano Contreras",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Juan Francisco Salinas Montoro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Juan Javier Reverte López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "VOX (VOX)",
+      "name": "Francisco José Alcaraz Martos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Noemí Pulido Galán",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Luis Mariano Camacho Nuñez (Chiqui)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Dolores Rodríguez López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Francisca Amaro Lombardo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Jaén",
+      "party": "FRENTE AMPLIO (FA)",
+      "name": "Antonio Ortega Ruiz (Frente Amplio Andaluz)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Javier Alfonso Cendón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "José Manuel Estébanez Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "María Natividad Franco Natal",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Enrique Jesús Pérez Suárez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "PROYECTO ALANTRE (P. ALANTRE)",
+      "name": "José Antonio Fernández García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "VOX (VOX)",
+      "name": "Pablo Juan Calvo Liste",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "PARTIDO REGIONALISTA DEL PAIS LEONES (PREPAL)",
+      "name": "Manuela Iglesias Carreño",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Estrella Alonso Almazán",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Sixto Martínez Álvarez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Ester Muñoz de la Iglesia",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "Frente Amplio (FA)",
+      "name": "Rubén Estévez Miguel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "León",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "María López Castellanos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "name": "Cristina Morón Molina",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "JUNTS PER CATALUNYA (JxCat)",
+      "name": "Isidre Gavín i Valls",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Albert Balasch Roque",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "name": "Inés Granollers i Cunillera",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "Comuns-Front Ampli (COMUNS-FRONT AMPLI)",
+      "name": "Montserrat Cortasa Gras",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA (PCTC)",
+      "name": "Guillem Cruz Lezcano",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "VOX (VOX)",
+      "name": "Rafael Villafranca Merce",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "PARTIT ANIMALISTA AMB EL MEDI AMBIENT (PACMA)",
+      "name": "Iván Guijarro Vila",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Roger Melero Serra",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lleida",
+      "party": "ALHORA (ALHORA)",
+      "name": "Cristina Casol Segués",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lugo",
+      "party": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSdeG-PSOE)",
+      "name": "Patricia Otero Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lugo",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Ximena Cheda Tuya",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lugo",
+      "party": "VOX (VOX)",
+      "name": "Jesús Primitivo Rodríguez González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lugo",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Víctor Contreras Céspedes",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lugo",
+      "party": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "name": "Olalla Rodil Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lugo",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Francisco José Conde López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lugo",
+      "party": "FRENTE AMPLIO-FRONTE AMPLA (FRENTE AMPLIO-FRONTE AMPLA)",
+      "name": "Reyes Rodríguez García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Lugo",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "María Ferreiro Carreiras",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Roberto Vaquero Arribas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Pedro Sánchez Pérez-Castejón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "name": "Norberto Pedro Pico Sanabria",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "VOX (VOX)",
+      "name": "Santiago Abascal Conde",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Eva García de Madariaga Delgado",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "PARTIDO HUMANISTA (PH)",
+      "name": "José Luis Álvarez Cedena",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "DEMOCRACIA PARA EL SIGLO 21 (D21)",
+      "name": "Miryan Mercedes González Durántez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "IUSTITIA EUROPA (IE)",
+      "name": "Luis María Pardo Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "José Manuel Romero Melero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Luis Alvise Pérez Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Alberto Núñez Feijóo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Asier Esparza Billalabeitia",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "Frente Amplio (FA)",
+      "name": "Emilio Delgado Orgaz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Madrid",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Irene Montero Gil",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Nicolás Navarro Ramírez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "José Bernal Gutiérrez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "name": "Ana María Jiménez Navarro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Eva Ramos Taillefer",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "VOX (VOX)",
+      "name": "Carlos Hernández Quero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Mercedes Gema Jiménez Martín",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Elías Bendodo Benasayag",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "ALTERNATIVA MALAGUEÑA (29)",
+      "name": "Emilio Felipe Guzmán Jiménez (Independiente)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Antonio Jiménez Martínez de Ubago",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Micaela Jiménez Fortes",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Málaga",
+      "party": "Frente Amplio (FA)",
+      "name": "Rafael Borrego Peña",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Luis Pons Burgueros",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "María González Veracruz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "TERCERA EDAD EN ACCIÓN (3e)",
+      "name": "Domingo Díaz Carrillo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Olmo Arquero Peinazo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "VOX (VOX)",
+      "name": "Joaquín Robles López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Raquel Cardeñosa Cuesta",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Mirian Guardiola Salmerón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Víctor Manuel Egío García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "Frente Amplio (FA)",
+      "name": "Penélope Luna Palazón (FA)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Murcia",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Ángel María Rey Albesa",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "EUSKAL HERRIA BILDU (EH BILDU)",
+      "name": "Eneka Maiz Ulaiar (EH BILDU)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": "BOE-A-2026-23383"
+    },
+    {
+      "province": "Navarra",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Nerea León Miranda",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "PARTIDO SOCIALISTA DE NAVARRA-PSOE (PSN-PSOE)",
+      "name": "Elma Saiz Delgado",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "EGUZKILORE (EGUZKILORE)",
+      "name": "Francisco Javier Pérez Cueva",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "GEROA BAI (GBAI)",
+      "name": "Pablo Azcona Molinet (GEROA BAI)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "José Antonio Aparicio Martín",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "UNIÓN DEL PUEBLO NAVARRO EN COALICIÓN CON EL PARTIDO POPULAR (UPN-PP)",
+      "name": "Leticia San Martín Rodríguez (UPN)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Lidia Martínez Aranguibel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "VOX (VOX)",
+      "name": "María Perpetuo Socorro Sada Ballesteros",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Virginia Alonso Aparicio",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "Frente Amplio-Fronte Zabala (FRENTE AMPLIO-FRONTE ZABALA)",
+      "name": "Javier Ibáñez Orayen",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Manuel Piñar Bautista",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Navarra",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Iker Maguregui Saiz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE)",
+      "name": "María del Carmen Rodríguez Dacosta",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Laia González Gandia",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA (PCTG)",
+      "name": "Brais Coello Vences",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Antonio José Naval Calviño",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "VOX (VOX)",
+      "name": "Maria Jesús Morenza Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Abel Estévez González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Ana Belén Vázquez Blanco",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "name": "Noa Presas Bergantiños",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "POR UN MUNDO MAIS XUSTO (MUNDO+JUSTO)",
+      "name": "Rafael Manuel Fernández Alonso",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ourense",
+      "party": "Frente Amplio-Fronte Ampla (FRENTE AMPLIO-FRONTE AMPLA)",
+      "name": "Cristian González Vázquez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "María Luz Martínez Seijo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Fernando Martínez Torres",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "VOX (VOX)",
+      "name": "Matías Recio Juárez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Alberto Pozo Díez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "name": "Luis Miguel Pérez González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Aitor Vega García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Yeray Yáñez Ibáñez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Milagros Marcos Ortega",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Miren Josu Moneo Viloria",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Alicia Calzada Bujedo (Independiente)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Palencia",
+      "party": "Frente Amplio (FA)",
+      "name": "Ana Belén Collantes Martín",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "María Dolores Corujo Berriel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "LIBERACIÓN CANARIA (LIB)",
+      "name": "Daniel Falero Mesa",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Sergio Ramos Acosta",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "PARTIDO DRAGO CANARIAS (D.R.G)",
+      "name": "Héctor Morán Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Jorge García Cantarero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "VOX (VOX)",
+      "name": "Andrés Alberto Rodríguez Almeida",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Domingo González Perdomo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA (1.ºCAN-CCa)",
+      "name": "Teodoro Claret Sosa Monzón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Clara María Tejera González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "POR UN MUNDO MÁS JUSTO (MUNDO+JUSTO)",
+      "name": "Gara Rodríguez Gutiérrez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)",
+      "name": "Luis Alberto Campos Jiménez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Iris Cristina Sánchez Padrón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "PARTIDO COMUNISTA DEL PUEBLO CANARIO (PCPC)",
+      "name": "Sonia María Iruela Padrón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Las Palmas",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Valentín Tomás Labrada Ruiz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "Frente Obrero (FO)",
+      "name": "Xose Luis García Pazos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "VOX (VOX)",
+      "name": "Álvaro José Díaz-Mella López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "Partido Comunista dos Traballadores da Galiza (PCTG)",
+      "name": "Miguel Riaño Roa",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE)",
+      "name": "Abel Fermín Losada Álvarez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "Escanos en Branco para deixar Escanos Baleiros (ESCAÑOS EN BLANCO)",
+      "name": "Joaquín Francisco Pérez Fernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "Partido Popular (PP)",
+      "name": "Julio García Comesaña",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "Frente Amplio - Fronte Ampla (FRENTE AMPLIO - FRONTE AMPLA)",
+      "name": "Gloria Alonso Domínguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "name": "María Carme da Silva Méndez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "David Díaz Garrido",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Pontevedra",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Lucas Meda Herbojo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Elisa Garrido Jiménez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Francisco Martínez Díaz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "SE ACABO LA FIESTA (SALF)",
+      "name": "Juan Aparici Jerez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "FRENTE AMPLIO (FA)",
+      "name": "Alba Díez Arrea",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Francisco Castro Portolés",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": "BOE-A-2026-23383"
+    },
+    {
+      "province": "La Rioja",
+      "party": "VOX",
+      "name": "Ángel Alda Pérez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "PODEMOS",
+      "name": "María Aranzazu Carrero Bacigalupe",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María Concepción Gamarra Ruiz Clavijo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS (ESCAÑOS EN BLANCO)",
+      "name": "María Carmen García Pellejero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "La Rioja",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Rosalía Cortés Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Marco Pedro Pérez Graña",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "David Serrada Pariente",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "María Aurora Zarco Blanco",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Luis Eduardo Riesco Lorenzo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "VOX (VOX)",
+      "name": "Laura Magdalena Miguel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "PARTIDO REGIONALISTA DEL PAIS LEONES (PREPAL)",
+      "name": "Rafael Diego Núñez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Mario López Pascua",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María del Carmen Seguín Kattán",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Salamanca",
+      "party": "Frente Amplio (FA)",
+      "name": "Miriam Ruiz Arias",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "José Antonio Valbuena Alonso",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "Coalición Canaria-Municipalistas Primero Canarias (CCa-1.ºCAN)",
+      "name": "Cristina Valido García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Gustavo González De Vega",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "PARTIDO DRAGO CANARIAS (D.R.G)",
+      "name": "Alberto Rodríguez Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Eduardo Zerolo Álvarez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Yolanda Morales Pérez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Antonio Coy García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "VOX (VOX)",
+      "name": "Alejandro Santiago Gómez Rodríguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)",
+      "name": "María Soledad Collado Mirabal",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "LIBERACIÓN CANARIA (LIB)",
+      "name": "Angélica María Calero Armas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Pablo Janai García Canino",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "party": "PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)",
+      "name": "José Luis Arias Machuca",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Pablo de Mercado Alcalde",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "José Luis Aceves Galindo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "José Manuel Eizaguirre Fernández-Palacios",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Jesús Angel Gascón Ames",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "VOX (VOX)",
+      "name": "Gonzalo Babé Romero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Rosa María Díaz García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "María Soledad Alba Monfort",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Carlos Presa Irazábal",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "Frente Amplio (FA)",
+      "name": "Víctor Javier Borreguero García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Segovia",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Pablo Pérez Coronado",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Alejandro Rodríguez Prieto",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Alfonso Rodríguez Gómez de Celis",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "name": "Luis María de los Santos Castillo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Juan Antonio Sánchez Murillo González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "VOX (VOX)",
+      "name": "María de los Reyes Romero Vilches",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Nasai Littarru Sampedro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Clara Isabel Márquez Martínez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Mar Cambrollé Jurado",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "Frente Amplio Andaluz (FA)",
+      "name": "Enrique Fernando Santiago Romero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Juan Bravo Baena",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Sevilla",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Noemí Reyes Roldán",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Diego Gallardo de la Fuente",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Ezequiel Blanco López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Rafael Alfonso Gómez Aguilar",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Luis Alfonso Rey de las Heras",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "José María Lorenzo Córdoba Alós",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "VOX (VOX)",
+      "name": "Andrea Martínez Ruiz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "SORIA ¡YA! (SY)",
+      "name": "Juan Antonio Palomar Sicilia",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "Frente Amplio (FA)",
+      "name": "Ángel Alberto Flores Gaitán",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Tomás Cabezón Casas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Luis García Molina",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Soria",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "María Luisa Muñoz González",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "name": "Ione Montalvo Aguirrezabala",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "name": "Norma Pujol Farré",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Olga Donaire Muñoz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "JUNTS PER CATALUNYA (JxCat)",
+      "name": "Josep Maria Cruset i Domènech",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA (PCTC)",
+      "name": "Andreu Tomàs Martínez de Villa",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Jorge Sánchez Castro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "Comuns-Front Ampli (COMUNS-FRONT AMPLI)",
+      "name": "Ester Roca Domedel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": "BOE-A-2026-23383"
+    },
+    {
+      "province": "Tarragona",
+      "party": "VOX (VOX)",
+      "name": "Jordi Albert de la Fuente i Miró",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Bárbara Batalla Vargas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "CONVERGENTS (CNV)",
+      "name": "Cristian Orellana Trujillo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Charles Toja Muiños",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "PARTIT POPULAR / PARTIDO POPULAR (PP)",
+      "name": "Mónica Landete Oliva",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Tarragona",
+      "party": "ALHORA (ALHORA)",
+      "name": "Miquel Bonet Pinyol (Independent)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Herminio Rufino Sancho Íñiguez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": "BOE-A-2026-23383"
+    },
+    {
+      "province": "Teruel",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Alba Waitara Casanova Collado",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "VOX (VOX)",
+      "name": "Daniel Alda Chercoles",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "José Manuel Carrizosa Miguel",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Carlos Aranda Anquela",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "TERUEL EXISTE (TERUEL EXISTE)",
+      "name": "Tomás Guitarte Gimeno",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "name": "Santiago María Núñez Albesa",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Selena Tomasa Sánchez Galindo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "José Alberto Herrero Bono",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Teruel",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Rafael Carlos Esteban Martín",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Milagros Tolón Jaime",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Cristina Martínez Ortega",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Antonio Cuñarro Alonso",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "VOX (VOX)",
+      "name": "Manuel Mariscal Zabala",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "name": "José Ramón Jarones Martín-Aragón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Carlos Velázquez Romo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "María Ángeles Castellanos Valverde",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "Frente Amplio (FA)",
+      "name": "José Alejandro Ávila Sánchez (FRENTE AMPLIO)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Toledo",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Miguel Ángel Alonso García-Largo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Pilar Bernabé García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Carmen López Manzano",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Gabriel Lorente Juan",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "VOX (VOX)",
+      "name": "Ignacio Gil Lázaro",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "name": "Àgueda Micó Micó",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Kevin Pérez Hernández",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "Irene Mercedes Mora Pérez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "VALENCIA UNIDA (VLC)",
+      "name": "Vicente González-Lizondo Sánchez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "RENACER RENAIXER (RRB)",
+      "name": "Miguel Ramón Martí Matias",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "name": "Alejo Herrero González de Cárdenas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María José Catalá Verdet",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Marta López Calatayud",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valencia",
+      "party": "AGENDA VALENCIANA (AGENDA VALENCIANA)",
+      "name": "José Ramón Chirivella Vila",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Óscar Puente Santiago",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Alejandro López De Diego",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Onecha López Merino",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA (PANCAL-URCI)",
+      "name": "María Yolanda Pérez López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Eider Rodríguez Camps",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "VOX (VOX)",
+      "name": "Pablo Sáez Alonso-Muñumer",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "name": "María Hernandez García",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "name": "Francisco Javier Sanz Méndez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "María Almudena Villarreal Vidal",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Ignacio Javier Díez Arauz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María Pardo Álvarez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "Frente Amplio (FA)",
+      "name": "Abdul Gadiri Diallo Bah (FRENTE AMPLIO)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Valladolid",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "name": "Katia García Casas (Independiente)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Antidio Fagúndez Campo",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Sócrates Fernández López",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "PARTIDO REGIONALISTA DEL PAIS LEONES (PREPAL)",
+      "name": "Francisco Iglesias Carreño",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "María Cynthia Garrote Ballestero",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "VOX (VOX)",
+      "name": "Miguel Suárez Arca",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Miguel Ángel Guerra Cosme",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María Montserrat Chimeno Viñas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Francisco Ramos Orgaz",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zamora",
+      "party": "Frente Amplio (FA)",
+      "name": "Diego Bernardo Rosas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "Samuel Pelayo Fosch",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Fernando Ángel Beltrán Blázquez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "name": "Marina Lapuente Rey",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "name": "Jesús Miguel Sánchez Felipe",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "VOX (VOX)",
+      "name": "María Carmen Rouco Laliena",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "PODEMOS (PODEMOS)",
+      "name": "Alicia Arteaga Lahuerta",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (F.I.A.)",
+      "name": "Amadeo Escolán Remartínez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "María del Rocío Dívar Conde",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-FRENTE AMPLIO)",
+      "name": "Marina Rodríguez Hernando (CHA)",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Zaragoza",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "María Cristina Falcón Aldana",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ceuta",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Rafael Martínez Peñalver Mateos",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ceuta",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Luis Manuel Tovar Gálvez",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ceuta",
+      "party": "VOX (VOX)",
+      "name": "Ana Belén Cifuentes Cánovas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ceuta",
+      "party": "PODEMOS (PAZ,CASA Y TRABAJO)",
+      "name": "Ramón Rodríguez Casaubón",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ceuta",
+      "party": "SE ACABO LA FIESTA (SALF)",
+      "name": "Carlos José Pavón Fumadó",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Ceuta",
+      "party": "FRENTE OBRERO",
+      "name": "Manuel Marcos Vidal Tejada",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Melilla",
+      "party": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "name": "Riduan Moh Abdelkader",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Melilla",
+      "party": "FRENTE OBRERO (FO)",
+      "name": "David Vidal Mas",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Melilla",
+      "party": "SE ACABÓ LA FIESTA (SALF)",
+      "name": "Susana Morillo Espinosa",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Melilla",
+      "party": "VOX (VOX)",
+      "name": "José Miguel Tasende Souto",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    },
+    {
+      "province": "Melilla",
+      "party": "PARTIDO POPULAR (PP)",
+      "name": "Sofía Acedo Reyes",
+      "order": 1,
+      "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "correction": null
+    }
+  ]
+}

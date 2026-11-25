@@ -1,0 +1,479 @@
+[
+  {
+    "id": "pp",
+    "party": "PP",
+    "url": "https://www.pp.es/actualidad/articulos/reparar-el-estado-regenerar-la-democracia-reunir-a-la-nacion-y-recuperar-la-ambicion-los-cuatro-pilares-de-la-reconstruccion-nacional-que-feijoo-cumplira-si-o-si/",
+    "kind": "document",
+    "hosts": [
+      "pp.es"
+    ]
+  },
+  {
+    "id": "pp-pdf",
+    "party": "PP",
+    "url": "https://www.pp.es/storage/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+    "kind": "document",
+    "hosts": [
+      "pp.es"
+    ]
+  },
+  {
+    "id": "psoe",
+    "party": "PSOE",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf",
+    "kind": "document",
+    "hosts": [
+      "psoe.es"
+    ]
+  },
+  {
+    "id": "vox",
+    "party": "Vox",
+    "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+    "kind": "document",
+    "hosts": [
+      "voxespana.es"
+    ]
+  },
+  {
+    "id": "fa",
+    "party": "Frente Amplio",
+    "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf",
+    "kind": "document",
+    "hosts": [
+      "frenteamplio.info"
+    ]
+  },
+  {
+    "id": "fa-web",
+    "party": "Frente Amplio",
+    "url": "https://frenteamplio.info/programa/",
+    "kind": "document",
+    "hosts": [
+      "frenteamplio.info"
+    ]
+  },
+  {
+    "id": "fa-auto",
+    "party": "Frente Amplio",
+    "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/",
+    "kind": "document",
+    "hosts": [
+      "frenteamplio.info"
+    ]
+  },
+  {
+    "id": "podemos",
+    "party": "Podemos",
+    "url": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf",
+    "kind": "document",
+    "hosts": [
+      "podemos.info"
+    ]
+  },
+  {
+    "id": "pnv",
+    "party": "EAJ-PNV",
+    "url": "https://www.eaj-pnv.eus/es/programa-elecciones-generales-2026",
+    "kind": "document",
+    "hosts": [
+      "eaj-pnv.eus"
+    ]
+  },
+  {
+    "id": "pnv-pdf",
+    "party": "EAJ-PNV",
+    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+    "kind": "document",
+    "hosts": [
+      "eaj-pnv.eus"
+    ]
+  },
+  {
+    "id": "bng",
+    "party": "BNG",
+    "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+    "kind": "document",
+    "hosts": [
+      "bng.gal"
+    ]
+  },
+  {
+    "id": "erc",
+    "party": "ERC",
+    "url": "https://www.esquerrarepublicana.cat/documents/e2026-programa.pdf",
+    "kind": "document",
+    "hosts": [
+      "esquerrarepublicana.cat"
+    ]
+  },
+  {
+    "id": "bildu",
+    "party": "EH Bildu",
+    "url": "https://ehbildu.eus/media/dokumentuak/posibleegin-programa-cas.pdf",
+    "kind": "document",
+    "hosts": [
+      "ehbildu.eus"
+    ]
+  },
+  {
+    "id": "compromis",
+    "party": "Compromís-Front Valencià",
+    "url": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
+    "kind": "document",
+    "hosts": [
+      "frontvalencia.org"
+    ]
+  },
+  {
+    "id": "cc",
+    "party": "CC-Primero Canarias",
+    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+    "kind": "document",
+    "hosts": [
+      "coalicioncanaria.org"
+    ]
+  },
+  {
+    "id": "junts",
+    "party": "Junts",
+    "url": "https://www.tualcentre.cat/catalunya-al-centre/",
+    "kind": "document",
+    "hosts": [
+      "tualcentre.cat"
+    ]
+  },
+  {
+    "id": "junts-pdf",
+    "party": "Junts",
+    "url": "https://www.tualcentre.cat/app/uploads/2026/11/PROGRAMA-ELECTORAL_JUNTS_29N.pdf",
+    "kind": "document",
+    "hosts": [
+      "tualcentre.cat"
+    ]
+  },
+  {
+    "id": "salf",
+    "party": "Se Acabó la Fiesta",
+    "url": "https://www.seacabolafiesta.com/29n",
+    "kind": "document",
+    "hosts": [
+      "seacabolafiesta.com"
+    ]
+  },
+  {
+    "id": "salf-pdf",
+    "party": "Se Acabó la Fiesta",
+    "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
+    "kind": "document",
+    "hosts": [
+      "seacabolafiesta.com"
+    ]
+  },
+  {
+    "id": "pacma",
+    "party": "PACMA",
+    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+    "kind": "document",
+    "hosts": [
+      "pacma.es"
+    ]
+  },
+  {
+    "id": "aa",
+    "party": "Adelante Andalucía",
+    "url": "https://programa.adelanteandalucia.org/",
+    "kind": "document",
+    "hosts": [
+      "programa.adelanteandalucia.org"
+    ]
+  },
+  {
+    "id": "fo",
+    "party": "Frente Obrero",
+    "url": "https://frenteobrero.es/",
+    "kind": "document",
+    "hosts": [
+      "frenteobrero.es"
+    ]
+  },
+  {
+    "id": "fo-pdf",
+    "party": "Frente Obrero",
+    "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+    "kind": "document",
+    "hosts": [
+      "frenteobrero.es"
+    ]
+  },
+  {
+    "id": "feed-1",
+    "party": "PP",
+    "url": "https://pp.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "pp.es"
+    ]
+  },
+  {
+    "id": "feed-2",
+    "party": "PSOE",
+    "url": "https://psoe.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "psoe.es"
+    ]
+  },
+  {
+    "id": "feed-3",
+    "party": "Vox",
+    "url": "https://voxespana.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "voxespana.es"
+    ]
+  },
+  {
+    "id": "feed-4",
+    "party": "Frente Amplio",
+    "url": "https://frenteamplio.info/feed/",
+    "kind": "feed",
+    "hosts": [
+      "frenteamplio.info"
+    ]
+  },
+  {
+    "id": "feed-5",
+    "party": "Podemos",
+    "url": "https://podemos.info/feed/",
+    "kind": "feed",
+    "hosts": [
+      "podemos.info"
+    ]
+  },
+  {
+    "id": "feed-6",
+    "party": "EAJ-PNV",
+    "url": "https://eaj-pnv.eus/feed/",
+    "kind": "feed",
+    "hosts": [
+      "eaj-pnv.eus"
+    ]
+  },
+  {
+    "id": "feed-7",
+    "party": "BNG",
+    "url": "https://bng.gal/feed/",
+    "kind": "feed",
+    "hosts": [
+      "bng.gal"
+    ]
+  },
+  {
+    "id": "feed-8",
+    "party": "ERC",
+    "url": "https://esquerrarepublicana.cat/feed/",
+    "kind": "feed",
+    "hosts": [
+      "esquerrarepublicana.cat"
+    ]
+  },
+  {
+    "id": "feed-9",
+    "party": "EH Bildu",
+    "url": "https://ehbildu.eus/feed/",
+    "kind": "feed",
+    "hosts": [
+      "ehbildu.eus"
+    ]
+  },
+  {
+    "id": "feed-10",
+    "party": "Compromís-Front Valencià",
+    "url": "https://frontvalencia.org/feed/",
+    "kind": "feed",
+    "hosts": [
+      "frontvalencia.org"
+    ]
+  },
+  {
+    "id": "feed-11",
+    "party": "CC-Primero Canarias",
+    "url": "https://coalicioncanaria.org/feed/",
+    "kind": "feed",
+    "hosts": [
+      "coalicioncanaria.org"
+    ]
+  },
+  {
+    "id": "feed-12",
+    "party": "Junts",
+    "url": "https://tualcentre.cat/feed/",
+    "kind": "feed",
+    "hosts": [
+      "tualcentre.cat"
+    ]
+  },
+  {
+    "id": "feed-13",
+    "party": "Se Acabó la Fiesta",
+    "url": "https://seacabolafiesta.com/feed/",
+    "kind": "feed",
+    "hosts": [
+      "seacabolafiesta.com"
+    ]
+  },
+  {
+    "id": "feed-14",
+    "party": "PACMA",
+    "url": "https://pacma.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "pacma.es"
+    ]
+  },
+  {
+    "id": "feed-15",
+    "party": "Adelante Andalucía",
+    "url": "https://adelanteandalucia.org/feed/",
+    "kind": "feed",
+    "hosts": [
+      "adelanteandalucia.org"
+    ]
+  },
+  {
+    "id": "feed-16",
+    "party": "Frente Obrero",
+    "url": "https://frenteobrero.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "frenteobrero.es"
+    ]
+  },
+  {
+    "id": "convocatoria",
+    "party": "BOE",
+    "url": "https://www.boe.es/eli/es/rd/2026/10/05/806",
+    "kind": "document",
+    "hosts": [
+      "boe.es"
+    ]
+  },
+  {
+    "id": "candidaturas",
+    "party": "BOE",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+    "kind": "document",
+    "hosts": [
+      "boe.es"
+    ]
+  },
+  {
+    "id": "ph",
+    "party": "Partido Humanista",
+    "url": "https://partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+    "kind": "document",
+    "hosts": [
+      "partidohumanista.es"
+    ]
+  },
+  {
+    "id": "pcte",
+    "party": "PCTE",
+    "url": "https://oposicionobrera.pcte.es/es/",
+    "kind": "document",
+    "hosts": [
+      "oposicionobrera.pcte.es"
+    ]
+  },
+  {
+    "id": "ie",
+    "party": "Iustitia Europa",
+    "url": "https://iustitiaeuropa.es/politica-economica-tijeretazo/",
+    "kind": "document",
+    "hosts": [
+      "iustitiaeuropa.es"
+    ]
+  },
+  {
+    "id": "fe",
+    "party": "Falange Española de las JONS",
+    "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+    "kind": "document",
+    "hosts": [
+      "falange.es"
+    ]
+  },
+  {
+    "id": "d21",
+    "party": "Democracia para el Siglo 21",
+    "url": "https://mi.democracia21.es/docs/programa/impuestos-justificados-que-se-entiendan-democracia21.pdf",
+    "kind": "document",
+    "hosts": [
+      "mi.democracia21.es"
+    ]
+  },
+  {
+    "id": "mj",
+    "party": "Por un Mundo Más Justo",
+    "url": "https://www.porunmundomasjusto.es/programa-electoral-2026/",
+    "kind": "document",
+    "hosts": [
+      "porunmundomasjusto.es"
+    ]
+  },
+  {
+    "id": "feed-17",
+    "party": "Partido Humanista",
+    "url": "https://partidohumanista.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "partidohumanista.es"
+    ]
+  },
+  {
+    "id": "feed-18",
+    "party": "PCTE",
+    "url": "https://pcte.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "pcte.es"
+    ]
+  },
+  {
+    "id": "feed-19",
+    "party": "Iustitia Europa",
+    "url": "https://iustitiaeuropa.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "iustitiaeuropa.es"
+    ]
+  },
+  {
+    "id": "feed-20",
+    "party": "Falange Española de las JONS",
+    "url": "https://falange.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "falange.es"
+    ]
+  },
+  {
+    "id": "feed-21",
+    "party": "Democracia para el Siglo 21",
+    "url": "https://democracia21.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "democracia21.es"
+    ]
+  },
+  {
+    "id": "feed-22",
+    "party": "Por un Mundo Más Justo",
+    "url": "https://porunmundomasjusto.es/feed/",
+    "kind": "feed",
+    "hosts": [
+      "porunmundomasjusto.es"
+    ]
+  }
+]

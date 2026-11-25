@@ -1,0 +1,423 @@
+{
+  "baselineCommit": "04d462dd60636ca807ea01a7b23dcf312b0f690c",
+  "asOf": "2026-11-25",
+  "warning": "Inventario de afirmaciones retiradas, no fuente de propuestas vigentes.",
+  "claims": [
+    {
+      "party": "PP",
+      "topic": "Vivienda",
+      "previousClaim": "Un millón de viviendas; derogar la ley de vivienda; IVA del 4% para primera vivienda de menores de 40 años.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "53–55"
+    },
+    {
+      "party": "PP",
+      "topic": "Impuestos",
+      "previousClaim": "IRPF reducido durante cuatro primeros años de declaración para jóvenes de 18 a 35 años; IVA cero temporal en alimentos básicos.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "60–61"
+    },
+    {
+      "party": "PP",
+      "topic": "Empleo",
+      "previousClaim": "Primer año sin cuota para nuevos autónomos; exención de IVA para facturación inferior a 85.000 €.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "59"
+    },
+    {
+      "party": "PP",
+      "topic": "Pensiones",
+      "previousClaim": "Actualización anual con IPC.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "42"
+    },
+    {
+      "party": "PP",
+      "topic": "Sanidad",
+      "previousClaim": "4.500 médicos adicionales de primaria; plan de salud mental.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "69–70"
+    },
+    {
+      "party": "PP",
+      "topic": "Educación y familia",
+      "previousClaim": "Gratuidad infantil 0–3; sustituir LOMLOE.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "57, 67"
+    },
+    {
+      "party": "PP",
+      "topic": "Inmigración",
+      "previousClaim": "Visados por puntos y cupos sectoriales; limitar regularizaciones masivas.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "21–23"
+    },
+    {
+      "party": "PP",
+      "topic": "Seguridad y justicia",
+      "previousClaim": "Recuperación judicial de vivienda ocupada en 48 horas; ampliar prisión permanente revisable.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "20, 55"
+    },
+    {
+      "party": "PP",
+      "topic": "Energía y clima",
+      "previousClaim": "Prolongar operación nuclear, sujeto al CSN.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "71"
+    },
+    {
+      "party": "PP",
+      "topic": "Instituciones y territorio",
+      "previousClaim": "Derogar amnistía; reforma del CGPJ.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "29–30"
+    },
+    {
+      "party": "PP",
+      "topic": "Defensa y exterior",
+      "previousClaim": "Financiación plurianual de defensa; apoyo a Ucrania.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/pp/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "26"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Vivienda",
+      "previousClaim": "Movilizar el 1% del PIB anual; parque estatal de 100.000 viviendas; gravar viviendas de grandes propietarios fuera del alquiler asequible.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "27–31"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Impuestos",
+      "previousClaim": "Tipo máximo del 35% sobre rentas del capital superiores a 300.000 €; crédito fiscal por descendientes.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "48–49"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Empleo",
+      "previousClaim": "37,5 horas sin pérdida salarial; avanzar hacia 35 mediante negociación colectiva.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "37–43"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Pensiones",
+      "previousClaim": "Protección constitucional del sistema público y actualización con IPC.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "40"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Sanidad",
+      "previousClaim": "Financiación cercana al 7% del PIB; incorporar odontología básica y atención psicológica.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "49–50"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Educación y familia",
+      "previousClaim": "Universalizar 0–3; prestación por crianza y cuenta inicial de 1.000 € al nacer.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "51–56"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Inmigración",
+      "previousClaim": "Plan de integración y vías legales de asilo.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "92"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Seguridad y justicia",
+      "previousClaim": "Desalojos de ocupación en 48 horas; cámaras corporales policiales.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "99–100"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Energía y clima",
+      "previousClaim": "81% de electricidad renovable en 2030; mantener cierre nuclear.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "65–66"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Instituciones y territorio",
+      "previousClaim": "Edad de voto a 16 años; agencia independiente anticorrupción.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "90, 102"
+    },
+    {
+      "party": "PSOE",
+      "topic": "Defensa y exterior",
+      "previousClaim": "Avanzar hacia 0,7% de renta nacional bruta en cooperación.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/psoe/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "107"
+    },
+    {
+      "party": "Vox",
+      "topic": "Vivienda",
+      "previousClaim": "Derogar ley de vivienda; IVA cero en primera vivienda nueva de familia española, bonificación del ITP en usada.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Impuestos",
+      "previousClaim": "Reducir IRPF, IVA y Sociedades.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Empleo",
+      "previousClaim": "Cuota cero de autónomos por debajo del SMI; revisar legislación laboral.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Sanidad",
+      "previousClaim": "Tarjeta única; limitar atención a inmigrantes irregulares a urgencias.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Educación y familia",
+      "previousClaim": "Currículo y EVAU comunes; beneficios de familia numerosa desde el primer hijo.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Inmigración",
+      "previousClaim": "Repatriaciones, supresión del arraigo y prioridad nacional en ayudas; IMV solo para españoles.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Seguridad y justicia",
+      "previousClaim": "Reducir edad de responsabilidad penal; ampliar prisión permanente revisable.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Energía y clima",
+      "previousClaim": "Eliminar ZBE y calendario de cierre nuclear.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Instituciones y territorio",
+      "previousClaim": "Retirar progresivamente subvenciones a partidos, sindicatos y patronales.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Defensa y exterior",
+      "previousClaim": "Aumentar inversión militar.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Vox",
+      "topic": "Transporte",
+      "previousClaim": "Auditar ferrocarril y modernizar Cercanías.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/vox/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Frente Amplio",
+      "topic": "Vivienda",
+      "previousClaim": "Inversión pública hasta 1% del PIB; expropiación por fases a propietarios corporativos; regulación de huelgas de alquiler.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/frente-amplio/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Frente Amplio",
+      "topic": "Impuestos",
+      "previousClaim": "Impuesto patrimonial anual del 2% desde un millón y 3% desde 50 millones, descontando impuestos patrimoniales ya pagados; tributación empresarial efectiva mínima del 15%.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/frente-amplio/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Frente Amplio",
+      "topic": "Pensiones",
+      "previousClaim": "Pensión mínima igual al SMI; jubilación efectiva a los 65.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/frente-amplio/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Frente Amplio",
+      "topic": "Transporte",
+      "previousClaim": "Unificar Renfe y Adif; trasladar fondos de ampliación aeroportuaria al ferrocarril.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/frente-amplio/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Podemos",
+      "topic": "Vivienda",
+      "previousClaim": "Impedir compras de vivienda con fines especulativos.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/podemos/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Podemos",
+      "topic": "Impuestos",
+      "previousClaim": "Reducir coste de vida y recuperar poder adquisitivo.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/podemos/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Podemos",
+      "topic": "Empleo",
+      "previousClaim": "SMI de 1.800 € y 30 horas semanales.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/podemos/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Podemos",
+      "topic": "Sanidad",
+      "previousClaim": "Más recursos y personal mediante reasignación del gasto militar.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/podemos/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Podemos",
+      "topic": "Educación y familia",
+      "previousClaim": "Reforzar educación pública y combatir violencia machista.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/podemos/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Podemos",
+      "topic": "Energía y clima",
+      "previousClaim": "Combatir el cambio climático.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/podemos/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Podemos",
+      "topic": "Defensa y exterior",
+      "previousClaim": "No aumentar gasto en armamento; cuestiona pertenencia a la OTAN.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/podemos/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": null
+    },
+    {
+      "party": "Se Acabó la Fiesta",
+      "topic": "Vivienda",
+      "previousClaim": "Eliminar IBI; ayudas fiscales a primera vivienda y desalojo policial de ocupación en 48 horas.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/se-acabo-la-fiesta/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "5–7"
+    },
+    {
+      "party": "Se Acabó la Fiesta",
+      "topic": "Empleo",
+      "previousClaim": "Eliminar cuota de autónomos; contrato indefinido único con indemnización creciente.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/se-acabo-la-fiesta/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "12, 30"
+    },
+    {
+      "party": "Se Acabó la Fiesta",
+      "topic": "Pensiones",
+      "previousClaim": "Cuenta individual obligatoria y heredable del 2% del salario para menores de 45 años; mantener IPC.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/se-acabo-la-fiesta/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "20"
+    },
+    {
+      "party": "Se Acabó la Fiesta",
+      "topic": "Sanidad",
+      "previousClaim": "Máximos de espera: 60 días cirugía, 30 especialista, 7 pruebas prioritarias; alternativa privada financiada públicamente.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/se-acabo-la-fiesta/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "22"
+    },
+    {
+      "party": "Se Acabó la Fiesta",
+      "topic": "Educación y familia",
+      "previousClaim": "Cheque escolar; aumentar mínimo exento de IRPF por hijo.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/se-acabo-la-fiesta/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "12, 33"
+    },
+    {
+      "party": "Se Acabó la Fiesta",
+      "topic": "Inmigración",
+      "previousClaim": "Cinco años de residencia legal y cotización para determinadas prestaciones; visados con contrato previo.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/se-acabo-la-fiesta/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "17–19"
+    },
+    {
+      "party": "Se Acabó la Fiesta",
+      "topic": "Seguridad y justicia",
+      "previousClaim": "Macrocárcel; delitos de corrupción de cargos públicos imprescriptibles.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/se-acabo-la-fiesta/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "8, 25"
+    },
+    {
+      "party": "Se Acabó la Fiesta",
+      "topic": "Instituciones y territorio",
+      "previousClaim": "Reducir Gobierno a diez ministerios.",
+      "previousSource": "https://politicareal.org/elecciones-29n/programas/se-acabo-la-fiesta/",
+      "disposition": "Retirado del corpus activo. El catálogo nuevo se construye de nuevo con fuentes primarias; esta entrada histórica no se avala ni puntúa.",
+      "previousPage": "3"
+    }
+  ]
+}

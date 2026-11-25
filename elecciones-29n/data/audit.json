@@ -1,0 +1,104 @@
+{
+  "asOf": "2026-11-25",
+  "corrections": [
+    {
+      "title": "Convocatoria verificada directamente",
+      "detail": "BOE-A-2026-20742, artículo 2, y ficha JEC. Se mantiene el 29 de noviembre de 2026 porque ambas fuentes oficiales lo recogen."
+    },
+    {
+      "title": "52 afirmaciones anteriores retiradas del corpus activo",
+      "detail": "Inventario exhaustivo de las fichas programáticas antiguas en data/legacy-audit.json, con texto anterior y procedencia. El nuevo catálogo se reconstruye con fuentes primarias, sin trasladar automáticamente aquellas posiciones."
+    },
+    {
+      "title": "Retiradas cifras ajenas sin auditoría",
+      "detail": "Eliminados los recuentos de 37 entradas, seis sin publicar, once cambios, 67 partidos y 9.132 medidas utilizados como indicadores de esta web."
+    },
+    {
+      "title": "Eliminadas biografías y series históricas sin trazabilidad individual",
+      "detail": "Las fichas actuales acreditan exclusivamente los datos de proclamación y sus correcciones. Se retiran biografías no documentadas y estadísticas no necesarias."
+    },
+    {
+      "title": "Corregido el test temático",
+      "detail": "Las respuestas ahora se comparan por dirección documental. No se equiparan relación temática y coincidencia. Se excluyen silencios, saltos, matices no comparables y contradicciones."
+    },
+    {
+      "title": "Comparaciones sobre la misma base",
+      "detail": "El test permite comparar hasta tres formaciones sobre las mismas preguntas compartidas. Se rechaza declarar un ganador global con coberturas desiguales."
+    },
+    {
+      "title": "Correcciones oficiales de candidaturas aplicadas",
+      "detail": "BOE-A-2026-23383: La Rioja/PCTE, Navarra/EH Bildu, Tarragona/Comuns y Teruel/PSOE. La corrección del 21 de noviembre afecta al nombre del presidente de la junta de Burgos y no modifica cabezas de lista."
+    },
+    {
+      "title": "Separación de noticia, versión y cambio político",
+      "detail": "La automatización registra errores, descargas válidas y cambios de texto. No llama cambio programático a una diferencia de archivo ni genera comparaciones antes/después sin dos evidencias revisadas."
+    },
+    {
+      "title": "Accesibilidad y móvil",
+      "detail": "Navegación por enlaces, estados de foco, etiquetas de formularios, contraste, modo oscuro, reducción de movimiento y comparador apilado en pantallas estrechas. El test no envía respuestas."
+    }
+  ],
+  "limitations": [
+    "El índice tiene 185 medidas y 29 fuentes de 22 formaciones. No es una integración exhaustiva de todas las medidas ni de todas las candidaturas proclamadas. Los documentos completos se consultan en sus emisores.",
+    "Las 40 preguntas tienen al menos una evidencia, pero la densidad de comparación es desigual. Un porcentaje basado en pocas preguntas no identifica una afinidad política general. No se ofrece recomendación de voto.",
+    "Las fichas de candidatos cubren cabezas de lista al Congreso, no listas completas, Senado, suplentes o biografías profesionales.",
+    "El análisis económico y jurídico identifica mecanismos, competencias y condiciones; no incluye una memoria económica independiente para cada medida ni jurisprudencia exhaustiva. No declara medidas constitucionales o inconstitucionales sin dictamen.",
+    "La actualización diaria comprueba el conjunto de fuentes configuradas, no toda la prensa ni todas las webs de partidos. No dispone de un archivo anterior completo de todos los programas; no puede certificar cambios políticos retrospectivos sin versiones originales.",
+    "Algunos emisores bloquean descargas automatizadas o no publican un RSS accesible. Se conserva y publica el error; no se interpreta como ausencia de noticias.",
+    "Los enlaces a documentos de terceros pueden cambiar o bloquear lectores. Se conserva el localizador y la fecha de consulta, y se publican las incidencias detectadas.",
+    "El corpus y su codificación se han preparado con asistencia de IA y fuentes primarias. No cuentan con validación académica ni revisión experta independiente de cada posición."
+  ],
+  "validationSummary": "Pruebas automatizadas de integridad documental, dirección de respuestas, denominadores compartidos, buscador, entradas inválidas, seguridad de enlaces, candidaturas y tratamiento de errores del seguimiento. La comprobación visual y de despliegue se registra por separado en el informe de esta edición.",
+  "sources": [
+    {
+      "title": "Convocatoria · Real Decreto 806/2026",
+      "url": "https://www.boe.es/eli/es/rd/2026/10/05/806",
+      "purpose": "Fecha, campaña y constitución de Cámaras"
+    },
+    {
+      "title": "JEC · Candidaturas y correcciones",
+      "url": "https://www.juntaelectoralcentral.es/cs/Satellite?c=JECEleccion_C&childpagename=JEC/JEC_Layout&cid=1408442446868&packedargs=apartado%3Dcandidaturas&pagename=jec/wrapper/JEC_Wrapper",
+      "purpose": "Índice electoral oficial"
+    },
+    {
+      "title": "BOE · Candidaturas proclamadas",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+      "purpose": "Nombres, formaciones, orden y circunscripción"
+    },
+    {
+      "title": "BOE · Corrección de 7 de noviembre",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23383",
+      "purpose": "Rectificación de listas y nombres"
+    },
+    {
+      "title": "BOE · Corrección de 21 de noviembre",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24503",
+      "purpose": "Rectificación de la junta de Burgos"
+    },
+    {
+      "title": "Constitución Española",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "purpose": "Propiedad, competencias, investidura y reforma"
+    },
+    {
+      "title": "Estatuto de los Trabajadores",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "purpose": "Jornada, permisos y relaciones laborales"
+    },
+    {
+      "title": "Ley de Arrendamientos Urbanos",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+      "purpose": "Contratos de alquiler"
+    },
+    {
+      "title": "Ley General de la Seguridad Social",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "purpose": "Cotización y prestaciones"
+    },
+    {
+      "title": "Ley del IVA",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
+      "purpose": "Marco tributario interno"
+    }
+  ]
+}
