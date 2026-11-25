@@ -50,6 +50,8 @@ En navegador Chrome se verificaron: carga del panorama (22/185/40/52), búsqueda
 
 La URL pública `https://raarchilla-create.github.io/elecciones-29n/` devuelve HTTP 200 y carga el nuevo catálogo. GitHub Actions completó correctamente el workflow de revisión y pruebas (ejecución 45698402842) y GitHub Pages terminó el despliegue (ejecución 45698477878). El monitor publicó su actualización en el commit 6941aa2e25fed96360f842665e2a2852d7641037. Se comprobó en Chrome la web pública, navegación a auditoría y cambio de tema. No se observaron errores propios de la aplicación en la consola consultada; los errores recogidos pertenecían a la extensión del navegador.
 
-Los estilos incluyen adaptaciones a 800 y 560 píxeles. No se pudo comprobar en este entorno una emulación real de teléfono ni un dispositivo físico: esta validación móvil sigue siendo una limitación, al igual que una certificación WCAG o una auditoría con lector de pantalla.
+Los estilos incluyen adaptaciones a 800 y 560 píxeles. Se comprobó la redistribución en Chrome ampliado al 400%: ancho de 340 píxeles CSS, contenido de 337 píxeles y comparador de una sola columna (305 píxeles). El filtro de pensiones siguió funcionando y los controles cabían en pantalla. La emulación de dispositivos de DevTools está deshabilitada por la organización; no se verificó un teléfono físico, Safari móvil, lector de pantalla ni una certificación WCAG.
 
 La revisión editorial diaria existente se actualizó para trabajar con el nuevo esquema, conservar trazabilidad y exigir evidencias anteriores y posteriores antes de etiquetar un cambio político. El monitor técnico conserva sus metadatos editoriales sin modificar la codificación de posiciones.
+
+La última iteración incluye desplazamiento al contenido al cambiar de sección y documentos completos de referencia en la exportación JSON del test.
