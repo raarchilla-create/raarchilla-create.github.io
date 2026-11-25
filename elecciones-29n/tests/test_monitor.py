@@ -1,4 +1,5 @@
-import importlib.util,unittest
+import importlib.util,unittest,json,tempfile
+from unittest.mock import patch
 from pathlib import Path
 spec=importlib.util.spec_from_file_location('monitor',Path(__file__).resolve().parents[1]/'scripts/monitor.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 class MonitorTests(unittest.TestCase):
@@ -32,4 +33,12 @@ class MonitorTests(unittest.TestCase):
  def test_feed_filters_external_links(self):
   xml=b'<rss><channel><item><title>Programa 29N</title><link>https://pp.es/programa</link></item><item><title>Programa</title><link>https://evil.test/a</link></item></channel></rss>'
   self.assertEqual(len(m.rss_entries(xml,'PP',['pp.es'],'2026-11-25')),1)
+ def test_monitor_keeps_editorial_review(self):
+  with tempfile.TemporaryDirectory() as folder:
+   root=Path(folder);(root/'data').mkdir()
+   (root/'data/monitor-sources.json').write_text(json.dumps([{'id':'official'}]))
+   (root/'noticias.json').write_text(json.dumps({'editorialChecked':'2026-11-25','editorialNote':'Dos originales contrastados','entries':[],'health':[]}))
+   with patch.object(m,'ROOT',root),patch.object(m,'check',return_value=({'id':'official','status':'ok'},[])),patch.dict(m.os.environ,{'GITHUB_EVENT_NAME':'workflow_dispatch'}):m.main()
+   result=json.loads((root/'noticias.json').read_text())
+   self.assertEqual(result['editorialChecked'],'2026-11-25');self.assertEqual(result['editorialNote'],'Dos originales contrastados');self.assertEqual(len(result['health']),1)
 if __name__=='__main__':unittest.main()

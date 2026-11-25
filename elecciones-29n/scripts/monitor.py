@@ -101,6 +101,8 @@ def main():
     entries=sorted(events.values(),key=lambda e:(e['date'],e['id']),reverse=True)[:500]
     ok=sum(s['status']=='ok' for s in states)
     result=dict(schemaVersion=1,lastChecked=now,note=f'{ok}/{len(states)} fuentes descargadas correctamente. Un fallo no significa ausencia de cambios. Primera descarga válida: línea de base; cambios posteriores: versiones, no conclusiones políticas.',entries=entries,health=states)
+    for field in ('editorialChecked','editorialNote'):
+        if field in old:result[field]=old[field]
     target=ROOT/'noticias.json';tmp=target.with_suffix('.tmp');tmp.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');tmp.replace(target)
     print(f'{ok}/{len(states)} fuentes accesibles; {len(entries)} entradas conservadas')
     if not ok:raise SystemExit('Ninguna fuente accesible; se ha publicado el fallo sin alterar las últimas huellas correctas.')

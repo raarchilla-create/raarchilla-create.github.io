@@ -22,7 +22,7 @@ Las 534 fichas de cabezas de lista al Congreso cubren 52 circunscripciones. El p
 - HTML semántico, etiquetas de formularios, enlace para saltar navegación, foco visible, navegación por teclado, reducción de movimiento, tema oscuro, impresión y comparador apilado en móvil.
 - No se envían respuestas, no hay almacenamiento de opiniones políticas, analítica, cookies ni dependencias de ejecución externas.
 
-Pruebas automatizadas: `node --test elecciones-29n/tests/core.test.cjs` y `python3 -m unittest discover -s elecciones-29n/tests -p 'test_*.py' -v`. Quince casos pasan: integridad del catálogo, direcciones, silencio, preguntas comunes, duplicados, contradicciones, buscador, protocolos, investidura, candidaturas, dominios permitidos, errores HTTP, falsos PDF, primeras versiones y noticias de fuentes externas.
+Pruebas automatizadas: `node --test elecciones-29n/tests/core.test.cjs` y `python3 -m unittest discover -s elecciones-29n/tests -p 'test_*.py' -v`. Dieciséis casos pasan: integridad del catálogo, direcciones, silencio, preguntas comunes, duplicados, contradicciones, buscador, protocolos, investidura, candidaturas, dominios permitidos, errores HTTP, falsos PDF, primeras versiones y noticias de fuentes externas.
 
 ## Seguimiento diario
 
@@ -40,8 +40,16 @@ La primera lectura crea una línea de base. Un cambio binario o de texto no se c
 6. Sin archivo íntegro retrospectivo de versiones: no se puede establecer qué promesa cambió antes de crear la línea de base sin recuperar ambos originales.
 7. Corpus preparado con asistencia de IA, sin validación académica o revisión experta independiente de cada codificación.
 
-La comprobación del despliegue y del navegador se añade a este informe únicamente tras observar sus resultados.
+La comprobación del despliegue y del navegador se documenta a continuación.
 
 ## Comprobación de interfaz realizada
 
 En navegador Chrome se verificaron: carga del panorama (22/185/40/52), búsqueda «menos cuota de autónomos» con 16 resultados relacionados y condiciones, filtrado del comparador por pensiones, recorrido completo de 40 respuestas mixtas y resultados documentales, denominador común de PSOE/Vox, filtro de programa humanista, corrección Ester Roca Domedel, cálculo del 1% de 2.000.000 millones (20.000 millones), prestación ilustrativa (2.400 millones/año), noticias sin cambios políticos inventados y rechazo de una investidura con 351 votos. La captura de escritorio muestra composición y navegación legibles.
+
+## Publicación comprobada el 25 de noviembre de 2026
+
+La URL pública `https://raarchilla-create.github.io/elecciones-29n/` devuelve HTTP 200 y carga el nuevo catálogo. GitHub Actions completó correctamente el workflow de revisión y pruebas (ejecución 45698402842) y GitHub Pages terminó el despliegue (ejecución 45698477878). El monitor publicó su actualización en el commit 6941aa2e25fed96360f842665e2a2852d7641037. Se comprobó en Chrome la web pública, navegación a auditoría y cambio de tema. No se observaron errores propios de la aplicación en la consola consultada; los errores recogidos pertenecían a la extensión del navegador.
+
+Los estilos incluyen adaptaciones a 800 y 560 píxeles. No se pudo comprobar en este entorno una emulación real de teléfono ni un dispositivo físico: esta validación móvil sigue siendo una limitación, al igual que una certificación WCAG o una auditoría con lector de pantalla.
+
+La revisión editorial diaria existente se actualizó para trabajar con el nuevo esquema, conservar trazabilidad y exigir evidencias anteriores y posteriores antes de etiquetar un cambio político. El monitor técnico conserva sus metadatos editoriales sin modificar la codificación de posiciones.
