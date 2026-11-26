@@ -2,3 +2,5 @@
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 .measuremeta,article small{overflow-wrap:anywhere}
+
+.intentmatch{border-left:3px solid var(--accent);padding:10px 14px;background:var(--tint);font-weight:650}.topicresults{padding:16px 0}.topicresults p{margin:7px 0}hr{border:0;border-top:1px solid var(--line);margin:40px 0}select{max-width:100%}#directoryResult h3{overflow-wrap:anywhere}#candidateResult h3{overflow-wrap:anywhere}

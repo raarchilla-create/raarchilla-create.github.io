@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "corrections": [
     {
       "title": "Convocatoria verificada directamente",
@@ -36,19 +36,31 @@
     {
       "title": "Accesibilidad y móvil",
       "detail": "Navegación por enlaces, estados de foco, etiquetas de formularios, contraste, modo oscuro, reducción de movimiento y comparador apilado en pantallas estrechas. El test no envía respuestas."
+    },
+    {
+      "title": "Registro completo de candidaturas",
+      "detail": "Se incorporan 7.597 registros de Congreso, Senado y suplentes; se distinguen titulares no numerados en Valladolid, suplencias de Ceuta y las correcciones completas del BOE. Se excluyen 32 listas no proclamadas."
+    },
+    {
+      "title": "Directorio de denominaciones y ampliación documental",
+      "detail": "49 documentos de 40 formaciones o referencias políticas. Las 121 denominaciones oficiales conservan variantes territoriales, fuentes y estado de localización; los programas generales no se presentan como documentos nuevos del 29N."
+    },
+    {
+      "title": "Fecha de noticia y fecha de observación separadas",
+      "detail": "Los titulares sin fecha de publicación comprobable muestran fecha de observación. Cambiar la URL de un canal crea una nueva línea de base; no se etiqueta como cambio de promesas."
     }
   ],
   "limitations": [
-    "El índice tiene 185 medidas y 29 fuentes de 22 formaciones. No es una integración exhaustiva de todas las medidas ni de todas las candidaturas proclamadas. Los documentos completos se consultan en sus emisores.",
-    "Las 40 preguntas tienen al menos una evidencia, pero la densidad de comparación es desigual. Un porcentaje basado en pocas preguntas no identifica una afinidad política general. No se ofrece recomendación de voto.",
-    "Las fichas de candidatos cubren cabezas de lista al Congreso, no listas completas, Senado, suplentes o biografías profesionales.",
-    "El análisis económico y jurídico identifica mecanismos, competencias y condiciones; no incluye una memoria económica independiente para cada medida ni jurisprudencia exhaustiva. No declara medidas constitucionales o inconstitucionales sin dictamen.",
-    "La actualización diaria comprueba el conjunto de fuentes configuradas, no toda la prensa ni todas las webs de partidos. No dispone de un archivo anterior completo de todos los programas; no puede certificar cambios políticos retrospectivos sin versiones originales.",
-    "Algunos emisores bloquean descargas automatizadas o no publican un RSS accesible. Se conserva y publica el error; no se interpreta como ausencia de noticias.",
-    "Los enlaces a documentos de terceros pueden cambiar o bloquear lectores. Se conserva el localizador y la fecha de consulta, y se publican las incidencias detectadas.",
-    "El corpus y su codificación se han preparado con asistencia de IA y fuentes primarias. No cuentan con validación académica ni revisión experta independiente de cada posición."
+    "Los documentos completos se enlazan en su fuente original. El índice de 331 medidas permite comparación documental, pero no transcribe ni codifica cada propuesta de los 49 documentos. El directorio cubre las 121 denominaciones del registro oficial, incluidas variantes y coaliciones; no son 121 partidos distintos. La búsqueda ampliada indexa términos y páginas de 47 de 49 documentos íntegros descargables; dos descargas bloqueadas se identifican. Una coincidencia léxica no establece posición política.",
+    "Las 40 preguntas cuentan con análisis y evidencias; las posturas localizables son desiguales. El silencio no puntúa, las posiciones de alcance distinto quedan fuera y no se declara ganador global sobre bases diferentes.",
+    "El registro completo cubre Congreso, Senado y suplentes. Se ofrecen 40 fichas de referencia con el mismo formato; solo 22 incluyen trayectoria biográfica comprobada. No se inventan profesiones ni liderazgo para completar las restantes.",
+    "Los análisis económicos y jurídicos son específicos para las 40 preguntas, con escenarios de supuestos explícitos. No equivalen a una memoria presupuestaria independiente ni a un dictamen judicial de cada promesa.",
+    "El seguimiento usa fuentes oficiales configuradas y una revisión editorial diaria. No equivale a vigilancia de toda la prensa. Las fuentes bloqueadas y las páginas accesibles sin titulares extraíbles quedan señaladas.",
+    "No hay un archivo retrospectivo íntegro de todas las versiones. No se declara un giro político confirmado si no pueden recuperarse y contrastarse dos originales.",
+    "La interfaz se comprueba en Chrome de escritorio y en ancho equivalente a móvil. No se dispone aquí de teléfono físico, Safari móvil ni certificación independiente WCAG.",
+    "El corpus y su codificación han sido preparados con asistencia de IA y fuentes primarias. No cuentan con revisión experta independiente de cada posición."
   ],
-  "validationSummary": "Pruebas automatizadas de integridad documental, dirección de respuestas, denominadores compartidos, buscador, entradas inválidas, seguridad de enlaces, candidaturas y tratamiento de errores del seguimiento. La comprobación visual y de despliegue se registra por separado en el informe de esta edición.",
+  "validationSummary": "31 pruebas automatizadas: integridad documental, direcciones y denominadores, buscador e intención, filtros y suplencias, registro completo, análisis de 40 preguntas, directorio y fuentes de perfiles, validación de dominios, fechas de publicación y observación, fallos y seguimiento. La verificación de navegador y despliegue se documenta en AUDITORIA.md.",
   "sources": [
     {
       "title": "Convocatoria · Real Decreto 806/2026",

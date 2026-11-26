@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-26",
+  "scope": "Fichas de referencia de las formaciones documentadas: trayectoria cuando existe fuente primaria verificada; en las demás, proclamación oficial y criterio de selección explícito. No son todas las biografías de quienes concurren.",
+  "profiles": [
+    {
+      "id": "pp-feijoo",
+      "matchName": "Alberto Núñez Feijóo",
+      "name": "Alberto Núñez Feijóo",
+      "party": "PP",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "Su ficha del Congreso documenta su etapa en la XV legislatura, formación en Derecho y experiencia previa en la administración gallega y en altos cargos del Gobierno de España. La fuente institucional describe trayectoria; no acredita el desempeño de una futura legislatura.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Alberto Núñez Feijóo",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=346&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25",
+      "sourceAccess": "Ficha primaria indexada en buscador; la apertura directa devolvió HTTP 403 en esta consulta."
+    },
+    {
+      "id": "psoe-sanchez",
+      "matchName": "Pedro Sánchez Pérez-Castejón",
+      "name": "Pedro Sánchez Pérez-Castejón",
+      "party": "PSOE",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "La biografía de La Moncloa recoge su presidencia del Gobierno desde junio de 2018, doctorado en Economía y etapas anteriores como diputado y concejal de Madrid. Se atribuyen estos datos a la biografía institucional consultada.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "La Moncloa: biografía del presidente",
+          "url": "https://www.lamoncloa.gob.es/presidente/biografia/Paginas/index.aspx"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "vox-abascal",
+      "matchName": "Santiago Abascal Conde",
+      "name": "Santiago Abascal Conde",
+      "party": "Vox",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "La ficha del Congreso recoge su presencia en las legislaturas XIII, XIV y XV y lo identifica como presidente de Vox. Se recoge experiencia parlamentaria documentada, sin valoración de su actividad ni atribución de un cargo futuro.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Santiago Abascal",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=317&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "fa-delgado",
+      "matchName": "Emilio Delgado Orgaz",
+      "name": "Emilio Delgado Orgaz",
+      "party": "Frente Amplio",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "La Asamblea de Madrid documenta participación en las legislaturas X a XIII, formación superior en actividades físicas e integración social y trabajo anterior como educador y técnico de educación. Su candidatura estatal se acredita separadamente en el BOE.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Asamblea de Madrid: ficha del diputado",
+          "url": "https://www.asambleamadrid.es/composicion/diputados/ficha-del-diputado?diputado=406&legislatura=13"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "podemos-montero",
+      "matchName": "Irene Montero Gil",
+      "name": "Irene Montero Gil",
+      "party": "Podemos",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "El currículo publicado en el Parlamento Europeo recoge su etapa como diputada nacional entre 2016 y 2023, ministra de Igualdad entre 2020 y 2023 y eurodiputada desde julio de 2024. El currículo se publica bajo responsabilidad de la propia diputada.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Parlamento Europeo: currículo de Irene Montero",
+          "url": "https://www.europarl.europa.eu/meps/es/245770/name/cv"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "pnv-sagastizabal",
+      "matchName": "Idoia Sagastizabal Unzetabarrenetxea",
+      "name": "Idoia Sagastizabal Unzetabarrenetxea",
+      "party": "EAJ-PNV",
+      "province": "Bizkaia",
+      "role": "Cabeza de lista al Congreso por Bizkaia",
+      "biography": "La ficha del Congreso recoge participación en las legislaturas XII a XV y formación en Derecho y gestión empresarial. El perfil del grupo parlamentario describe su trabajo en materias económicas y presupuestarias; estas son áreas de actividad, no una evaluación independiente.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Idoia Sagastizabal",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=309&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "bng-rego",
+      "matchName": "Néstor Rego Candamil",
+      "name": "Néstor Rego Candamil",
+      "party": "BNG",
+      "province": "A Coruña",
+      "role": "Cabeza de lista al Congreso por A Coruña",
+      "biography": "La ficha del Congreso recoge las legislaturas XIV y XV y formación en Geografía e Historia, además de docencia en lengua y literatura gallegas. La candidatura al 29N se identifica en el BOE por A Coruña.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Néstor Rego",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=238&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "erc-rufian",
+      "matchName": "Gabriel Rufián Romero",
+      "name": "Gabriel Rufián Romero",
+      "party": "ERC",
+      "province": "Barcelona",
+      "role": "Cabeza de lista al Congreso por Barcelona",
+      "biography": "La ficha del Congreso documenta su trayectoria parlamentaria de las legislaturas XI a XV. Este perfil limita la síntesis a experiencia institucional y candidatura proclamada; la participación pasada no presupone un escaño en las elecciones de 2026.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Gabriel Rufián",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=312&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "bildu-matute",
+      "matchName": "Oskar Matute Garcia de Jalón",
+      "name": "Oskar Matute Garcia de Jalón",
+      "party": "EH Bildu",
+      "province": "Bizkaia",
+      "role": "Cabeza de lista al Congreso por Bizkaia",
+      "biography": "La ficha del Congreso recoge las legislaturas XII a XV y experiencia previa en el Parlamento Vasco. También señala responsabilidades de portavocía en Alternativa y EH Bildu. Se presentan como datos de trayectoria publicados por la institución.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Oskar Matute",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=287&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "compromis-mico",
+      "matchName": "Àgueda Micó Micó",
+      "name": "Àgueda Micó Micó",
+      "party": "Compromís-Front Valencià",
+      "province": "Valencia",
+      "role": "Cabeza de lista al Congreso por Valencia",
+      "biography": "La ficha del Congreso recoge su etapa en la XV legislatura, formación en Derecho y Ciencias Políticas y trabajo como profesora asociada. Su trayectoria incluye actividad municipal en L’Olleria y responsabilidades organizativas de Compromís.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Àgueda Micó",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=164&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "cc-valido",
+      "matchName": "Cristina Valido García",
+      "name": "Cristina Valido García",
+      "party": "CC-Primero Canarias",
+      "province": "Santa Cruz De Tenerife",
+      "role": "Cabeza de lista al Congreso por Santa Cruz De Tenerife",
+      "biography": "La ficha del Congreso recoge su etapa en la XV legislatura y responsabilidades anteriores en el Cabildo de Tenerife, el Gobierno de Canarias y el Parlamento canario. La candidatura proclamada se acredita por Santa Cruz de Tenerife.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Cristina Valido",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=38&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "junts-nogueras",
+      "matchName": "Míriam Nogueras i Camero",
+      "name": "Míriam Nogueras i Camero",
+      "party": "Junts",
+      "province": "Barcelona",
+      "role": "Cabeza de lista al Congreso por Barcelona",
+      "biography": "La ficha del Congreso documenta su participación en las legislaturas XI a XV y responsabilidades de portavocía de Junts durante la XV. Se separa ese historial parlamentario de los resultados aún no producidos de la convocatoria de 2026.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Congreso: ficha personal de Míriam Nogueras",
+          "url": "https://www.congreso.es/es/busqueda-de-diputados?codParlamentario=241&idLegislatura=XV&mostrarFicha=true"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "salf-perez",
+      "matchName": "Luis Alvise Pérez Fernández",
+      "name": "Luis Alvise Pérez Fernández",
+      "party": "Se Acabó la Fiesta",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "El conjunto oficial de diputados del Parlamento Europeo incluye a Alvise Pérez en la décima legislatura, por España y entre los no inscritos. El nombre completo de esta ficha procede de la candidatura proclamada en el BOE.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Parlamento Europeo: conjunto de diputados de la décima legislatura",
+          "url": "https://data.europarl.europa.eu/es/datasets/members-of-the-european-parliament-meps-parliamentary-term10/0030"
+        }
+      ],
+      "checked": "2026-11-25",
+      "sourceAccess": "La ficha individual mostró verificación automatizada; se utiliza el conjunto de datos oficial del Parlamento Europeo."
+    },
+    {
+      "id": "pacma-esparza",
+      "matchName": "Asier Esparza Billalabeitia",
+      "name": "Asier Esparza Billalabeitia",
+      "party": "PACMA",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "La presentación oficial de PACMA del 6 de octubre de 2026 lo identifica como secretario de su dirección y coordinador provincial en Gipuzkoa desde 2020. Recoge experiencia en comunicación publicitaria y candidaturas anteriores municipales y vascas. Estos datos se atribuyen al partido.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "PACMA: presentación de Asier Esparza para el 29N",
+          "url": "https://pacma.es/notas-de-prensa/pacma-presenta-a-asier-esparza-como-candidato-a-la-presidencia-del-gobierno-para-las-elecciones-del-29n/"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "aa-delossantos",
+      "matchName": "Luis María de los Santos Castillo",
+      "name": "Luis María de los Santos Castillo",
+      "party": "Adelante Andalucía",
+      "province": "Sevilla",
+      "role": "Cabeza de lista al Congreso por Sevilla",
+      "biography": "El perfil de su despacho lo identifica como socio fundador de Derechos al Sur, licenciado en Derecho y abogado del Colegio de Sevilla desde 2000, especializado en materia penal. La fuente profesional acredita esta trayectoria; la candidatura se verifica aparte en el BOE.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Derechos al Sur: equipo humano",
+          "url": "https://derechosalsur.org/pagina/equipo"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "fo-vaquero",
+      "matchName": "Roberto Vaquero Arribas",
+      "name": "Roberto Vaquero Arribas",
+      "party": "Frente Obrero",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "La página oficial del partido documenta que fue reelegido presidente del Frente Obrero en su segundo congreso, celebrado en abril de 2024. La síntesis recoge ese antecedente organizativo y no reproduce valoraciones promocionales del emisor.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Frente Obrero: el congreso del partido",
+          "url": "https://frenteobrero.es/el-congreso/"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ph-alvarez",
+      "matchName": "José Luis Álvarez Cedena",
+      "name": "José Luis Álvarez Cedena",
+      "party": "Partido Humanista",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "Su perfil del Partido Humanista Internacional, correspondiente a la elección interna de 2024, recoge participación en el equipo coordinador español durante los dos años anteriores. Es un antecedente fechado; no se presume que aquella responsabilidad interna continúe vigente.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Partido Humanista Internacional: perfil interno de 2024",
+          "url": "https://www.internationalhumanistparty.org/es/content/jose-luis-alvarez-cedena-1"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "pcte-garcia",
+      "matchName": "Eva García de Madariaga Delgado",
+      "name": "Eva García de Madariaga Delgado",
+      "party": "PCTE",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "Una nota del PCTE de 2023 la identificaba como secretaria general de los Colectivos de Jóvenes Comunistas y número dos por Madrid en aquella convocatoria. Es un dato histórico, no una atribución de cargo vigente. Para 2026, el BOE la sitúa en el primer puesto.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "PCTE: nota sobre la candidatura de 2023",
+          "url": "https://www.pcte.es/notas-de-prensa/astor-garcia-sera-el-candidato-a-la-presidencia-del-gobierno-por-parte-del-pcte/"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ie-pardo",
+      "matchName": "Luis María Pardo Rodríguez",
+      "name": "Luis María Pardo Rodríguez",
+      "party": "Iustitia Europa",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "Su perfil oficial de Iustitia Europa lo identifica como abogado y presidente de la formación, y recoge una etapa previa en la Guardia Civil. Se atribuyen los datos a la biografía publicada por el partido, sin asumir sus valoraciones sobre especialización o resultados profesionales.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Iustitia Europa: perfil de Luis María Pardo",
+          "url": "https://iustitiaeuropa.es/luis-maria-pardo"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "fe-pico",
+      "matchName": "Norberto Pedro Pico Sanabria",
+      "name": "Norberto Pedro Pico Sanabria",
+      "party": "Falange Española de las JONS",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "La historia publicada por Falange Española de las JONS identifica a Norberto Pico como jefe nacional. Esta ficha recoge únicamente esa responsabilidad organizativa y la candidatura de Madrid acreditada en el BOE, sin trasladar calificativos del partido.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Falange Española de las JONS: historia y dirección",
+          "url": "https://falange.es/historia/"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "d21-gonzalez",
+      "matchName": "Miryan Mercedes González Durántez",
+      "name": "Miryan Mercedes González Durántez",
+      "party": "Democracia para el Siglo 21",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "La web oficial de Democracia21 presenta a Miriam González Durántez como presidenta. El BOE publica la candidatura con la grafía «Miryan Mercedes González Durántez», que se conserva sin corrección editorial. Las variantes de presentación se muestran expresamente.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Democracia21: presentación de su presidenta",
+          "url": "https://democracia21.es/"
+        }
+      ],
+      "checked": "2026-11-25",
+      "displayName": "Miriam González Durántez",
+      "nameNote": "La denominación de esta candidatura se conserva tal como figura en el BOE; la web de la formación usa Miriam González Durántez."
+    },
+    {
+      "id": "mj-romero",
+      "matchName": "José Manuel Romero Melero",
+      "name": "José Manuel Romero Melero",
+      "party": "Por un Mundo Más Justo",
+      "province": "Madrid",
+      "role": "Cabeza de lista al Congreso por Madrid",
+      "biography": "La presentación oficial del 3 de noviembre de 2026 lo identifica como abogado y candidato de M+J a la Presidencia del Gobierno. La nota recoge una trayectoria de voluntariado y vinculación prolongada con el partido. Se atribuyen estos datos a la formación.",
+      "profileLevel": "biographical",
+      "sources": [
+        {
+          "title": "BOE: candidaturas proclamadas al Congreso y Senado",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Por un Mundo Más Justo: presentación de José Manuel Romero",
+          "url": "https://www.porunmundomasjusto.es/jose-manuel-romero-melero-candidato-de-por-un-mundo-mas-justo-a-la-presidencia-del-gobierno-2/"
+        }
+      ],
+      "checked": "2026-11-25"
+    },
+    {
+      "id": "ref-c0cf2f4bfd75cb43b",
+      "name": "José Ramón Chirivella Vila",
+      "matchName": "José Ramón Chirivella Vila",
+      "party": "Agenda Valenciana",
+      "province": "Valencia",
+      "role": "Titular de referencia de la lista al Congreso por Valencia",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c2a937964900589bc",
+      "name": "Jordi Graupera i Garcia Milà",
+      "matchName": "Jordi Graupera i Garcia Milà",
+      "party": "Alhora",
+      "province": "Barcelona",
+      "role": "Titular de referencia de la lista al Congreso por Barcelona",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c10cbd13a7b4a3ec2",
+      "name": "Carme Gomila Domínguez (ARAMÉS-EU-MS)",
+      "matchName": "Carme Gomila Domínguez (ARAMÉS-EU-MS)",
+      "party": "Ara Més-Front Ampli",
+      "province": "Illes Balears",
+      "role": "Titular de referencia de la lista al Congreso por Illes Balears",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-cae3c45cf4521dfa5",
+      "name": "Ada Colau Ballano",
+      "matchName": "Ada Colau Ballano",
+      "party": "Comuns-Front Ampli",
+      "province": "Barcelona",
+      "role": "Titular de referencia de la lista al Congreso por Barcelona",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c8a3033f4ada5352e",
+      "name": "Cristian Orellana Trujillo",
+      "matchName": "Cristian Orellana Trujillo",
+      "party": "Convergents",
+      "province": "Tarragona",
+      "role": "Titular de referencia de la lista al Congreso por Tarragona",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-cf59626c0be0cb3f9",
+      "name": "Héctor Morán Rodríguez",
+      "matchName": "Héctor Morán Rodríguez",
+      "party": "Drago Canarias",
+      "province": "Las Palmas",
+      "role": "Titular de referencia de la lista al Congreso por Las Palmas",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-cf30bb95f0c292c8e",
+      "name": "Francisco Javier Pérez Cueva",
+      "matchName": "Francisco Javier Pérez Cueva",
+      "party": "Eguzkilore",
+      "province": "Navarra",
+      "role": "Titular de referencia de la lista al Congreso por Navarra",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c967479d5d6a16938",
+      "name": "Raúl Aperribay Ganzábal (Independiente)",
+      "matchName": "Raúl Aperribay Ganzábal (Independiente)",
+      "party": "Escaños en Blanco",
+      "province": "Álava",
+      "role": "Titular de referencia de la lista al Congreso por Álava",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-cf259313f542dca73",
+      "name": "Zuriñe Ojeda Santiago",
+      "matchName": "Zuriñe Ojeda Santiago",
+      "party": "Feministas al Congreso",
+      "province": "Álava",
+      "role": "Titular de referencia de la lista al Congreso por Álava",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c35446e6348589527",
+      "name": "Pablo Azcona Molinet (GEROA BAI)",
+      "matchName": "Pablo Azcona Molinet (GEROA BAI)",
+      "party": "Geroa Bai",
+      "province": "Navarra",
+      "role": "Titular de referencia de la lista al Congreso por Navarra",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c311cc17c0d2292c0",
+      "name": "Víctor Ramos Sánchez",
+      "matchName": "Víctor Ramos Sánchez",
+      "party": "Nuevo Extremeñismo",
+      "province": "Badajoz",
+      "role": "Titular de referencia de la lista al Congreso por Badajoz",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-ce88e7c42e936beb4",
+      "name": "Lydia Cañedo Oliver",
+      "matchName": "Lydia Cañedo Oliver",
+      "party": "Partido Autónomos",
+      "province": "Alicante",
+      "role": "Titular de referencia de la lista al Congreso por Alicante",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-cb4cddebecb7e6e2d",
+      "name": "José Antonio Fernández García",
+      "matchName": "José Antonio Fernández García",
+      "party": "Proyecto Alantre",
+      "province": "León",
+      "role": "Titular de referencia de la lista al Congreso por León",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c33137a5a5564ec29",
+      "name": "Juan Antonio Palomar Sicilia",
+      "matchName": "Juan Antonio Palomar Sicilia",
+      "party": "Soria ¡Ya!",
+      "province": "Soria",
+      "role": "Titular de referencia de la lista al Congreso por Soria",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c2856867333c71564",
+      "name": "Domingo Díaz Carrillo",
+      "matchName": "Domingo Díaz Carrillo",
+      "party": "Tercera Edad en Acción",
+      "province": "Murcia",
+      "role": "Titular de referencia de la lista al Congreso por Murcia",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-cb3acdc69288384d9",
+      "name": "Tomás Guitarte Gimeno",
+      "matchName": "Tomás Guitarte Gimeno",
+      "party": "Teruel Existe",
+      "province": "Teruel",
+      "role": "Titular de referencia de la lista al Congreso por Teruel",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c96cd61b9f1caa063",
+      "name": "Leticia San Martín Rodríguez (UPN)",
+      "matchName": "Leticia San Martín Rodríguez (UPN)",
+      "party": "UPN-PP",
+      "province": "Navarra",
+      "role": "Titular de referencia de la lista al Congreso por Navarra",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Selección reproducible para esta referencia: primera circunscripción en orden alfabético con cabeza de lista, priorizando Congreso. No acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    },
+    {
+      "id": "ref-c3243384a36c64b62",
+      "name": "Luis Alberto Campos Jiménez",
+      "matchName": "Luis Alberto Campos Jiménez",
+      "party": "Unidad del Pueblo Canario",
+      "province": "Las Palmas",
+      "role": "Cabeza de lista al Congreso por Las Palmas",
+      "biography": "El BOE acredita su nombre, formación, circunscripción y posición en la candidatura proclamada. No se añade trayectoria profesional sin una fuente primaria biográfica comprobada.",
+      "note": "Referencia de candidatura proclamada; no acredita liderazgo nacional ni candidatura a la Presidencia.",
+      "profileLevel": "candidacy-only",
+      "checked": "2026-11-26",
+      "sources": [
+        {
+          "title": "BOE: proclamación de candidaturas",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ]
+    }
+  ]
+}

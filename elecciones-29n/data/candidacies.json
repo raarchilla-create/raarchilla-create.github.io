@@ -1,0 +1,503 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-25",
+  "source": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+  "sourceSHA256": "22b31a19d9b3a63968615f65cebb7195f24caf0718faa10ff7e552f227704e9c",
+  "corrections": [
+    "BOE-A-2026-23383",
+    "BOE-A-2026-24503"
+  ],
+  "scope": "Personas proclamadas: Congreso, Senado y suplencias. Las suplencias senatoriales se vinculan a su titular. Se excluyen listas expresamente no proclamadas.",
+  "excluded": [
+    {
+      "province": "Alicante",
+      "district": "Alicante",
+      "chamber": "Congreso",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Alicante",
+      "district": "Alicante",
+      "chamber": "Senado",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Almería",
+      "district": "Almería",
+      "chamber": "Congreso",
+      "party": "IZQUIERDA POR ALMERÍA (I.P.A.L.)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Álava",
+      "district": "Álava",
+      "chamber": "Congreso",
+      "party": "JUSTICIA Y LEY (JL)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Badajoz",
+      "district": "Badajoz",
+      "chamber": "Congreso",
+      "party": "JUNTOS POR EXTREMADURA (J.U.E.X.)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Badajoz",
+      "district": "Badajoz",
+      "chamber": "Senado",
+      "party": "JUNTOS POR EXTREMADURA (J.U.E.X.)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Illes Balears",
+      "district": "Illes Balears",
+      "chamber": "Congreso",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Barcelona",
+      "district": "Barcelona",
+      "chamber": "Congreso",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Barcelona",
+      "district": "Barcelona",
+      "chamber": "Congreso",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Barcelona",
+      "district": "Barcelona",
+      "chamber": "Senado",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Bizkaia",
+      "district": "Bizkaia",
+      "chamber": "Congreso",
+      "party": "FEMINISTAS AL CONGRESO (PFAC)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Cáceres",
+      "district": "Cáceres",
+      "chamber": "Congreso",
+      "party": "JUNTOS POR EXTREMADURA (J.U.E.X.)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Cáceres",
+      "district": "Cáceres",
+      "chamber": "Senado",
+      "party": "JUNTOS POR EXTREMADURA (J.U.E.X.)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "A Coruña",
+      "district": "A Coruña",
+      "chamber": "Congreso",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Girona",
+      "district": "Girona",
+      "chamber": "Senado",
+      "party": "Comuns-Front Ampli per la democràcia (C-DEM)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "León",
+      "district": "León",
+      "chamber": "Congreso",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "León",
+      "district": "León",
+      "chamber": "Senado",
+      "party": "PODEMOS (PODEMOS)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "León",
+      "district": "León",
+      "chamber": "Senado",
+      "party": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Lleida",
+      "district": "Lleida",
+      "chamber": "Senado",
+      "party": "Comuns-Front Ampli per la democràcia (C-DEM)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Málaga",
+      "district": "Málaga",
+      "chamber": "Congreso",
+      "party": "José María Calvo Guerra",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Murcia",
+      "district": "Murcia",
+      "chamber": "Congreso",
+      "party": "UNION CARTAGINENSE (UC)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Murcia",
+      "district": "Murcia",
+      "chamber": "Congreso",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Navarra",
+      "district": "Navarra",
+      "chamber": "Senado",
+      "party": "EGUZKILORE (EGUZKILORE)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Ourense",
+      "district": "Ourense",
+      "chamber": "Congreso",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Salamanca",
+      "district": "Salamanca",
+      "chamber": "Congreso",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "district": "Santa Cruz De Tenerife",
+      "chamber": "Congreso",
+      "party": "FEMINISM8 (F8)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Valencia",
+      "district": "Valencia",
+      "chamber": "Congreso",
+      "party": "PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Zaragoza",
+      "district": "Zaragoza",
+      "chamber": "Congreso",
+      "party": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Zaragoza",
+      "district": "Zaragoza",
+      "chamber": "Congreso",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Zaragoza",
+      "district": "Zaragoza",
+      "chamber": "Senado",
+      "party": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Melilla",
+      "district": "Melilla",
+      "chamber": "Congreso",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "status": "No proclamada."
+    },
+    {
+      "province": "Melilla",
+      "district": "Melilla",
+      "chamber": "Senado",
+      "party": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "status": "No proclamada."
+    }
+  ],
+  "counts": {
+    "Congreso": 5197,
+    "Senado": 2400
+  },
+  "files": [
+    {
+      "province": "A Coruña",
+      "path": "data/candidacies/01.json",
+      "records": 156
+    },
+    {
+      "province": "Albacete",
+      "path": "data/candidacies/02.json",
+      "records": 93
+    },
+    {
+      "province": "Alicante",
+      "path": "data/candidacies/03.json",
+      "records": 163
+    },
+    {
+      "province": "Almería",
+      "path": "data/candidacies/04.json",
+      "records": 160
+    },
+    {
+      "province": "Asturias",
+      "path": "data/candidacies/05.json",
+      "records": 141
+    },
+    {
+      "province": "Badajoz",
+      "path": "data/candidacies/06.json",
+      "records": 106
+    },
+    {
+      "province": "Barcelona",
+      "path": "data/candidacies/07.json",
+      "records": 485
+    },
+    {
+      "province": "Bizkaia",
+      "path": "data/candidacies/08.json",
+      "records": 172
+    },
+    {
+      "province": "Burgos",
+      "path": "data/candidacies/09.json",
+      "records": 95
+    },
+    {
+      "province": "Cantabria",
+      "path": "data/candidacies/10.json",
+      "records": 90
+    },
+    {
+      "province": "Castellón",
+      "path": "data/candidacies/11.json",
+      "records": 99
+    },
+    {
+      "province": "Ceuta",
+      "path": "data/candidacies/12.json",
+      "records": 36
+    },
+    {
+      "province": "Ciudad Real",
+      "path": "data/candidacies/13.json",
+      "records": 79
+    },
+    {
+      "province": "Cuenca",
+      "path": "data/candidacies/14.json",
+      "records": 83
+    },
+    {
+      "province": "Cáceres",
+      "path": "data/candidacies/15.json",
+      "records": 95
+    },
+    {
+      "province": "Cádiz",
+      "path": "data/candidacies/16.json",
+      "records": 157
+    },
+    {
+      "province": "Córdoba",
+      "path": "data/candidacies/17.json",
+      "records": 160
+    },
+    {
+      "province": "Gipuzkoa",
+      "path": "data/candidacies/18.json",
+      "records": 149
+    },
+    {
+      "province": "Girona",
+      "path": "data/candidacies/19.json",
+      "records": 139
+    },
+    {
+      "province": "Granada",
+      "path": "data/candidacies/20.json",
+      "records": 151
+    },
+    {
+      "province": "Guadalajara",
+      "path": "data/candidacies/21.json",
+      "records": 94
+    },
+    {
+      "province": "Huelva",
+      "path": "data/candidacies/22.json",
+      "records": 119
+    },
+    {
+      "province": "Huesca",
+      "path": "data/candidacies/23.json",
+      "records": 103
+    },
+    {
+      "province": "Illes Balears",
+      "path": "data/candidacies/24.json",
+      "records": 120
+    },
+    {
+      "province": "Jaén",
+      "path": "data/candidacies/25.json",
+      "records": 128
+    },
+    {
+      "province": "La Rioja",
+      "path": "data/candidacies/26.json",
+      "records": 104
+    },
+    {
+      "province": "Las Palmas",
+      "path": "data/candidacies/27.json",
+      "records": 217
+    },
+    {
+      "province": "León",
+      "path": "data/candidacies/28.json",
+      "records": 124
+    },
+    {
+      "province": "Lleida",
+      "path": "data/candidacies/29.json",
+      "records": 126
+    },
+    {
+      "province": "Lugo",
+      "path": "data/candidacies/30.json",
+      "records": 100
+    },
+    {
+      "province": "Madrid",
+      "path": "data/candidacies/31.json",
+      "records": 654
+    },
+    {
+      "province": "Melilla",
+      "path": "data/candidacies/32.json",
+      "records": 28
+    },
+    {
+      "province": "Murcia",
+      "path": "data/candidacies/33.json",
+      "records": 179
+    },
+    {
+      "province": "Málaga",
+      "path": "data/candidacies/34.json",
+      "records": 209
+    },
+    {
+      "province": "Navarra",
+      "path": "data/candidacies/35.json",
+      "records": 142
+    },
+    {
+      "province": "Ourense",
+      "path": "data/candidacies/36.json",
+      "records": 115
+    },
+    {
+      "province": "Palencia",
+      "path": "data/candidacies/37.json",
+      "records": 92
+    },
+    {
+      "province": "Pontevedra",
+      "path": "data/candidacies/38.json",
+      "records": 159
+    },
+    {
+      "province": "Salamanca",
+      "path": "data/candidacies/39.json",
+      "records": 101
+    },
+    {
+      "province": "Santa Cruz De Tenerife",
+      "path": "data/candidacies/40.json",
+      "records": 193
+    },
+    {
+      "province": "Segovia",
+      "path": "data/candidacies/41.json",
+      "records": 89
+    },
+    {
+      "province": "Sevilla",
+      "path": "data/candidacies/42.json",
+      "records": 209
+    },
+    {
+      "province": "Soria",
+      "path": "data/candidacies/43.json",
+      "records": 93
+    },
+    {
+      "province": "Tarragona",
+      "path": "data/candidacies/44.json",
+      "records": 183
+    },
+    {
+      "province": "Teruel",
+      "path": "data/candidacies/45.json",
+      "records": 104
+    },
+    {
+      "province": "Toledo",
+      "path": "data/candidacies/46.json",
+      "records": 110
+    },
+    {
+      "province": "Valencia",
+      "path": "data/candidacies/47.json",
+      "records": 279
+    },
+    {
+      "province": "Valladolid",
+      "path": "data/candidacies/48.json",
+      "records": 151
+    },
+    {
+      "province": "Zamora",
+      "path": "data/candidacies/49.json",
+      "records": 88
+    },
+    {
+      "province": "Zaragoza",
+      "path": "data/candidacies/50.json",
+      "records": 132
+    },
+    {
+      "province": "Álava",
+      "path": "data/candidacies/51.json",
+      "records": 142
+    },
+    {
+      "province": "Ávila",
+      "path": "data/candidacies/52.json",
+      "records": 101
+    }
+  ]
+}

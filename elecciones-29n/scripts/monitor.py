@@ -3,6 +3,7 @@ Standard library + pdftotext. Atomic JSON output; network failures keep last suc
 """
 from __future__ import annotations
 import concurrent.futures, datetime as dt, hashlib, html, json, os, re, subprocess, tempfile, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -23,8 +24,10 @@ def normalized_html(body):
     p=VisibleText();p.feed(body.decode('utf-8','replace'));return re.sub(r'\s+',' ',' '.join(p.parts)).strip(),p.feeds
 
 def allowed(url,hosts):
-    u=urllib.parse.urlsplit(url)
-    return u.scheme=='https' and not u.username and not u.password and u.port in (None,443) and any(u.hostname==h or u.hostname.endswith('.'+h) for h in hosts)
+    try:
+        u=urllib.parse.urlsplit(url)
+        return u.scheme=='https' and bool(u.hostname) and not u.username and not u.password and u.port in (None,443) and any(u.hostname==h or u.hostname.endswith('.'+h) for h in hosts)
+    except (ValueError,TypeError):return False
 class Redirects(urllib.request.HTTPRedirectHandler):
     def __init__(self,hosts):self.hosts=hosts
     def redirect_request(self,req,fp,code,msg,headers,newurl):
@@ -52,30 +55,140 @@ def extract_document(body,ctype):
 def clean_title(s):
     # A feed title is quoted metadata, not independently confirmed news.
     return ' '.join(html.unescape(re.sub('<[^>]+>',' ',s)).split())[:220]
+RELEVANT=re.compile(r'program|propuest|propos|electoral|29[ -]?n|medida|comprom[íi]s|plante|aut[oó]nom|pensi[oó]n|viv[iie]enda|habitatge|lloguer|salari|impuest|fiscal|jornada|sanidad|sanitat|educaci[oó]|cuidados|energia|energ[ií]a|renovabl|nuclear|transport|beca|cotiz|regulari|derech|drets|vivienda|traball|laborai|ferrocarr|rodali|finan[çcz]|eleccions|hauteskunde|eskubide|etxebiz|pentsio|soldata|proposamen|lanaldi|osasun|hezkuntza|garraio|fiskal',re.I)
+MONTHS={k:i for i,words in enumerate(['enero xaneiro gener january','febrero febreiro febrer february','marzo marzo març march','abril abril april','mayo maio maig may','junio xuño juny june','julio xullo juliol july','agosto agosto agost august','septiembre setembro setembre september','octubre outubro october','noviembre novembro novembre november','diciembre decembro desembre december'],1) for k in words.split()}
+def publication_date(value):
+    """Return a validated calendar date, never substitute observation for publication."""
+    if not value:return None
+    value=html.unescape(str(value)).strip()
+    iso=re.search(r'(?<!\d)(20\d{2})[-/](\d{1,2})[-/](\d{1,2})(?!\d)',value)
+    try:
+        if iso:return dt.date(*map(int,iso.groups())).isoformat()
+        rfc=parsedate_to_datetime(value)
+        return rfc.date().isoformat()
+    except (ValueError,TypeError,OverflowError):pass
+    numeric=re.search(r'(?<!\d)(\d{1,2})[./-](\d{1,2})[./-](20\d{2}|\d{2})(?!\d)',value)
+    if numeric:
+        d,m,y=map(int,numeric.groups());y=2000+y if y<100 else y
+        try:return dt.date(y,m,d).isoformat()
+        except ValueError:return None
+    text=value.lower().replace('.', '').replace('/', ' ').replace(',', '')
+    words=re.search(r"(\d{1,2})\s*(?:de |d[’']|d[e’'] )?([a-zà-ü]+)\s*(?:de )?(20\d{2}|\d{2})",text)
+    if words:
+        d,mon,y=words.groups();y=int(y);y=2000+y if y<100 else y
+        month=MONTHS.get(mon) or next((n for name,n in MONTHS.items() if name.startswith(mon) and len(mon)>=3),None)
+        try:return dt.date(y,month,int(d)).isoformat() if month else None
+        except ValueError:return None
+    return None
+
+def news_entry(url,title,party,now,published=None):
+    pub=publication_date(published)
+    # A malformed or future timestamp is never allowed to masquerade as publication.
+    if pub and pub>now[:10]:pub=None
+    context='Titular emitido por la formación. No es una verificación independiente ni acredita un cambio de programa. '
+    context+=('Fecha de publicación indicada por la fuente.' if pub else 'La fuente no ofrece una fecha de publicación verificable. Fecha mostrada: primera observación en el observatorio, no publicación.')
+    return dict(id='news-'+hashlib.sha256(url.encode()).hexdigest()[:20],party=party,type='official-news',date=pub or now[:10],dateType='published' if pub else 'observed',sourcePublished=pub,observedAt=now,title=title,url=url,context=context)
+
 def rss_entries(body,party,hosts,now):
     root=ET.fromstring(body);out=[]
+    # A successful HTML homepage is not a successful feed.
+    if root.tag.split('}')[-1] not in ('rss','feed','RDF'):raise ValueError('La respuesta no es un canal RSS/Atom válido')
     for item in list(root.findall('.//item'))+list(root.findall('.//{http://www.w3.org/2005/Atom}entry')):
         def txt(key):return (item.findtext(key) or item.findtext('{http://www.w3.org/2005/Atom}'+key) or '').strip()
         title=clean_title(txt('title'));url=txt('link')
         if not url:
             el=item.find('{http://www.w3.org/2005/Atom}link');url=el.get('href','') if el is not None else ''
-        if not title or not allowed(url,hosts):continue
-        if not re.search(r'program|propuest|electoral|29.?n|medida|compromis',title,re.I):continue
+        if not title or not allowed(url,hosts) or not RELEVANT.search(title):continue
         pub=txt('pubDate') or txt('published') or txt('updated')
-        out.append(dict(id='news-'+hashlib.sha256(url.encode()).hexdigest()[:20],party=party,type='official-news',date=now[:10],sourcePublished=pub or None,title=title,url=url,context='Titular emitido por la formación. No es una verificación independiente ni acredita un cambio de programa. Fecha mostrada: incorporación al observatorio.'))
-    return out[:3]
+        out.append(news_entry(url,title,party,now,pub))
+    return out[:5]
+
+class NewsNode:
+    def __init__(self,tag='',attrs=None,parent=None):self.tag=tag;self.attrs=attrs or {};self.parent=parent;self.children=[];self.parts=[]
+    def text(self):return ' '.join(' '.join(self.parts).split())
+    def descend(self):
+        yield self
+        for child in self.children:yield from child.descend()
+class NewsHTML(HTMLParser):
+    """A bounded read-only tree: retain headings, links and local date metadata."""
+    VOID={'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
+    def __init__(self):super().__init__();self.root=NewsNode();self.current=self.root;self.skip=0;self.nodes=0
+    def handle_starttag(self,tag,attrs):
+        self.nodes+=1
+        if self.nodes>40000:raise ValueError('Página HTML excesivamente compleja')
+        node=NewsNode(tag,dict(attrs),self.current);self.current.children.append(node)
+        if tag not in self.VOID:self.current=node
+    def handle_startendtag(self,tag,attrs):self.handle_starttag(tag,attrs);self.handle_endtag(tag)
+    def handle_endtag(self,tag):
+        node=self.current
+        while node is not self.root:
+            if node.tag==tag:self.current=node.parent;return
+            node=node.parent
+    def handle_data(self,text):
+        node=self.current
+        if node.tag in ('script','style','noscript'):return
+        while node is not None:node.parts.append(text);node=node.parent
+
+def html_entries(body,party,hosts,now,base_url,link_pattern=None):
+    parser=NewsHTML();parser.feed(body.decode('utf-8','replace'));out={}
+    for anchor in parser.root.descend():
+        if anchor.tag!='a':continue
+        href=anchor.attrs.get('href','');url=urllib.parse.urljoin(base_url,href)
+        if not href or href.startswith('#') or '{' in href or not allowed(url,hosts):continue
+        # Only actual article paths, never image/document downloads, menus or pagination.
+        u=urllib.parse.urlsplit(url);url=urllib.parse.urlunsplit((u.scheme,u.netloc,u.path,u.query,''))
+        if link_pattern and not re.search(link_pattern,u.path):continue
+        if re.search(r'\.(?:pdf|jpg|png|zip|svg)$',u.path,re.I) or re.search(r'/(?:tag|tags|category|categorias|page|autor)/',u.path):continue
+        if u.path.rstrip('/')==urllib.parse.urlsplit(base_url).path.rstrip('/'):continue
+        heading=next((n for n in anchor.descend() if n.tag in ('h1','h2','h3','h4','h5')),None)
+        ancestor=anchor.parent
+        while ancestor and ancestor is not parser.root and ancestor.tag not in ('h1','h2','h3','h4','h5','article','nav','header','footer'):ancestor=ancestor.parent
+        if not heading and (not ancestor or ancestor.tag not in ('h1','h2','h3','h4','h5')):continue
+        if ancestor and ancestor.tag in ('nav','header','footer'):continue
+        title=clean_title((heading or anchor).text())
+        if len(title)<25 or not RELEVANT.search(title):continue
+        # The nearest small content block may contain a date for this one headline.
+        node=heading or anchor;published=None
+        for _ in range(5):
+            if not node or node is parser.root:break
+            text=node.text()
+            headlines=[n for n in node.descend() if n.tag in ('h1','h2','h3','h4','h5') and len(n.text())>20]
+            if len(headlines)>1 or len(text)>3000:break
+            for n in node.descend():
+                if n.tag=='time':published=publication_date(n.attrs.get('datetime') or n.text())
+                elif n.tag=='meta' and n.attrs.get('itemprop')=='datePublished':published=publication_date(n.attrs.get('content'))
+                if published:break
+            if not published:published=publication_date(text)
+            if published:break
+            node=node.parent
+        # Date encoded in a canonical article slug is accepted only in unambiguous YYYYMMDD form.
+        if not published:
+            slugdate=re.search(r'(20\d{2})([01]\d)([0-3]\d)(?:[0-2]\d[0-5]\d[0-5]\d)?(?:\D|$)',u.path)
+            if slugdate:published=publication_date('-'.join(slugdate.groups()))
+        out.setdefault(url,news_entry(url,title,party,now,published))
+    return list(out.values())[:5]
+
 def load(path,default):
     try:return json.loads(path.read_text())
     except (FileNotFoundError,json.JSONDecodeError):return default
 
 def check(source,previous,now):
-    state=dict(previous);state.update(id=source['id'],party=source['party'],url=source['url'],lastAttempt=now)
+    state=dict(previous)
+    if previous.get('url') and previous['url']!=source['url']:
+        state=dict(previousEndpoint={k:previous[k] for k in ('url','lastSuccess','textSHA256','sha256','status') if k in previous},endpointChangedAt=now)
+    state.update(id=source['id'],party=source['party'],url=source['url'],kind=source['kind'],lastAttempt=now)
     events=[];hosts=source['hosts']
     try:
         body,ctype,url=fetch(source['url'],hosts)
-        if source['kind']=='feed':
-            entries=rss_entries(body,source['party'],hosts,now)
-            state.update(status='ok',error=None,lastSuccess=now,entryCount=len(entries));return state,entries
+        if source['kind'] in ('feed','news-html'):
+            if source['kind']=='feed':entries=rss_entries(body,source['party'],hosts,now)
+            else:
+                extract_document(body,ctype)
+                entries=html_entries(body,source['party'],hosts,now,url,source.get('linkPattern'))
+            for entry in entries:
+                if source.get('scope'):
+                    entry['scope']=source['scope'];entry['context']+=' '+source.get('note','')
+            state.update(status='ok',error=None,lastSuccess=now,entryCount=len(entries),resolvedUrl=url,extraction=source['kind'],bytes=len(body),note=((source.get('note','')+' Descarga válida; ningún titular pertinente extraído. No acredita ausencia de novedades.').strip() if not entries else 'Titulares de la formación, sin verificación independiente.'));return state,entries
         text,mode=extract_document(body,ctype);digest=hashlib.sha256(text.encode()).hexdigest();binary=hashlib.sha256(body).hexdigest()
         old=state.get('textSHA256');oldbinary=state.get('sha256')
         if old and old!=digest:
@@ -96,8 +209,23 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         results=list(pool.map(lambda s:check(s,previous.get(s['id'],{}),now),sources))
     states=[r[0] for r in results];events={e['id']:e for e in old.get('entries',[])}
+    # Correct legacy dates: an observation date is never a publication date.
+    for e in events.values():
+        if e.get('type')=='official-news' and 'dateType' not in e:
+            pub=publication_date(e.get('sourcePublished'))
+            e.update(dateType='published' if pub else 'observed',observedAt=e.get('date'),sourcePublished=pub)
+            if pub:e['date']=pub
+            e['context']=news_entry(e.get('url',''),e.get('title',''),e.get('party',''),now,pub)['context']
     for _,es in results:
-        for e in es:events.setdefault(e['id'],e)
+        for e in es:
+            if e['id'] not in events:events[e['id']]=e
+            elif e.get('type')=='official-news':
+                before=events[e['id']];first=before.get('observedAt') or before.get('date')
+                if e['dateType']=='observed':
+                    if before.get('dateType')=='published' and before.get('sourcePublished'):
+                        e.update(date=before['date'],sourcePublished=before['sourcePublished'],dateType='published',context=before['context'])
+                    else:e['date']=first[:10]
+                e['observedAt']=first;events[e['id']]=e
     entries=sorted(events.values(),key=lambda e:(e['date'],e['id']),reverse=True)[:500]
     ok=sum(s['status']=='ok' for s in states)
     result=dict(schemaVersion=1,lastChecked=now,note=f'{ok}/{len(states)} fuentes descargadas correctamente. Un fallo no significa ausencia de cambios. Primera descarga válida: línea de base; cambios posteriores: versiones, no conclusiones políticas.',entries=entries,health=states)

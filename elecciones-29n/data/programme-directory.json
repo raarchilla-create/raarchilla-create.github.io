@@ -1,0 +1,3890 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-26",
+  "scope": "Todas las denominaciones de las personas proclamadas en el BOE, incluyendo variantes y coaliciones senatoriales. No son un recuento de partidos únicos.",
+  "method": "Cruce exacto de candidaturas corregidas con referencias primarias identificadas; búsqueda web por nombre y convocatoria. No localizado expresa un límite de esta revisión, no prueba de ausencia.",
+  "entries": [
+    {
+      "name": "ACORD DE PROGRÉS PER MALLORCA (PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB)",
+      "canonical": "ACORD DE PROGRÉS PER MALLORCA (PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Illes Balears"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"ACORD DE PROGRÉS PER MALLORCA (PSIB-PSOE-MÉS PER MALLORCA-SUMAR-EUIB)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)",
+      "canonical": "Adelante Andalucía",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Adelante Andalucía. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa para frenar a las derechas · Programa web",
+          "url": "https://programa.adelanteandalucia.org/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Almería",
+        "Cádiz",
+        "Córdoba",
+        "Granada",
+        "Huelva",
+        "Jaén",
+        "Málaga",
+        "Sevilla"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "aa"
+      ],
+      "searchQuery": "\"ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "AGENDA VALENCIANA (AGENDA VALENCIANA)",
+      "canonical": "Agenda Valenciana",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Agenda Valenciana. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Hoja de Ruta para Valencia · 29N · Programa web",
+          "url": "https://www.agendavalenciana.org/programa.html"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Valencia"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "av"
+      ],
+      "searchQuery": "\"AGENDA VALENCIANA (AGENDA VALENCIANA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "AGRUPACION HERREÑA INDEPENDIENTE (A.H.I.)",
+      "canonical": "AGRUPACION HERREÑA INDEPENDIENTE (A.H.I.)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"AGRUPACION HERREÑA INDEPENDIENTE (A.H.I.)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "AGRUPACION SOCIALISTA GOMERA (ASG)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"AGRUPACION SOCIALISTA GOMERA (ASG)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ALHORA (ALHORA)",
+      "canonical": "Alhora",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Alhora. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Comunicado de candidatura Fora Espanya · 29N · Comunicado de campaña",
+          "url": "https://alhora.cat/alhora-es-presentara-a-les-eleccions-espanyoles-del-29n-amb-el-lema-fora-espanya/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona",
+        "Girona",
+        "Lleida",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "alhora"
+      ],
+      "searchQuery": "\"ALHORA (ALHORA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ALTERNATIVA MALAGUEÑA (29)",
+      "canonical": "ALTERNATIVA MALAGUEÑA (29)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Málaga"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"ALTERNATIVA MALAGUEÑA (29)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ARAMÉS-FRONT AMPLI (ARAMÉS-EU-MS)",
+      "canonical": "Ara Més-Front Ampli",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Ara Més-Front Ampli. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Viure bé, viure aquí · Programa 29N · Programa electoral PDF",
+          "url": "https://media.timtul.com/media/web_mespermallorca/ProgramaElectoral29N_Corregit%20(1)_20261117173133.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Illes Balears"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "arames"
+      ],
+      "searchQuery": "\"ARAMÉS-FRONT AMPLI (ARAMÉS-EU-MS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ASAMBLEA HERREÑA (ASAMBLEA HERREÑA)",
+      "canonical": "ASAMBLEA HERREÑA (ASAMBLEA HERREÑA)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"ASAMBLEA HERREÑA (ASAMBLEA HERREÑA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "BLOQUE NACIONALISTA GALEGO (B.N.G.)",
+      "canonical": "BNG",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de BNG. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "29N. Xerais 2026 · Programa electoral",
+          "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "bng"
+      ],
+      "searchQuery": "\"BLOQUE NACIONALISTA GALEGO (B.N.G.)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "canonical": "BNG",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de BNG. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "29N. Xerais 2026 · Programa electoral",
+          "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Lugo",
+        "Ourense",
+        "Pontevedra"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "bng"
+      ],
+      "searchQuery": "\"BLOQUE NACIONALISTA GALEGO (BNG)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-FRENTE AMPLIO)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Zaragoza"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"Chunta Aragonesista-Frente Amplio Aragón (CHA-IU-MS-FRENTE AMPLIO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "CHUNTA ARAGONESISTA-FRENTE AMPLIO ARAGÓN (CHA-IU-MS-FRENTE AMPLIO)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Huesca"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"CHUNTA ARAGONESISTA-FRENTE AMPLIO ARAGÓN (CHA-IU-MS-FRENTE AMPLIO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "COALICIÓN CANARIA-MUNICIPALISTAS PRIMERO CANARIAS (CCa-1.ºCAN)",
+      "canonical": "CC-Primero Canarias",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de CC-Primero Canarias. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Defiende Canarias. Bases del programa · Programa electoral",
+          "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Las Palmas"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [
+        "cc"
+      ],
+      "searchQuery": "\"COALICIÓN CANARIA-MUNICIPALISTAS PRIMERO CANARIAS (CCa-1.ºCAN)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Coalición Canaria-Municipalistas Primero Canarias (CCa-1.ºCAN)",
+      "canonical": "CC-Primero Canarias",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de CC-Primero Canarias. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Defiende Canarias. Bases del programa · Programa electoral",
+          "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "cc"
+      ],
+      "searchQuery": "\"Coalición Canaria-Municipalistas Primero Canarias (CCa-1.ºCAN)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Coalición electoral Senado de Progreso SDP (PSOE-MS)",
+      "canonical": "Coalición electoral Senado de Progreso SDP (PSOE-MS)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Pontevedra"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"Coalición electoral Senado de Progreso SDP (PSOE-MS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)",
+      "canonical": "Compromís-Front Valencià",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Compromís-Front Valencià. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa electoral 29N · Programa electoral",
+          "url": "https://frontvalencia.org/programa-compromis-front-valencia.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "compromis"
+      ],
+      "searchQuery": "\"COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Comuns-Front Ampli (COMUNS-FRONT AMPLI)",
+      "canonical": "Comuns-Front Ampli",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Comuns-Front Ampli. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa com una casa · 29N · Programa electoral PDF",
+          "url": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N-1.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona",
+        "Girona",
+        "Lleida",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "comuns"
+      ],
+      "searchQuery": "\"Comuns-Front Ampli (COMUNS-FRONT AMPLI)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Comuns-Front Ampli per la democràcia (C-DEM)",
+      "canonical": "Comuns-Front Ampli",
+      "status": "Referencia de sus integrantes",
+      "statusLabel": "Referencia de sus integrantes",
+      "note": "Se enlaza documentación de un integrante. No se acredita su adopción íntegra por esta lista al Senado ni se traslada automáticamente al test.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa com una casa · 29N · Programa electoral PDF",
+          "url": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N-1.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [
+        "comuns"
+      ],
+      "searchQuery": "\"Comuns-Front Ampli per la democràcia (C-DEM)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "CONVERGENTS (CNV)",
+      "canonical": "Convergents",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Convergents. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa electoral 2026 · Programa electoral PDF",
+          "url": "https://www.convergents.org/_files/ugd/d24b0b_2c84e86795954481a948f644038a7cb3.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "convergents"
+      ],
+      "searchQuery": "\"CONVERGENTS (CNV)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "DEMOCRACIA para el siglo 21 (D21)",
+      "canonical": "Democracia para el Siglo 21",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Democracia para el Siglo 21. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Impuestos justificados y que se entiendan · Programa sectorial",
+          "url": "https://mi.democracia21.es/docs/programa/impuestos-justificados-que-se-entiendan-democracia21.pdf"
+        },
+        {
+          "title": "La España que merecemos · Programa 29N · Programa electoral PDF",
+          "url": "https://mi.democracia21.es/docs/programa/programa-democracia21.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "d21",
+        "d21-full"
+      ],
+      "searchQuery": "\"DEMOCRACIA para el siglo 21 (D21)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "DEMOCRACIA PARA EL SIGLO 21 (D21)",
+      "canonical": "Democracia para el Siglo 21",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Democracia para el Siglo 21. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Impuestos justificados y que se entiendan · Programa sectorial",
+          "url": "https://mi.democracia21.es/docs/programa/impuestos-justificados-que-se-entiendan-democracia21.pdf"
+        },
+        {
+          "title": "La España que merecemos · Programa 29N · Programa electoral PDF",
+          "url": "https://mi.democracia21.es/docs/programa/programa-democracia21.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Madrid"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "d21",
+        "d21-full"
+      ],
+      "searchQuery": "\"DEMOCRACIA PARA EL SIGLO 21 (D21)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "EGUZKILORE (EGUZKILORE)",
+      "canonical": "Eguzkilore",
+      "status": "Publicación política general",
+      "statusLabel": "Publicación política general",
+      "note": "Referencias oficiales de Eguzkilore. Publicación general o permanente: se distingue del programa específico de esta convocatoria. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa político web · Programa político general web",
+          "url": "https://www.eguzkilore-na.org/sample-page/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Navarra"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "eguz"
+      ],
+      "searchQuery": "\"EGUZKILORE (EGUZKILORE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "EIVISSA AL SENAT (PSOE-SUMAR-EUIB-ARA EIVISSA-PODEM)",
+      "canonical": "EIVISSA AL SENAT (PSOE-SUMAR-EUIB-ARA EIVISSA-PODEM)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Illes Balears"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"EIVISSA AL SENAT (PSOE-SUMAR-EUIB-ARA EIVISSA-PODEM)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS",
+      "canonical": "Escaños en Blanco",
+      "status": "Publicación política general",
+      "statusLabel": "Publicación política general",
+      "note": "Referencias oficiales de Escaños en Blanco. Publicación general o permanente: se distingue del programa específico de esta convocatoria. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa electoral de artículo único · Programa permanente web",
+          "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "La Rioja"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [
+        "eb"
+      ],
+      "searchQuery": "\"ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+      "canonical": "Escaños en Blanco",
+      "status": "Publicación política general",
+      "statusLabel": "Publicación política general",
+      "note": "Referencias oficiales de Escaños en Blanco. Publicación general o permanente: se distingue del programa específico de esta convocatoria. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa electoral de artículo único · Programa permanente web",
+          "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Almería",
+        "Córdoba",
+        "Gipuzkoa",
+        "Las Palmas",
+        "León",
+        "Murcia",
+        "Palencia",
+        "Soria",
+        "Valladolid",
+        "Álava"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "eb"
+      ],
+      "searchQuery": "\"ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS (ESCAÑOS EN BLANCO)",
+      "canonical": "Escaños en Blanco",
+      "status": "Publicación política general",
+      "statusLabel": "Publicación política general",
+      "note": "Referencias oficiales de Escaños en Blanco. Publicación general o permanente: se distingue del programa específico de esta convocatoria. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa electoral de artículo único · Programa permanente web",
+          "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "La Rioja"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "eb"
+      ],
+      "searchQuery": "\"ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS (ESCAÑOS EN BLANCO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Escanos en Branco para deixar Escanos Baleiros (ESCAÑOS EN BLANCO)",
+      "canonical": "Escaños en Blanco",
+      "status": "Publicación política general",
+      "statusLabel": "Publicación política general",
+      "note": "Referencias oficiales de Escaños en Blanco. Publicación general o permanente: se distingue del programa específico de esta convocatoria. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa electoral de artículo único · Programa permanente web",
+          "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Pontevedra"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "eb"
+      ],
+      "searchQuery": "\"Escanos en Branco para deixar Escanos Baleiros (ESCAÑOS EN BLANCO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)",
+      "canonical": "ERC",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de ERC. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Pel país. Per la gent. Pel futur. · Programa electoral",
+          "url": "https://www.esquerrarepublicana.cat/documents/e2026-programa.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona",
+        "Girona",
+        "Lleida",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "erc"
+      ],
+      "searchQuery": "\"ESQUERRA REPUBLICANA DE CATALUNYA (ERC)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "ESQUERRA REPUBLICANA DE CATALUNYA-EUSKAL HERRIA BILDU (ERC-EH BILDU)",
+      "canonical": "ESQUERRA REPUBLICANA DE CATALUNYA-EUSKAL HERRIA BILDU (ERC-EH BILDU)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona",
+        "Girona",
+        "Lleida",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"ESQUERRA REPUBLICANA DE CATALUNYA-EUSKAL HERRIA BILDU (ERC-EH BILDU)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "EUSKADIKO LANGILEEN ALDERDI KOMUNISTA/PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI (ELAK/PCTE)",
+      "canonical": "PCTE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PCTE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa de lucha · Programa político",
+          "url": "https://oposicionobrera.pcte.es/es/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Gipuzkoa"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pcte"
+      ],
+      "searchQuery": "\"EUSKADIKO LANGILEEN ALDERDI KOMUNISTA/PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI (ELAK/PCTE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "EUSKAL HERRIA BILDU (EH BILDU)",
+      "canonical": "EH Bildu",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de EH Bildu. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Posible Egin. Garantía y derechos · Programa electoral",
+          "url": "https://ehbildu.eus/media/dokumentuak/posibleegin-programa-cas.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Gipuzkoa",
+        "Navarra",
+        "Álava"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "bildu"
+      ],
+      "searchQuery": "\"EUSKAL HERRIA BILDU (EH BILDU)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "EUSKAL HERRIA BILDU (EH Bildu)",
+      "canonical": "EH Bildu",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de EH Bildu. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Posible Egin. Garantía y derechos · Programa electoral",
+          "url": "https://ehbildu.eus/media/dokumentuak/posibleegin-programa-cas.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Bizkaia"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "bildu"
+      ],
+      "searchQuery": "\"EUSKAL HERRIA BILDU (EH Bildu)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "EUSKAL HERRIA BILDU-ESQUERRA REPUBLICANA DE CATALUNYA (EH BILDU-ERC)",
+      "canonical": "EUSKAL HERRIA BILDU-ESQUERRA REPUBLICANA DE CATALUNYA (EH BILDU-ERC)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Bizkaia",
+        "Gipuzkoa",
+        "Navarra",
+        "Álava"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"EUSKAL HERRIA BILDU-ESQUERRA REPUBLICANA DE CATALUNYA (EH BILDU-ERC)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)",
+      "canonical": "EAJ-PNV",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de EAJ-PNV. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Defendemos Euskadi · 30 propuestas · Programa web",
+          "url": "https://www.eaj-pnv.eus/es/programa-elecciones-generales-2026"
+        },
+        {
+          "title": "Programa elecciones generales 2026 · Documento enlazado",
+          "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Bizkaia",
+        "Gipuzkoa",
+        "Álava"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pnv",
+        "pnv-pdf"
+      ],
+      "searchQuery": "\"EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)",
+      "canonical": "Falange Española de las JONS",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Falange Española de las JONS. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa elecciones generales 2026 · Programa electoral",
+          "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Guadalajara",
+        "Madrid",
+        "Palencia",
+        "Teruel",
+        "Toledo",
+        "Valencia",
+        "Valladolid"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "fe"
+      ],
+      "searchQuery": "\"FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FALANGE ESPAÑOLA DE LAS JONS (FE de las JONS)",
+      "canonical": "Falange Española de las JONS",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Falange Española de las JONS. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa elecciones generales 2026 · Programa electoral",
+          "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Castellón",
+        "Córdoba"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "fe"
+      ],
+      "searchQuery": "\"FALANGE ESPAÑOLA DE LAS JONS (FE de las JONS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (F.I.A.)",
+      "canonical": "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (F.I.A.)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Zaragoza"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"FEDERACION DE LOS INDEPENDIENTES DE ARAGON (F.I.A.)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (FIA)",
+      "canonical": "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (FIA)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Huesca"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"FEDERACION DE LOS INDEPENDIENTES DE ARAGON (FIA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FEMINISTAS AL CONGRESO (PFAC)",
+      "canonical": "Feministas al Congreso",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Feministas al Congreso. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa electoral · Elecciones generales 29N · Programa electoral PDF",
+          "url": "https://www.feministasalcongreso.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL_2026.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Álava"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "pfac"
+      ],
+      "searchQuery": "\"FEMINISTAS AL CONGRESO (PFAC)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FORMENTERA AL SENAT (PSOE-GxF-M.SUMAR)",
+      "canonical": "FORMENTERA AL SENAT (PSOE-GxF-M.SUMAR)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Illes Balears"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"FORMENTERA AL SENAT (PSOE-GxF-M.SUMAR)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Formentera Viva (FV)",
+      "canonical": "Formentera Viva (FV)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Illes Balears"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"Formentera Viva (FV)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Frente Amplio (FA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Albacete",
+        "Almería",
+        "Badajoz",
+        "Burgos",
+        "Ciudad Real",
+        "Cáceres",
+        "Gipuzkoa",
+        "León",
+        "Madrid",
+        "Murcia",
+        "Málaga",
+        "Palencia",
+        "Salamanca",
+        "Segovia",
+        "Soria",
+        "Toledo",
+        "Valladolid",
+        "Zamora",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"Frente Amplio (FA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FRENTE AMPLIO (FA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Bizkaia",
+        "Cantabria",
+        "Cuenca",
+        "Guadalajara",
+        "Jaén",
+        "La Rioja"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"FRENTE AMPLIO (FA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Frente Amplio - Fronte Ampla (FRENTE AMPLIO - FRONTE AMPLA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Pontevedra"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"Frente Amplio - Fronte Ampla (FRENTE AMPLIO - FRONTE AMPLA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FRENTE AMPLIO ANDALUZ (FA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Córdoba"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"FRENTE AMPLIO ANDALUZ (FA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Frente Amplio Andaluz (FA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Cádiz",
+        "Granada",
+        "Huelva",
+        "Sevilla"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"Frente Amplio Andaluz (FA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FRENTE AMPLIO-FRONTE AMPLA (FRENTE AMPLIO-FRONTE AMPLA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Lugo"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"FRENTE AMPLIO-FRONTE AMPLA (FRENTE AMPLIO-FRONTE AMPLA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Frente Amplio-Fronte Ampla (FRENTE AMPLIO-FRONTE AMPLA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Ourense"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"Frente Amplio-Fronte Ampla (FRENTE AMPLIO-FRONTE AMPLA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FRENTE AMPLIO-FRONTE ZABALA (FRENTE AMPLIO-FRONTE ZABALA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Navarra",
+        "Álava"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"FRENTE AMPLIO-FRONTE ZABALA (FRENTE AMPLIO-FRONTE ZABALA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FRENTE AMPLIU POR ASTURIES (FA)",
+      "canonical": "Frente Amplio",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Amplio. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Un programa como una casa · Programa electoral",
+          "url": "https://frenteamplio.info/pdf/ProgramaFrenteAmplio.pdf"
+        },
+        {
+          "title": "Medidas por temática · Programa web",
+          "url": "https://frenteamplio.info/programa/"
+        },
+        {
+          "title": "Autónomos y pequeño comercio · Medida oficial",
+          "url": "https://frenteamplio.info/programa/proteccion-autonomos-pequeno-comercio/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Asturias"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fa",
+        "fa-web",
+        "fa-auto"
+      ],
+      "searchQuery": "\"FRENTE AMPLIU POR ASTURIES (FA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FRENTE OBRERO",
+      "canonical": "Frente Obrero",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Obrero. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Prioridades para el Congreso · Presentación oficial",
+          "url": "https://frenteobrero.es/"
+        },
+        {
+          "title": "Programa Frente Obrero · Programa político general PDF",
+          "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Ceuta"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fo",
+        "fo-pdf"
+      ],
+      "searchQuery": "\"FRENTE OBRERO\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "FRENTE OBRERO (FO)",
+      "canonical": "Frente Obrero",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Obrero. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Prioridades para el Congreso · Presentación oficial",
+          "url": "https://frenteobrero.es/"
+        },
+        {
+          "title": "Programa Frente Obrero · Programa político general PDF",
+          "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Albacete",
+        "Alicante",
+        "Almería",
+        "Asturias",
+        "Badajoz",
+        "Barcelona",
+        "Bizkaia",
+        "Burgos",
+        "Cantabria",
+        "Castellón",
+        "Ciudad Real",
+        "Cuenca",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Gipuzkoa",
+        "Girona",
+        "Granada",
+        "Guadalajara",
+        "Huelva",
+        "Huesca",
+        "Illes Balears",
+        "Jaén",
+        "La Rioja",
+        "Las Palmas",
+        "León",
+        "Lleida",
+        "Lugo",
+        "Madrid",
+        "Melilla",
+        "Murcia",
+        "Málaga",
+        "Navarra",
+        "Ourense",
+        "Palencia",
+        "Salamanca",
+        "Santa Cruz De Tenerife",
+        "Segovia",
+        "Sevilla",
+        "Soria",
+        "Tarragona",
+        "Teruel",
+        "Toledo",
+        "Valencia",
+        "Valladolid",
+        "Zamora",
+        "Zaragoza",
+        "Álava",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fo",
+        "fo-pdf"
+      ],
+      "searchQuery": "\"FRENTE OBRERO (FO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Frente Obrero (FO)",
+      "canonical": "Frente Obrero",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Frente Obrero. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Prioridades para el Congreso · Presentación oficial",
+          "url": "https://frenteobrero.es/"
+        },
+        {
+          "title": "Programa Frente Obrero · Programa político general PDF",
+          "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Pontevedra"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "fo",
+        "fo-pdf"
+      ],
+      "searchQuery": "\"Frente Obrero (FO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "GEROA BAI (GBAI)",
+      "canonical": "Geroa Bai",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Geroa Bai. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Bases políticas · Elecciones generales 29N · Programa electoral PDF",
+          "url": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Navarra"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "geroa"
+      ],
+      "searchQuery": "\"GEROA BAI (GBAI)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "INICIATIVA POR LA GOMERA (IxLG)",
+      "canonical": "INICIATIVA POR LA GOMERA (IxLG)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"INICIATIVA POR LA GOMERA (IxLG)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "IUSTITIA EUROPA (IE)",
+      "canonical": "Iustitia Europa",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Iustitia Europa. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Contrato electoral · política económica · Programa web",
+          "url": "https://iustitiaeuropa.es/politica-economica-tijeretazo/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Madrid"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "ie"
+      ],
+      "searchQuery": "\"IUSTITIA EUROPA (IE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "JUNTS PER CATALUNYA (JxCat)",
+      "canonical": "Junts",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Junts. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Catalunya al centre · Programa web",
+          "url": "https://www.tualcentre.cat/catalunya-al-centre/"
+        },
+        {
+          "title": "Catalunya al centre · PDF · Programa electoral",
+          "url": "https://www.tualcentre.cat/app/uploads/2026/11/PROGRAMA-ELECTORAL_JUNTS_29N.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona",
+        "Girona",
+        "Lleida",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "junts",
+        "junts-pdf"
+      ],
+      "searchQuery": "\"JUNTS PER CATALUNYA (JxCat)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "LIBERACIÓN CANARIA (LIB)",
+      "canonical": "LIBERACIÓN CANARIA (LIB)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Las Palmas",
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"LIBERACIÓN CANARIA (LIB)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "MENORCA AL SENAT (PSOE-MÉS PER MENORCA-EM-EU-PODEMOS)",
+      "canonical": "MENORCA AL SENAT (PSOE-MÉS PER MENORCA-EM-EU-PODEMOS)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Illes Balears"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"MENORCA AL SENAT (PSOE-MÉS PER MENORCA-EM-EU-PODEMOS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA (1.ºCAN-CCa)",
+      "canonical": "CC-Primero Canarias",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de CC-Primero Canarias. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Defiende Canarias. Bases del programa · Programa electoral",
+          "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Las Palmas"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "cc"
+      ],
+      "searchQuery": "\"MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA (1.ºCAN-CCa)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA (NEX)",
+      "canonical": "Nuevo Extremeñismo",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Nuevo Extremeñismo. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Lo que llevaremos a Madrid · 29N · Programa electoral PDF",
+          "url": "https://www.nuevoext.es/descargas/Programa-Electoral-Generales-29N.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Badajoz",
+        "Cáceres"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "nex"
+      ],
+      "searchQuery": "\"NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA (NEX)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)",
+      "canonical": "PACMA",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PACMA. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N · Programa electoral",
+          "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Albacete",
+        "Alicante",
+        "Almería",
+        "Asturias",
+        "Bizkaia",
+        "Castellón",
+        "Cuenca",
+        "Cádiz",
+        "Córdoba",
+        "Gipuzkoa",
+        "Girona",
+        "Granada",
+        "Huelva",
+        "Huesca",
+        "Jaén",
+        "La Rioja",
+        "Las Palmas",
+        "León",
+        "Madrid",
+        "Málaga",
+        "Navarra",
+        "Santa Cruz De Tenerife",
+        "Segovia",
+        "Sevilla",
+        "Tarragona",
+        "Teruel",
+        "Valencia",
+        "Valladolid",
+        "Álava"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pacma"
+      ],
+      "searchQuery": "\"PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)",
+      "canonical": "Partido Autónomos",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Partido Autónomos. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa político 2026 · Elecciones generales 29N · Programa electoral PDF",
+          "url": "https://www.partidoautonomos.es/wp-content/uploads/2026/11/PARTIDO-AUTONOMOS-PROGRAMA-ELECCIONES-GENERALES-2026-29N.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Alicante",
+        "Castellón",
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "autonomos"
+      ],
+      "searchQuery": "\"PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "canonical": "PCTE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PCTE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa de lucha · Programa político",
+          "url": "https://oposicionobrera.pcte.es/es/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Alicante",
+        "Almería",
+        "Asturias",
+        "Burgos",
+        "Cantabria",
+        "Castellón",
+        "Cuenca",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Granada",
+        "Guadalajara",
+        "Huelva",
+        "Huesca",
+        "Illes Balears",
+        "Jaén",
+        "La Rioja",
+        "Las Palmas",
+        "León",
+        "Madrid",
+        "Murcia",
+        "Málaga",
+        "Navarra",
+        "Palencia",
+        "Salamanca",
+        "Santa Cruz De Tenerife",
+        "Segovia",
+        "Sevilla",
+        "Soria",
+        "Teruel",
+        "Toledo",
+        "Valencia",
+        "Valladolid",
+        "Zamora",
+        "Zaragoza",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pcte"
+      ],
+      "searchQuery": "\"PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA (PCTE/ELAK)",
+      "canonical": "PCTE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PCTE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa de lucha · Programa político",
+          "url": "https://oposicionobrera.pcte.es/es/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Bizkaia",
+        "Álava"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pcte"
+      ],
+      "searchQuery": "\"PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA (PCTE/ELAK)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO COMUNISTA DEL PUEBLO CANARIO (PCPC)",
+      "canonical": "PARTIDO COMUNISTA DEL PUEBLO CANARIO (PCPC)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Las Palmas"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"PARTIDO COMUNISTA DEL PUEBLO CANARIO (PCPC)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Partido Comunista dos Traballadores da Galiza (PCTG)",
+      "canonical": "PCTE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PCTE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa de lucha · Programa político",
+          "url": "https://oposicionobrera.pcte.es/es/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Pontevedra"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pcte"
+      ],
+      "searchQuery": "\"Partido Comunista dos Traballadores da Galiza (PCTG)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA (PCTG)",
+      "canonical": "PCTE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PCTE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa de lucha · Programa político",
+          "url": "https://oposicionobrera.pcte.es/es/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Ourense"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pcte"
+      ],
+      "searchQuery": "\"PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA (PCTG)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS (P.D.S.J.E.)",
+      "canonical": "PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS (P.D.S.J.E.)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS (P.D.S.J.E.)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSdeG-PSOE)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Lugo"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSdeG-PSOE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Ourense",
+        "Pontevedra"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO DRAGO CANARIAS (D.R.G)",
+      "canonical": "Drago Canarias",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Drago Canarias. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "La esperanza vence al miedo · 29N · Programa electoral PDF",
+          "url": "https://www.dragocanarias.com/wp-content/uploads/2026/11/Drago-Canarias-Programa-electoral-29N-2.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Las Palmas",
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "drago"
+      ],
+      "searchQuery": "\"PARTIDO DRAGO CANARIAS (D.R.G)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO HUMANISTA (PH)",
+      "canonical": "Partido Humanista",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Partido Humanista. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa elecciones generales 2026 · Programa electoral",
+          "url": "https://partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Madrid"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "ph"
+      ],
+      "searchQuery": "\"PARTIDO HUMANISTA (PH)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA (PANCAL-URCI)",
+      "canonical": "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA (PANCAL-URCI)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Valladolid"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA (PANCAL-URCI)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO POPULAR (PP)",
+      "canonical": "PP",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PP. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "La Reconstrucción Nacional · presentación oficial · Presentación oficial",
+          "url": "https://www.pp.es/actualidad/articulos/reparar-el-estado-regenerar-la-democracia-reunir-a-la-nacion-y-recuperar-la-ambicion-los-cuatro-pilares-de-la-reconstruccion-nacional-que-feijoo-cumplira-si-o-si/"
+        },
+        {
+          "title": "La Reconstrucción Nacional · PDF completo · Programa electoral",
+          "url": "https://www.pp.es/storage/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Albacete",
+        "Alicante",
+        "Almería",
+        "Asturias",
+        "Badajoz",
+        "Bizkaia",
+        "Burgos",
+        "Cantabria",
+        "Castellón",
+        "Ceuta",
+        "Ciudad Real",
+        "Cuenca",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Gipuzkoa",
+        "Granada",
+        "Guadalajara",
+        "Huelva",
+        "Huesca",
+        "Illes Balears",
+        "Jaén",
+        "La Rioja",
+        "Las Palmas",
+        "León",
+        "Lleida",
+        "Lugo",
+        "Madrid",
+        "Melilla",
+        "Murcia",
+        "Málaga",
+        "Ourense",
+        "Palencia",
+        "Salamanca",
+        "Santa Cruz De Tenerife",
+        "Segovia",
+        "Sevilla",
+        "Soria",
+        "Teruel",
+        "Toledo",
+        "Valencia",
+        "Valladolid",
+        "Zamora",
+        "Zaragoza",
+        "Álava",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pp",
+        "pp-pdf"
+      ],
+      "searchQuery": "\"PARTIDO POPULAR (PP)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "Partido Popular (PP)",
+      "canonical": "PP",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PP. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "La Reconstrucción Nacional · presentación oficial · Presentación oficial",
+          "url": "https://www.pp.es/actualidad/articulos/reparar-el-estado-regenerar-la-democracia-reunir-a-la-nacion-y-recuperar-la-ambicion-los-cuatro-pilares-de-la-reconstruccion-nacional-que-feijoo-cumplira-si-o-si/"
+        },
+        {
+          "title": "La Reconstrucción Nacional · PDF completo · Programa electoral",
+          "url": "https://www.pp.es/storage/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Pontevedra"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pp",
+        "pp-pdf"
+      ],
+      "searchQuery": "\"Partido Popular (PP)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO REGIONALISTA DEL PAIS LEONES (PREPAL)",
+      "canonical": "PARTIDO REGIONALISTA DEL PAIS LEONES (PREPAL)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "León",
+        "Salamanca",
+        "Zamora"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"PARTIDO REGIONALISTA DEL PAIS LEONES (PREPAL)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) PSE-EE (PSOE)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Bizkaia",
+        "Gipuzkoa",
+        "Álava"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) PSE-EE (PSOE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO SOCIALISTA DE HUELVA (PSOE)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Huelva"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"PARTIDO SOCIALISTA DE HUELVA (PSOE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO SOCIALISTA DE LAS ISLAS BALEARES (PSIB-PSOE)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Illes Balears"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"PARTIDO SOCIALISTA DE LAS ISLAS BALEARES (PSIB-PSOE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO SOCIALISTA DE NAVARRA-PSOE (PSN-PSOE)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Navarra"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"PARTIDO SOCIALISTA DE NAVARRA-PSOE (PSN-PSOE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Albacete",
+        "Alicante",
+        "Almería",
+        "Asturias",
+        "Badajoz",
+        "Burgos",
+        "Cantabria",
+        "Castellón",
+        "Ceuta",
+        "Ciudad Real",
+        "Cuenca",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Granada",
+        "Guadalajara",
+        "Huesca",
+        "Jaén",
+        "La Rioja",
+        "Las Palmas",
+        "León",
+        "Madrid",
+        "Melilla",
+        "Murcia",
+        "Málaga",
+        "Palencia",
+        "Salamanca",
+        "Santa Cruz De Tenerife",
+        "Segovia",
+        "Sevilla",
+        "Soria",
+        "Teruel",
+        "Toledo",
+        "Valencia",
+        "Valladolid",
+        "Zamora",
+        "Zaragoza",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIDO UNIONISTA ESTADO DE ESPAÑA (PUEDE)",
+      "canonical": "PARTIDO UNIONISTA ESTADO DE ESPAÑA (PUEDE)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Asturias"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"PARTIDO UNIONISTA ESTADO DE ESPAÑA (PUEDE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIT ANIMALISTA AMB EL MEDI AMBIENT (PACMA)",
+      "canonical": "PACMA",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PACMA. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N · Programa electoral",
+          "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Lleida"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "pacma"
+      ],
+      "searchQuery": "\"PARTIT ANIMALISTA AMB EL MEDI AMBIENT (PACMA)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA (PCTC)",
+      "canonical": "PCTE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PCTE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa de lucha · Programa político",
+          "url": "https://oposicionobrera.pcte.es/es/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona",
+        "Girona",
+        "Lleida",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pcte"
+      ],
+      "searchQuery": "\"PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA (PCTC)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+      "canonical": "PSOE",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PSOE. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 29N26 · Programa electoral",
+          "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona",
+        "Girona",
+        "Lleida",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "psoe"
+      ],
+      "searchQuery": "\"PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PARTIT POPULAR / PARTIDO POPULAR (PP)",
+      "canonical": "PP",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de PP. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "La Reconstrucción Nacional · presentación oficial · Presentación oficial",
+          "url": "https://www.pp.es/actualidad/articulos/reparar-el-estado-regenerar-la-democracia-reunir-a-la-nacion-y-recuperar-la-ambicion-los-cuatro-pilares-de-la-reconstruccion-nacional-que-feijoo-cumplira-si-o-si/"
+        },
+        {
+          "title": "La Reconstrucción Nacional · PDF completo · Programa electoral",
+          "url": "https://www.pp.es/storage/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Barcelona",
+        "Girona",
+        "Lleida",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "pp",
+        "pp-pdf"
+      ],
+      "searchQuery": "\"PARTIT POPULAR / PARTIDO POPULAR (PP)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PODEMOS",
+      "canonical": "Podemos",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Podemos. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Así de básico: paz, casa y trabajo · Programa electoral",
+          "url": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "La Rioja"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "podemos"
+      ],
+      "searchQuery": "\"PODEMOS\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PODEMOS (PAZ,CASA Y TRABAJO)",
+      "canonical": "Podemos",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Podemos. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Así de básico: paz, casa y trabajo · Programa electoral",
+          "url": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Ceuta"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "podemos"
+      ],
+      "searchQuery": "\"PODEMOS (PAZ,CASA Y TRABAJO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PODEMOS (PODEMOS)",
+      "canonical": "Podemos",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Podemos. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Así de básico: paz, casa y trabajo · Programa electoral",
+          "url": "https://podemos.info/wp-content/uploads/2026/11/29N-programa-Podemos.-Paz-casa-y-trabajo.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Albacete",
+        "Almería",
+        "Asturias",
+        "Badajoz",
+        "Bizkaia",
+        "Burgos",
+        "Cantabria",
+        "Ciudad Real",
+        "Cuenca",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Gipuzkoa",
+        "Granada",
+        "Guadalajara",
+        "Huelva",
+        "Huesca",
+        "Jaén",
+        "León",
+        "Lugo",
+        "Madrid",
+        "Murcia",
+        "Málaga",
+        "Navarra",
+        "Ourense",
+        "Palencia",
+        "Pontevedra",
+        "Salamanca",
+        "Segovia",
+        "Sevilla",
+        "Soria",
+        "Teruel",
+        "Toledo",
+        "Valladolid",
+        "Zamora",
+        "Zaragoza",
+        "Álava",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "podemos"
+      ],
+      "searchQuery": "\"PODEMOS (PODEMOS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "POR UN MUNDO MAIS XUSTO (MUNDO+JUSTO)",
+      "canonical": "Por un Mundo Más Justo",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Por un Mundo Más Justo. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Si no es justo, cámbialo · 29N · Programa web",
+          "url": "https://www.porunmundomasjusto.es/programa-electoral-2026/"
+        },
+        {
+          "title": "Si no es justo, cámbialo · Programa completo 29N · Programa electoral PDF",
+          "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Ourense"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "mj",
+        "mj-full"
+      ],
+      "searchQuery": "\"POR UN MUNDO MAIS XUSTO (MUNDO+JUSTO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+      "canonical": "Por un Mundo Más Justo",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Por un Mundo Más Justo. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Si no es justo, cámbialo · 29N · Programa web",
+          "url": "https://www.porunmundomasjusto.es/programa-electoral-2026/"
+        },
+        {
+          "title": "Si no es justo, cámbialo · Programa completo 29N · Programa electoral PDF",
+          "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Albacete",
+        "Almería",
+        "Asturias",
+        "Badajoz",
+        "Bizkaia",
+        "Burgos",
+        "Cuenca",
+        "Cádiz",
+        "Granada",
+        "Guadalajara",
+        "Huesca",
+        "Jaén",
+        "Madrid",
+        "Navarra",
+        "Palencia",
+        "Segovia",
+        "Sevilla",
+        "Soria",
+        "Tarragona",
+        "Valencia",
+        "Valladolid",
+        "Zaragoza",
+        "Álava",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "mj",
+        "mj-full"
+      ],
+      "searchQuery": "\"POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "POR UN MUNDO MÁS JUSTO (MUNDO+JUSTO)",
+      "canonical": "Por un Mundo Más Justo",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Por un Mundo Más Justo. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Si no es justo, cámbialo · 29N · Programa web",
+          "url": "https://www.porunmundomasjusto.es/programa-electoral-2026/"
+        },
+        {
+          "title": "Si no es justo, cámbialo · Programa completo 29N · Programa electoral PDF",
+          "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Las Palmas"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "mj",
+        "mj-full"
+      ],
+      "searchQuery": "\"POR UN MUNDO MÁS JUSTO (MUNDO+JUSTO)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "PROYECTO ALANTRE (P. ALANTRE)",
+      "canonical": "Proyecto Alantre",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Proyecto Alantre. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Doce compromisos para el Congreso · Programa web",
+          "url": "https://ya-toca.com/programa/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "León"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "alantre"
+      ],
+      "searchQuery": "\"PROYECTO ALANTRE (P. ALANTRE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "RENACER RENAIXER (RRB)",
+      "canonical": "RENACER RENAIXER (RRB)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Valencia"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"RENACER RENAIXER (RRB)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SA UNIÓ DE FORMENTERA (PP-COMPROMÍS) (SA UNIÓ)",
+      "canonical": "SA UNIÓ DE FORMENTERA (PP-COMPROMÍS) (SA UNIÓ)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Illes Balears"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SA UNIÓ DE FORMENTERA (PP-COMPROMÍS) (SA UNIÓ)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SE ACABÓ LA FIESTA (SALF)",
+      "canonical": "Se Acabó la Fiesta",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Se Acabó la Fiesta. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "La ilusión de un país · compromisos · Programa web",
+          "url": "https://www.seacabolafiesta.com/29n"
+        },
+        {
+          "title": "Contrato electoral simplificado · Generales 29N 2026 · Documento enlazado",
+          "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Albacete",
+        "Alicante",
+        "Almería",
+        "Asturias",
+        "Badajoz",
+        "Barcelona",
+        "Burgos",
+        "Castellón",
+        "Cuenca",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Granada",
+        "Guadalajara",
+        "Huelva",
+        "Huesca",
+        "Illes Balears",
+        "Jaén",
+        "Las Palmas",
+        "León",
+        "Lugo",
+        "Madrid",
+        "Melilla",
+        "Murcia",
+        "Málaga",
+        "Navarra",
+        "Ourense",
+        "Palencia",
+        "Pontevedra",
+        "Salamanca",
+        "Santa Cruz De Tenerife",
+        "Segovia",
+        "Sevilla",
+        "Soria",
+        "Tarragona",
+        "Teruel",
+        "Toledo",
+        "Valencia",
+        "Valladolid",
+        "Zamora",
+        "Zaragoza",
+        "Álava",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "salf",
+        "salf-pdf"
+      ],
+      "searchQuery": "\"SE ACABÓ LA FIESTA (SALF)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SE ACABO LA FIESTA (SALF)",
+      "canonical": "Se Acabó la Fiesta",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Se Acabó la Fiesta. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "La ilusión de un país · compromisos · Programa web",
+          "url": "https://www.seacabolafiesta.com/29n"
+        },
+        {
+          "title": "Contrato electoral simplificado · Generales 29N 2026 · Documento enlazado",
+          "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Ceuta",
+        "La Rioja"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [
+        "salf",
+        "salf-pdf"
+      ],
+      "searchQuery": "\"SE ACABO LA FIESTA (SALF)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO",
+      "canonical": "SENADO DE PROGRESO",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Ceuta"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO (SDP (PSOE-COMPROMIS-EUPV))",
+      "canonical": "SENADO DE PROGRESO (SDP (PSOE-COMPROMIS-EUPV))",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Alicante",
+        "Valencia"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO (SDP (PSOE-COMPROMIS-EUPV))\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO (SDP (PSOE-IU-MS))",
+      "canonical": "SENADO DE PROGRESO (SDP (PSOE-IU-MS))",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Albacete",
+        "Almería",
+        "Badajoz",
+        "Burgos",
+        "Cantabria",
+        "Ciudad Real",
+        "Cuenca",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Granada",
+        "Guadalajara",
+        "Huelva",
+        "Jaén",
+        "León",
+        "Melilla",
+        "Málaga",
+        "Palencia",
+        "Salamanca",
+        "Sevilla",
+        "Soria",
+        "Toledo",
+        "Valladolid",
+        "Zamora",
+        "Ávila"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO (SDP (PSOE-IU-MS))\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO (SDP (PSOE-IUN NEB-MS-BATZARRE))",
+      "canonical": "SENADO DE PROGRESO (SDP (PSOE-IUN NEB-MS-BATZARRE))",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Navarra"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO (SDP (PSOE-IUN NEB-MS-BATZARRE))\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO (SDP (PSOE-MM-IU-MS))",
+      "canonical": "SENADO DE PROGRESO (SDP (PSOE-MM-IU-MS))",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Madrid"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO (SDP (PSOE-MM-IU-MS))\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO (SDP (PSOE-MS))",
+      "canonical": "SENADO DE PROGRESO (SDP (PSOE-MS))",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Lugo"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO (SDP (PSOE-MS))\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO / AURRERA DOAN SENATUA SDP (PSOE-EZAN IU-MS)",
+      "canonical": "SENADO DE PROGRESO / AURRERA DOAN SENATUA SDP (PSOE-EZAN IU-MS)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Álava"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO / AURRERA DOAN SENATUA SDP (PSOE-EZAN IU-MS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO [SDP (PSOE-COMPROMIS-EUPV)]",
+      "canonical": "SENADO DE PROGRESO [SDP (PSOE-COMPROMIS-EUPV)]",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Castellón"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO [SDP (PSOE-COMPROMIS-EUPV)]\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO [SDP (PSOE-IU-MS)]",
+      "canonical": "SENADO DE PROGRESO [SDP (PSOE-IU-MS)]",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Asturias",
+        "Murcia",
+        "Segovia"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO [SDP (PSOE-IU-MS)]\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO [SDP (PSOE-MS)]",
+      "canonical": "SENADO DE PROGRESO [SDP (PSOE-MS)]",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Ourense"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO [SDP (PSOE-MS)]\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO DE ARAGÓN (SDP (PSOE-CHA-IU-MS))",
+      "canonical": "SENADO DE PROGRESO DE ARAGÓN (SDP (PSOE-CHA-IU-MS))",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Teruel",
+        "Zaragoza"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO DE ARAGÓN (SDP (PSOE-CHA-IU-MS))\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO DE ARAGÓN [SDP (PSOE-CHA-IU-MS)]",
+      "canonical": "SENADO DE PROGRESO DE ARAGÓN [SDP (PSOE-CHA-IU-MS)]",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Huesca"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO DE ARAGÓN [SDP (PSOE-CHA-IU-MS)]\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO SDP (PSOE-IU-MS)",
+      "canonical": "SENADO DE PROGRESO SDP (PSOE-IU-MS)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "La Rioja"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO SDP (PSOE-IU-MS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SENADO DE PROGRESO/AURRERA DOAN SENATUA SDP (PSOE-EZAN IU-MS)",
+      "canonical": "SENADO DE PROGRESO/AURRERA DOAN SENATUA SDP (PSOE-EZAN IU-MS)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Bizkaia",
+        "Gipuzkoa"
+      ],
+      "chambers": [
+        "Senado"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"SENADO DE PROGRESO/AURRERA DOAN SENATUA SDP (PSOE-EZAN IU-MS)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "SORIA ¡YA! (SY)",
+      "canonical": "Soria ¡Ya!",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Soria ¡Ya!. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa generales 2026 · 29N · Programa electoral PDF",
+          "url": "https://soriaya.org/wp-content/uploads/2026/11/ProgramaGenerales_26.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Soria"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "soria"
+      ],
+      "searchQuery": "\"SORIA ¡YA! (SY)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "TERCERA EDAD EN ACCIÓN (3e)",
+      "canonical": "Tercera Edad en Acción",
+      "status": "Publicación política general",
+      "statusLabel": "Publicación política general",
+      "note": "Referencias oficiales de Tercera Edad en Acción. Publicación general o permanente: se distingue del programa específico de esta convocatoria. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Programa político En Acción 3e · 2026 · Programa político general PDF",
+          "url": "https://3edad.org/wp-content/uploads/2026/11/Programa_Politico_En_Accion_3e_2026_Propuesta_Revisada.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Murcia"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "3e"
+      ],
+      "searchQuery": "\"TERCERA EDAD EN ACCIÓN (3e)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "TERUEL EXISTE (TERUEL EXISTE)",
+      "canonical": "Teruel Existe",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Teruel Existe. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Vamos a seguir defendiendo nuestra tierra · 29N · Programa electoral PDF",
+          "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Teruel"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "teruel"
+      ],
+      "searchQuery": "\"TERUEL EXISTE (TERUEL EXISTE)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)",
+      "canonical": "Unidad del Pueblo Canario",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Unidad del Pueblo Canario. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Una sola papeleta. Todo un pueblo · Manifiesto electoral · Programa electoral PDF",
+          "url": "https://www.unidadpueblocanario.org/documentos/manifiesto-upc.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Las Palmas",
+        "Santa Cruz De Tenerife"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "upc"
+      ],
+      "searchQuery": "\"UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "UNIÓN DEL PUEBLO NAVARRO EN COALICIÓN CON EL PARTIDO POPULAR (UPN-PP)",
+      "canonical": "UPN-PP",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de UPN-PP. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Compromisos de la coalición · 29N · Compromisos de campaña",
+          "url": "https://upn-pp.es/"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Navarra"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "upn"
+      ],
+      "searchQuery": "\"UNIÓN DEL PUEBLO NAVARRO EN COALICIÓN CON EL PARTIDO POPULAR (UPN-PP)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "VALENCIA UNIDA (VLC)",
+      "canonical": "VALENCIA UNIDA (VLC)",
+      "status": "No localizado en esta revisión",
+      "statusLabel": "No localizado en esta revisión",
+      "note": "No se ha verificado un programa propio de esta denominación en las consultas realizadas. No equivale a que no exista: no se atribuyen propuestas por ideología, silencio o por pertenecer a una coalición.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "Valencia"
+      ],
+      "chambers": [
+        "Congreso"
+      ],
+      "documentIds": [],
+      "searchQuery": "\"VALENCIA UNIDA (VLC)\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "VOX",
+      "canonical": "Vox",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Vox. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Es sentido común · Programa electoral",
+          "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "La Rioja",
+        "Tarragona"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "vox"
+      ],
+      "searchQuery": "\"VOX\" programa elecciones generales 29N 2026"
+    },
+    {
+      "name": "VOX (VOX)",
+      "canonical": "Vox",
+      "status": "Documentación oficial localizada",
+      "statusLabel": "Documentación oficial localizada",
+      "note": "Referencias oficiales de Vox. Consulta el tipo y alcance de cada documento; presentación, compromiso y programa completo son categorías diferentes. La denominación territorial se conserva. Los documentos de ámbito común no sustituyen posibles compromisos territoriales.",
+      "sources": [
+        {
+          "title": "BOE: proclamación y denominación de la candidatura",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103"
+        },
+        {
+          "title": "Es sentido común · Programa electoral",
+          "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf"
+        }
+      ],
+      "checked": "2026-11-26",
+      "territories": [
+        "A Coruña",
+        "Albacete",
+        "Alicante",
+        "Almería",
+        "Asturias",
+        "Badajoz",
+        "Barcelona",
+        "Bizkaia",
+        "Burgos",
+        "Cantabria",
+        "Castellón",
+        "Ceuta",
+        "Ciudad Real",
+        "Cuenca",
+        "Cáceres",
+        "Cádiz",
+        "Córdoba",
+        "Gipuzkoa",
+        "Girona",
+        "Granada",
+        "Guadalajara",
+        "Huelva",
+        "Huesca",
+        "Illes Balears",
+        "Jaén",
+        "Las Palmas",
+        "León",
+        "Lleida",
+        "Lugo",
+        "Madrid",
+        "Melilla",
+        "Murcia",
+        "Málaga",
+        "Navarra",
+        "Ourense",
+        "Palencia",
+        "Pontevedra",
+        "Salamanca",
+        "Santa Cruz De Tenerife",
+        "Segovia",
+        "Sevilla",
+        "Soria",
+        "Tarragona",
+        "Teruel",
+        "Toledo",
+        "Valencia",
+        "Valladolid",
+        "Zamora",
+        "Zaragoza",
+        "Álava",
+        "Ávila"
+      ],
+      "chambers": [
+        "Congreso",
+        "Senado"
+      ],
+      "documentIds": [
+        "vox"
+      ],
+      "searchQuery": "\"VOX (VOX)\" programa elecciones generales 29N 2026"
+    }
+  ]
+}

@@ -26,18 +26,20 @@ jobs:
       - name: Pruebas de datos e interacciones
         run: |
           node --check elecciones-29n/app.js
-          node --test elecciones-29n/tests/core.test.cjs
+          node --test elecciones-29n/tests/*.test.cjs
           python3 -m unittest discover -s elecciones-29n/tests -p 'test_*.py' -v
       - name: Preparar extracción PDF
         run: sudo apt-get update -qq && sudo apt-get install -y poppler-utils
       - name: Comprobar fuentes primarias
         run: python3 elecciones-29n/scripts/monitor.py
+      - name: Renovar índice léxico de documentos
+        run: python3 elecciones-29n/scripts/build_document_index.py
       - name: Guardar seguimiento
         run: |
-          if ! git diff --quiet -- elecciones-29n/noticias.json; then
+          if ! git diff --quiet -- elecciones-29n/noticias.json elecciones-29n/data/document-index.json elecciones-29n/data/document-index/; then
             git config user.name 'electoral-observatory[bot]'
             git config user.email 'electoral-observatory[bot]@users.noreply.github.com'
-            git add elecciones-29n/noticias.json
+            git add elecciones-29n/noticias.json elecciones-29n/data/document-index.json elecciones-29n/data/document-index/
             git commit -m 'Actualiza comprobaciones y versiones electorales'
             git pull --rebase origin main
             git push origin HEAD:main

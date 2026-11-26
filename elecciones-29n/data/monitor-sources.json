@@ -209,92 +209,118 @@
   {
     "id": "feed-1",
     "party": "PP",
-    "url": "https://pp.es/feed/",
-    "kind": "feed",
+    "url": "https://www.pp.es/actualidad/noticias/",
+    "kind": "news-html",
     "hosts": [
       "pp.es"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada",
+    "linkPattern": "/actualidad/articulos/[^/]+"
   },
   {
     "id": "feed-2",
     "party": "PSOE",
-    "url": "https://psoe.es/feed/",
-    "kind": "feed",
+    "url": "https://www.psoe.es/actualidad/noticias-actualidad/",
+    "kind": "news-html",
     "hosts": [
       "psoe.es"
-    ]
+    ],
+    "linkPattern": "/actualidad/noticias-actualidad/[^/]+",
+    "note": "Portal de noticias oficial. El acceso automatizado puede estar protegido; un bloqueo se publica como incidencia.",
+    "verified": "2026-11-25"
   },
   {
     "id": "feed-3",
     "party": "Vox",
-    "url": "https://voxespana.es/feed/",
-    "kind": "feed",
+    "url": "https://www.voxespana.es/noticias",
+    "kind": "news-html",
     "hosts": [
       "voxespana.es"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada",
+    "linkPattern": "/(?:actualidad|noticias|abascal)/[^/]+"
   },
   {
     "id": "feed-4",
     "party": "Frente Amplio",
-    "url": "https://frenteamplio.info/feed/",
+    "url": "https://frenteamplio.info/feed.xml",
     "kind": "feed",
     "hosts": [
       "frenteamplio.info"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada"
   },
   {
     "id": "feed-5",
     "party": "Podemos",
-    "url": "https://podemos.info/feed/",
-    "kind": "feed",
+    "url": "https://podemos.info/",
+    "kind": "news-html",
     "hosts": [
       "podemos.info"
-    ]
+    ],
+    "note": "Web oficial. El servidor devuelve403 a este monitor; se conserva la incidencia sin simular un RSS.",
+    "verified": "2026-11-25"
   },
   {
     "id": "feed-6",
     "party": "EAJ-PNV",
-    "url": "https://eaj-pnv.eus/feed/",
-    "kind": "feed",
+    "url": "https://www.eaj-pnv.eus/es/noticias/",
+    "kind": "news-html",
     "hosts": [
       "eaj-pnv.eus"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada",
+    "linkPattern": "/es/noticias/\\d+/"
   },
   {
     "id": "feed-7",
     "party": "BNG",
-    "url": "https://bng.gal/feed/",
+    "url": "https://www.bng.gal/rss/",
     "kind": "feed",
     "hosts": [
       "bng.gal"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada"
   },
   {
     "id": "feed-8",
     "party": "ERC",
-    "url": "https://esquerrarepublicana.cat/feed/",
-    "kind": "feed",
+    "url": "https://www.esquerra.cat/noticies/",
+    "kind": "news-html",
     "hosts": [
+      "esquerra.cat",
       "esquerrarepublicana.cat"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada"
   },
   {
     "id": "feed-9",
     "party": "EH Bildu",
-    "url": "https://ehbildu.eus/feed/",
+    "url": "https://posibleegin.ehbildu.eus/feed/",
     "kind": "feed",
     "hosts": [
       "ehbildu.eus"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada"
   },
   {
     "id": "feed-10",
     "party": "Compromís-Front Valencià",
-    "url": "https://frontvalencia.org/feed/",
-    "kind": "feed",
+    "url": "https://frontvalencia.org/",
+    "kind": "document",
     "hosts": [
       "frontvalencia.org"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada",
+    "note": "La web no anuncia un canal de noticias estructurado. Se vigila el contenido oficial y se registran diferencias técnicas; no se simula un RSS."
   },
   {
     "id": "feed-11",
@@ -308,20 +334,27 @@
   {
     "id": "feed-12",
     "party": "Junts",
-    "url": "https://tualcentre.cat/feed/",
-    "kind": "feed",
+    "url": "https://www.tualcentre.cat/actualitat/",
+    "kind": "news-html",
     "hosts": [
-      "tualcentre.cat"
-    ]
+      "tualcentre.cat",
+      "junts.cat"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada"
   },
   {
     "id": "feed-13",
     "party": "Se Acabó la Fiesta",
-    "url": "https://seacabolafiesta.com/feed/",
-    "kind": "feed",
+    "url": "https://www.seacabolafiesta.com/noticias",
+    "kind": "news-html",
     "hosts": [
       "seacabolafiesta.com"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada",
+    "linkPattern": "/noticias/[^/]+",
+    "note": "La portada sirve titulares mediante JavaScript; el HTML público no contiene noticias y la descarga del script devuelve403. La comprobación de página no equivale a extracción de noticias."
   },
   {
     "id": "feed-14",
@@ -344,11 +377,13 @@
   {
     "id": "feed-16",
     "party": "Frente Obrero",
-    "url": "https://frenteobrero.es/feed/",
-    "kind": "feed",
+    "url": "https://frenteobrero.es/actualidad/",
+    "kind": "news-html",
     "hosts": [
       "frenteobrero.es"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada"
   },
   {
     "id": "convocatoria",
@@ -425,11 +460,14 @@
   {
     "id": "feed-17",
     "party": "Partido Humanista",
-    "url": "https://partidohumanista.es/feed/",
-    "kind": "feed",
+    "url": "https://partidohumanista.es/",
+    "kind": "document",
     "hosts": [
       "partidohumanista.es"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada",
+    "note": "La web no anuncia un canal de noticias estructurado. Se vigila el contenido oficial y se registran diferencias técnicas; no se simula un RSS."
   },
   {
     "id": "feed-18",
@@ -443,11 +481,13 @@
   {
     "id": "feed-19",
     "party": "Iustitia Europa",
-    "url": "https://iustitiaeuropa.es/feed/",
-    "kind": "feed",
+    "url": "https://iustitiaeuropa.es/noticias/",
+    "kind": "news-html",
     "hosts": [
       "iustitiaeuropa.es"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada"
   },
   {
     "id": "feed-20",
@@ -461,11 +501,14 @@
   {
     "id": "feed-21",
     "party": "Democracia para el Siglo 21",
-    "url": "https://democracia21.es/feed/",
-    "kind": "feed",
+    "url": "https://mi.democracia21.es/programa",
+    "kind": "document",
     "hosts": [
       "democracia21.es"
-    ]
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Enlace o canal descubierto en la web oficial y descarga comprobada",
+    "note": "La web no anuncia un canal de noticias estructurado. Se vigila el contenido oficial y se registran diferencias técnicas; no se simula un RSS."
   },
   {
     "id": "feed-22",
@@ -474,6 +517,260 @@
     "kind": "feed",
     "hosts": [
       "porunmundomasjusto.es"
+    ]
+  },
+  {
+    "id": "podemos-eus-news",
+    "party": "Podemos",
+    "url": "https://podemos.eus/cas/actualidad/noticias",
+    "kind": "news-html",
+    "hosts": [
+      "podemos.eus"
+    ],
+    "verified": "2026-11-25",
+    "scope": "territorial",
+    "note": "Emisor territorial: Podemos Euskadi. Sus propuestas autonómicas no se atribuyen automáticamente al programa estatal."
+  },
+  {
+    "id": "jec-candidaturas",
+    "party": "JEC",
+    "url": "https://www.juntaelectoralcentral.es/cs/Satellite?c=JECEleccion_C&childpagename=JEC/JEC_Layout&cid=1408442446868&packedargs=apartado%3Dcandidaturas&pagename=jec/wrapper/JEC_Wrapper",
+    "kind": "document",
+    "hosts": [
+      "juntaelectoralcentral.es"
+    ],
+    "verified": "2026-11-25",
+    "note": "Fuente institucional de candidaturas y correcciones. Un cambio requiere reconciliación editorial antes de modificar fichas."
+  },
+  {
+    "id": "boe-correction-7nov",
+    "party": "BOE",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23383",
+    "kind": "document",
+    "hosts": [
+      "boe.es"
+    ],
+    "verified": "2026-11-25",
+    "note": "Fuente institucional de candidaturas y correcciones. Un cambio requiere reconciliación editorial antes de modificar fichas."
+  },
+  {
+    "id": "boe-correction-21nov",
+    "party": "BOE",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24503",
+    "kind": "document",
+    "hosts": [
+      "boe.es"
+    ],
+    "verified": "2026-11-25",
+    "note": "Fuente institucional de candidaturas y correcciones. Un cambio requiere reconciliación editorial antes de modificar fichas."
+  },
+  {
+    "id": "autonomos",
+    "party": "Partido Autónomos",
+    "url": "https://www.partidoautonomos.es/wp-content/uploads/2026/11/PARTIDO-AUTONOMOS-PROGRAMA-ELECCIONES-GENERALES-2026-29N.pdf",
+    "kind": "document",
+    "hosts": [
+      "partidoautonomos.es"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "nex",
+    "party": "Nuevo Extremeñismo",
+    "url": "https://www.nuevoext.es/descargas/Programa-Electoral-Generales-29N.pdf",
+    "kind": "document",
+    "hosts": [
+      "nuevoext.es"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "geroa",
+    "party": "Geroa Bai",
+    "url": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+    "kind": "document",
+    "hosts": [
+      "geroabai.eus"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "teruel",
+    "party": "Teruel Existe",
+    "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
+    "kind": "document",
+    "hosts": [
+      "teruelexiste.info"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "soria",
+    "party": "Soria ¡Ya!",
+    "url": "https://soriaya.org/wp-content/uploads/2026/11/ProgramaGenerales_26.pdf",
+    "kind": "document",
+    "hosts": [
+      "soriaya.org"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "pfac",
+    "party": "Feministas al Congreso",
+    "url": "https://www.feministasalcongreso.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL_2026.pdf",
+    "kind": "document",
+    "hosts": [
+      "feministasalcongreso.es"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "drago",
+    "party": "Drago Canarias",
+    "url": "https://www.dragocanarias.com/wp-content/uploads/2026/11/Drago-Canarias-Programa-electoral-29N-2.pdf",
+    "kind": "document",
+    "hosts": [
+      "dragocanarias.com"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "mj-full",
+    "party": "Por un Mundo Más Justo",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+    "kind": "document",
+    "hosts": [
+      "porunmundomasjusto.es"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "d21-full",
+    "party": "Democracia para el Siglo 21",
+    "url": "https://mi.democracia21.es/docs/programa/programa-democracia21.pdf",
+    "kind": "document",
+    "hosts": [
+      "mi.democracia21.es"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "convergents",
+    "party": "Convergents",
+    "url": "https://www.convergents.org/_files/ugd/d24b0b_2c84e86795954481a948f644038a7cb3.pdf",
+    "kind": "document",
+    "hosts": [
+      "convergents.org",
+      "9871ee46-e6b0-4708-9f79-d0ffed4c4f1d.filesusr.com"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "comuns",
+    "party": "Comuns-Front Ampli",
+    "url": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N-1.pdf",
+    "kind": "document",
+    "hosts": [
+      "comuns.cat"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "upc",
+    "party": "Unidad del Pueblo Canario",
+    "url": "https://www.unidadpueblocanario.org/documentos/manifiesto-upc.pdf",
+    "kind": "document",
+    "hosts": [
+      "unidadpueblocanario.org"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "arames",
+    "party": "Ara Més-Front Ampli",
+    "url": "https://media.timtul.com/media/web_mespermallorca/ProgramaElectoral29N_Corregit%20(1)_20261117173133.pdf",
+    "kind": "document",
+    "hosts": [
+      "media.timtul.com"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "3e",
+    "party": "Tercera Edad en Acción",
+    "url": "https://3edad.org/wp-content/uploads/2026/11/Programa_Politico_En_Accion_3e_2026_Propuesta_Revisada.pdf",
+    "kind": "document",
+    "hosts": [
+      "3edad.org"
+    ],
+    "verified": "2026-11-25",
+    "discovery": "Programa enlazado desde la web oficial; referencia del catálogo documental."
+  },
+  {
+    "id": "eb",
+    "party": "Escaños en Blanco",
+    "url": "https://escanos.org/conocenos/programa-electoral-de-escanos-en-blanco/",
+    "kind": "document",
+    "hosts": [
+      "escanos.org"
+    ]
+  },
+  {
+    "id": "alhora",
+    "party": "Alhora",
+    "url": "https://alhora.cat/alhora-es-presentara-a-les-eleccions-espanyoles-del-29n-amb-el-lema-fora-espanya/",
+    "kind": "document",
+    "hosts": [
+      "alhora.cat"
+    ]
+  },
+  {
+    "id": "eguz",
+    "party": "Eguzkilore",
+    "url": "https://www.eguzkilore-na.org/sample-page/",
+    "kind": "document",
+    "hosts": [
+      "eguzkilore-na.org"
+    ]
+  },
+  {
+    "id": "alantre",
+    "party": "Proyecto Alantre",
+    "url": "https://ya-toca.com/programa/",
+    "kind": "document",
+    "hosts": [
+      "ya-toca.com"
+    ]
+  },
+  {
+    "id": "av",
+    "party": "Agenda Valenciana",
+    "url": "https://www.agendavalenciana.org/programa.html",
+    "kind": "document",
+    "hosts": [
+      "agendavalenciana.org"
+    ]
+  },
+  {
+    "id": "upn",
+    "party": "UPN-PP",
+    "url": "https://upn-pp.es/",
+    "kind": "document",
+    "hosts": [
+      "upn-pp.es"
     ]
   }
 ]

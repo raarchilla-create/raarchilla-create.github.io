@@ -1,0 +1,1176 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-25",
+  "method": "Análisis editorial específico por pregunta, aplicado con el mismo criterio a todas las formaciones. Describe mecanismos e instrumentos, no certifica viabilidad, constitucionalidad ni coste total. Fuentes jurídicas consultadas el 25/11/2026; los textos consolidados son informativos. Los escenarios son aritmética condicional reproducible con supuestos, no previsiones. Las propuestas concretas pueden requerir condiciones adicionales.",
+  "questions": [
+    {
+      "question": 1,
+      "economic": "Un límite puede reducir la renta pagada en contratos afectados, pero no aumenta por sí mismo las viviendas disponibles. El balance exige medir contratos cubiertos, oferta retirada o incorporada, mantenimiento y desplazamiento a otros usos. La administración necesita inspección y un sistema de referencia.",
+      "legal": "La LAU ya prevé límites en zonas tensionadas y supuestos concretos. Ampliarlos exige precisar contratos, arrendadores, zonas y excepciones; no toda limitación requiere reforma constitucional. Debe ponderarse propiedad y función social.",
+      "instrument": "Reforma de la LAU y, según alcance, de la Ley de Vivienda; aplicación y control.",
+      "authority": "Estado en legislación civil y bases; autonomías y municipios en vivienda y ejecución.",
+      "uncertainties": [
+        "Cobertura territorial y temporal",
+        "Oferta y calidad después de la intervención",
+        "Inspección y vías de recurso"
+      ],
+      "sources": [
+        {
+          "title": "Ley de Arrendamientos Urbanos",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003",
+          "locator": "art. 17.6–7"
+        },
+        {
+          "title": "Ley 12/2023, por el derecho a la vivienda",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+          "locator": "zonas de mercado residencial tensionado"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 33 y 149"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 2,
+      "economic": "El coste suma suelo, urbanización, obra o compra, financiación y mantenimiento, menos alquileres y otras aportaciones. Una cifra de viviendas anunciadas no equivale a viviendas terminadas ni a parque público permanente. Conviene separar inversión pública, avales y promoción privada asequible.",
+      "legal": "Las administraciones necesitan disponibilidad de suelo, planeamiento, licencias y contratación. La Ley de Vivienda regula parques públicos y su destino; construir puede exigir acuerdos interadministrativos y presupuestos plurianuales.",
+      "instrument": "Presupuestos, contratos de obra o adquisición, convenios de suelo y normativa de protección.",
+      "authority": "Estado financiador; autonomías y ayuntamientos en suelo, vivienda y licencias.",
+      "uncertainties": [
+        "Precio y disponibilidad de suelo",
+        "Capacidad constructora y plazos",
+        "Permanencia de la protección y gasto de conservación"
+      ],
+      "sources": [
+        {
+          "title": "Ley 12/2023, por el derecho a la vivienda",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+          "locator": "título III, parques públicos de vivienda"
+        },
+        {
+          "title": "Ley 9/2017 de Contratos del Sector Público",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+          "locator": "contratación pública de obras y suministros"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Inversión de construcción ilustrativa",
+        "assumptions": "10.000 viviendas; 150.000 € por unidad; suelo, intereses y conservación excluidos.",
+        "formula": "10.000 × 150.000 €",
+        "result": "1.500 millones de € de inversión inicial.",
+        "caveat": "El coste unitario es un supuesto, no una estimación del programa ni un presupuesto completo."
+      }
+    },
+    {
+      "question": 3,
+      "economic": "Restringir compras de inversión puede reducir esa demanda y desplazar capital a otros activos; no garantiza una caída concreta de precios. Hay que medir compradores afectados, operaciones eludidas mediante sociedades y efectos sobre financiación de nueva oferta.",
+      "legal": "Una restricción debe definir inversión especulativa y justificar proporcionalidad. La libre circulación de capitales de la UE y el derecho de propiedad condicionan prohibiciones. Limitar por uso, por residencia y por nacionalidad son medidas jurídicamente distintas.",
+      "instrument": "Norma de vivienda o fiscal y mecanismos de identificación del beneficiario real.",
+      "authority": "Estado; autonomías en vivienda; marco de la UE.",
+      "uncertainties": [
+        "Definición de especulación y excepciones",
+        "Compatibilidad europea y proporcionalidad",
+        "Operaciones indirectas y capacidad de control"
+      ],
+      "sources": [
+        {
+          "title": "Tratado de Funcionamiento de la Unión Europea",
+          "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:12012E/TXT",
+          "locator": "art. 63, libre circulación de capitales"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "art. 33"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 4,
+      "economic": "La suspensión de lanzamientos traslada temporalmente parte del coste al propietario y puede generar compensaciones públicas. La alternativa habitacional necesita plazas, alquiler social y servicios sociales; suspender y realojar son compromisos de gasto diferentes.",
+      "legal": "La actuación debe encajar con tutela judicial, propiedad y legislación procesal. Deben distinguirse arrendamientos, ejecuciones hipotecarias y ocupaciones sin título, así como vulnerabilidad de ambas partes; una suspensión temporal no equivale a extinguir la deuda.",
+      "instrument": "Reforma procesal o régimen temporal con requisitos, plazos, compensaciones y alternativa habitacional.",
+      "authority": "Estado en procedimiento; autonomías y municipios en servicios sociales y vivienda.",
+      "uncertainties": [
+        "Número de hogares y duración",
+        "Compensación al propietario vulnerable",
+        "Viviendas efectivamente disponibles"
+      ],
+      "sources": [
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 24, 33 y 47"
+        },
+        {
+          "title": "Ley 12/2023, por el derecho a la vivienda",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+          "locator": "disposición final quinta, procedimientos de vivienda"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 5,
+      "economic": "Una rebaja reduce el desembolso inicial del comprador elegible y la recaudación. Parte del beneficio podría trasladarse al precio si la oferta es rígida. Conviene separar vivienda nueva de segunda mano y medir el efecto por edad, renta y territorio.",
+      "legal": "Vivienda nueva y usada tienen regímenes tributarios distintos. IVA es estatal y armonizado; tipos y beneficios de ITP/AJD tienen amplias competencias autonómicas en régimen común. Un anuncio estatal no modifica automáticamente cada tipo autonómico.",
+      "instrument": "Reforma de IVA, ITP/AJD o deducciones aplicables, con delimitación de primera vivienda.",
+      "authority": "Estado, autonomías y regímenes forales según tributo.",
+      "uncertainties": [
+        "Transmisiones beneficiarias",
+        "Traslado al precio",
+        "Pérdida recaudatoria y financiación alternativa"
+      ],
+      "sources": [
+        {
+          "title": "Ley 37/1992 del IVA",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
+          "locator": "art. 91, tipos reducidos"
+        },
+        {
+          "title": "Ley 22/2009, financiación autonómica",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-20375",
+          "locator": "art. 49, competencias sobre ITP/AJD"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Ahorro tributario hipotético",
+        "assumptions": "Base imponible 200.000 € y rebaja de dos puntos porcentuales.",
+        "formula": "200.000 € × 0,02",
+        "result": "4.000 € por operación.",
+        "caveat": "No representa un tipo vigente ni la elegibilidad real de ningún comprador."
+      }
+    },
+    {
+      "question": 6,
+      "economic": "La recaudación estática depende de las rentas situadas en el tramo modificado, no del patrimonio total. La respuesta de ahorro, realización de plusvalías y cambio de residencia puede alterar el resultado. Rentas del capital y grandes patrimonios no son la misma base.",
+      "legal": "Los rendimientos y ganancias del ahorro se integran según la Ley del IRPF. Subir tipos o cambiar integración exige reforma legal y coordinación con la tributación societaria y los convenios internacionales.",
+      "instrument": "Modificación de bases, escalas o deducciones de la Ley del IRPF.",
+      "authority": "Estado; reglas del IRPF y marcos forales según residencia.",
+      "uncertainties": [
+        "Base declarada afectada",
+        "Reacciones de realización y movilidad",
+        "Doble imposición y distribución por renta"
+      ],
+      "sources": [
+        {
+          "title": "Ley 35/2006 del IRPF",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764",
+          "locator": "arts. 46, 66 y 76"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Recaudación estática ilustrativa",
+        "assumptions": "1.000 millones de € de base realmente afectada y aumento de 3 puntos.",
+        "formula": "1.000 millones × 0,03",
+        "result": "30 millones de € antes de cambios de comportamiento.",
+        "caveat": "No se utiliza una base real ni se estima la recaudación de un partido."
+      }
+    },
+    {
+      "question": 7,
+      "economic": "La indexación evita que inflación y aumentos nominales empujen por sí solos a tramos mayores, pero su coste depende del índice, umbrales y mínimos que se actualicen. No beneficia de la misma forma a quienes no pagan IRPF o cambian de renta real.",
+      "legal": "No basta anunciar la actualización: deben modificarse las escalas estatales y decidirse la coordinación autonómica. Actualizar mínimos personales, retenciones y deducciones son decisiones adicionales.",
+      "instrument": "Cláusula legal de indexación de la Ley del IRPF o actualizaciones periódicas de sus parámetros.",
+      "authority": "Estado y autonomías en sus respectivas escalas; haciendas forales.",
+      "uncertainties": [
+        "Índice y período de referencia",
+        "Parámetros incluidos",
+        "Distribución del ahorro y pérdida recaudatoria"
+      ],
+      "sources": [
+        {
+          "title": "Ley 35/2006 del IRPF",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764",
+          "locator": "arts. 56–63 y 74"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 8,
+      "economic": "Con traslado íntegro, una reducción del tipo baja el precio final; el ahorro efectivo exige observar márgenes y precios. El coste recaudatorio depende de ventas, tipos de partida y duración. Una bonificación universal también beneficia a hogares de renta alta que consumen esos bienes.",
+      "legal": "La Ley del IVA fija tipos y categorías dentro de la Directiva europea. No todos los bienes pueden acogerse libremente a cualquier tipo. Hay que precisar productos, fecha de entrada y si la rebaja es temporal.",
+      "instrument": "Reforma de tipos y listas de bienes en la Ley del IVA, compatible con el marco europeo.",
+      "authority": "Estado; armonización europea.",
+      "uncertainties": [
+        "Traslado al consumidor",
+        "Volumen de consumo",
+        "Fecha de caducidad y compensación presupuestaria"
+      ],
+      "sources": [
+        {
+          "title": "Ley 37/1992 del IVA",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
+          "locator": "arts. 90–91"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Precio con traslado completo",
+        "assumptions": "Base antes de IVA de 100 €; tipo hipotético de 10% a 4%; margen constante.",
+        "formula": "110 € − 104 €",
+        "result": "6 € menos por cesta: un 5,45% del precio anterior.",
+        "caveat": "No es una previsión de inflación ni una rebaja actualmente aplicable a toda cesta."
+      }
+    },
+    {
+      "question": 9,
+      "economic": "Bonificar cuotas reduce gastos corrientes del autónomo beneficiario. El coste depende de ingresos, duración y número de altas; también debe aclararse quién financia sus prestaciones y si se subsidia cotización o se rebaja la base. Cuota cero y cuota proporcional a rendimientos no son equivalentes.",
+      "legal": "La cotización del RETA se articula por rendimientos netos y regularización. Las bonificaciones necesitan cobertura legal o presupuestaria, y una ayuda autonómica no cambia por sí misma el régimen estatal de cotización.",
+      "instrument": "Modificación de cotización o bonificaciones de Seguridad Social; subvenciones complementarias.",
+      "authority": "Estado y TGSS; autonomías en ayudas propias.",
+      "uncertainties": [
+        "Rendimientos netos y fraude de umbral",
+        "Duración y regularización",
+        "Base de prestaciones y financiación"
+      ],
+      "sources": [
+        {
+          "title": "Ley General de la Seguridad Social",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "locator": "art. 308, cotización en el RETA"
+        },
+        {
+          "title": "Estatuto del Trabajo Autónomo",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-13409",
+          "locator": "incentivos al trabajo autónomo"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Bonificación de cuotas ilustrativa",
+        "assumptions": "100.000 personas; 80 € mensuales de ayuda; doce meses.",
+        "formula": "100.000 × 80 € × 12",
+        "result": "96 millones de € al año.",
+        "caveat": "Excluye gestión y cambios de altas; no certifica una promesa concreta."
+      }
+    },
+    {
+      "question": 10,
+      "economic": "La franquicia reduce obligaciones de repercusión para pequeñas empresas, pero puede impedir deducir el IVA soportado. El resultado cambia entre negocios que venden a consumidores y a empresas; un umbral puede incentivar limitar facturación o dividir actividades.",
+      "legal": "La Directiva de pequeñas empresas permite un umbral nacional máximo de 85.000 €, sujeto a sus reglas; no impone una exención automática universal a todo autónomo español. Deben precisarse opción, operaciones, cómputo y transposición nacional.",
+      "instrument": "Régimen especial en la Ley del IVA y desarrollo reglamentario.",
+      "authority": "Estado y Agencia Tributaria; marco de la UE.",
+      "uncertainties": [
+        "IVA soportado deducible o no",
+        "Facturación nacional y transfronteriza",
+        "Cómputo y control del umbral"
+      ],
+      "sources": [
+        {
+          "title": "Directiva (UE) 2020/285, pequeñas empresas",
+          "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32020L0285",
+          "locator": "art. 284 y reglas de pequeñas empresas"
+        },
+        {
+          "title": "Ley 37/1992 del IVA",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1992-28740",
+          "locator": "regímenes especiales"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 11,
+      "economic": "Con salario anual constante, menos horas elevan el coste salarial por hora. El efecto en producción y empleo depende de productividad, organización, contratación y horas extraordinarias. No debe multiplicarse el coste por hora por toda la economía sin analizar sectores.",
+      "legal": "La referencia legal consultada mantiene 40 horas semanales de promedio anual. Reducir el máximo general exige reformar el artículo 34 del Estatuto; convenios y empresas pueden pactar jornadas menores dentro del marco vigente.",
+      "instrument": "Reforma del Estatuto y calendario de adaptación con negociación colectiva.",
+      "authority": "Estado en legislación laboral; convenios en adaptación.",
+      "uncertainties": [
+        "Productividad y cobertura de turnos",
+        "Pymes y servicios con presencia obligatoria",
+        "Cómputo anual y contratos parciales"
+      ],
+      "sources": [
+        {
+          "title": "Estatuto de los Trabajadores",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+          "locator": "art. 34.1"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Coste por hora a salario constante",
+        "assumptions": "Paso hipotético de 40 a 37,5 horas, mismo salario y sin variación de productividad.",
+        "formula": "40 / 37,5 − 1",
+        "result": "6,67% más coste salarial por hora.",
+        "caveat": "No equivale a un aumento del 6,67% del coste total ni predice pérdida de empleo."
+      }
+    },
+    {
+      "question": 12,
+      "economic": "Elevar el mínimo aumenta salarios directamente afectados y puede mover escalas próximas. La incidencia depende de empleo, horas, productividad, precios y absorción de complementos. El coste público incluye contratos y empleo público afectados; no todo aumento salarial es gasto presupuestario.",
+      "legal": "El artículo 27 del Estatuto regula la fijación anual del SMI previa consulta social y permite revisión. Deben aclararse cuantía anual, pagas y reglas de compensación y absorción; el SMI y el salario medio no son intercambiables.",
+      "instrument": "Real decreto de fijación del SMI y, si se cambia su arquitectura, reforma legal.",
+      "authority": "Gobierno estatal; negociación colectiva por encima del mínimo.",
+      "uncertainties": [
+        "Personas y horas afectadas",
+        "Absorción de complementos",
+        "Precios, empleo y cumplimiento"
+      ],
+      "sources": [
+        {
+          "title": "Estatuto de los Trabajadores",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+          "locator": "arts. 26.5 y 27"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 13,
+      "economic": "Una mayor indemnización aumenta el coste de despidos improcedentes, no el de todos los ceses por igual. La incidencia depende de antigüedad, salario, litigiosidad y límites. Deben separarse costes de transición por contratos existentes y efectos sobre decisiones futuras de contratación.",
+      "legal": "El artículo 56 establece el régimen de improcedencia y existen reglas transitorias para antigüedad anterior a 2012. Volver a 45 días requiere precisar tope, retroactividad y relación con readmisión y otras reparaciones; no se presume aplicable automáticamente a todo contrato.",
+      "instrument": "Reforma del Estatuto con disposiciones transitorias y régimen de reparación.",
+      "authority": "Estado; aplicación por jurisdicción social.",
+      "uncertainties": [
+        "Tope indemnizatorio",
+        "Antigüedad computable y transición",
+        "Relación con nulidad y reparación adicional"
+      ],
+      "sources": [
+        {
+          "title": "Estatuto de los Trabajadores",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+          "locator": "art. 56 y disposición transitoria undécima"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Diferencia aritmética ilustrativa",
+        "assumptions": "Salario regulador de 100 €/día; diez años; sin topes ni tramos transitorios.",
+        "formula": "(45 − 33) × 10 × 100 €",
+        "result": "12.000 € más de indemnización hipotética.",
+        "caveat": "No calcula la indemnización de un caso real ni incluye convenios o doctrina judicial."
+      }
+    },
+    {
+      "question": 14,
+      "economic": "El registro digital genera costes de software, dispositivos, implantación y control; puede reducir tareas administrativas y horas no declaradas si se usa bien. La estimación debe separar coste inicial y recurrente por tamaño y evitar computar toda hora registrada como productividad ganada.",
+      "legal": "Ya existe obligación de registro diario y conservación durante cuatro años. Hacerlo necesariamente digital y con acceso remoto de la inspección exige concretar el instrumento y las garantías de protección de datos; obligación de registrar no equivale a digitalización universal ya vigente.",
+      "instrument": "Reforma o desarrollo del artículo 34 y de las reglas inspectoras y de datos, según alcance.",
+      "authority": "Estado e Inspección de Trabajo; empresas en implantación.",
+      "uncertainties": [
+        "Pymes y trabajadores sin centro fijo",
+        "Integridad, acceso y conservación",
+        "Compatibilidad con privacidad y desconexión"
+      ],
+      "sources": [
+        {
+          "title": "Estatuto de los Trabajadores",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+          "locator": "art. 34.9"
+        },
+        {
+          "title": "Reglamento General de Protección de Datos",
+          "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
+          "locator": "arts. 5, 6 y 32"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 15,
+      "economic": "Una cláusula automática protege salario real frente al índice elegido y distribuye riesgo inflacionario entre empresa y trabajador. Puede generar ajustes de costes y precios; los efectos dependen de productividad y de si la revisión es anticipada, retrospectiva o limitada.",
+      "legal": "Los salarios se fijan mediante ley en sus mínimos, convenio y contrato. Una indexación universal requiere definir qué conceptos se revisan y su relación con negociación colectiva y absorción; no basta usar el IPC de un mes sin período definido.",
+      "instrument": "Reforma laboral o cláusulas de convenio con índice, periodicidad y condiciones.",
+      "authority": "Estado y negociación colectiva.",
+      "uncertainties": [
+        "Índice y período",
+        "Productividad sectorial",
+        "Tratamiento de inflación negativa y atrasos"
+      ],
+      "sources": [
+        {
+          "title": "Estatuto de los Trabajadores",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+          "locator": "arts. 26, 27 y 82"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 16,
+      "economic": "El coste incremental depende de la masa de pensiones, el porcentaje y la regla de referencia. Si la ley ya vincula las pensiones al IPC, mantener esa regla no es un aumento adicional respecto de esa misma base. Hay que distinguir contributivas, mínimas y no contributivas.",
+      "legal": "La LGSS ya establece revalorización de contributivas por el promedio interanual del IPC en el período definido. Una promesa de mantenimiento, una subida adicional y un blindaje constitucional requieren instrumentos distintos.",
+      "instrument": "Aplicación de LGSS y presupuestos; reforma constitucional solo si se propone elevar el blindaje.",
+      "authority": "Estado y Seguridad Social.",
+      "uncertainties": [
+        "Qué pensiones y complementos",
+        "Regla base de comparación",
+        "Ingresos por cotizaciones y transferencias"
+      ],
+      "sources": [
+        {
+          "title": "Ley General de la Seguridad Social",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "locator": "arts. 58–59"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 41 y 50"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Sensibilidad de gasto ilustrativa",
+        "assumptions": "Masa anual hipotética de 100.000 millones de €; subida adicional de un punto.",
+        "formula": "100.000 millones × 0,01",
+        "result": "1.000 millones de € anuales.",
+        "caveat": "No utiliza la masa real del sistema ni representa el coste de mantener la ley vigente."
+      }
+    },
+    {
+      "question": 17,
+      "economic": "Bajar la edad puede adelantar el cobro y reducir años de cotización respecto de la base sin reforma. La factura depende de carreras, desempleo, esperanza de vida y decisiones de retiro. También deben valorarse jubilación demorada y vacantes cubiertas, sin asumir sustitución uno por uno.",
+      "legal": "La edad ordinaria se regula en LGSS con requisitos de cotización y calendario transitorio. Fijar 65 años para todos no es lo mismo que conservar 65 para carreras largas; deben precisarse excepciones y transición.",
+      "instrument": "Reforma de LGSS, calendario y financiación.",
+      "authority": "Estado y Seguridad Social.",
+      "uncertainties": [
+        "Carreras de cotización",
+        "Período transitorio",
+        "Compatibilidad con empleo y modalidades anticipadas"
+      ],
+      "sources": [
+        {
+          "title": "Ley General de la Seguridad Social",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "locator": "art. 205 y disposición transitoria séptima"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 18,
+      "economic": "Suprimir penalizaciones eleva prestaciones de los casos elegibles frente al régimen de coeficientes. No basta contar a todas las personas con 40 años cotizados: importan edad de retiro, modalidad, base y si se incluyen pensiones ya reconocidas.",
+      "legal": "La jubilación anticipada voluntaria e involuntaria tiene requisitos y coeficientes distintos. La reforma debe definir si elimina todos los coeficientes tras 40 años, si es retroactiva y cómo se revisan expedientes previos.",
+      "instrument": "Reforma de artículos de jubilación anticipada y reglas de revisión.",
+      "authority": "Estado y Seguridad Social.",
+      "uncertainties": [
+        "Voluntaria frente a involuntaria",
+        "Retroactividad",
+        "Número de expedientes y bases reguladoras"
+      ],
+      "sources": [
+        {
+          "title": "Ley General de la Seguridad Social",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "locator": "arts. 207–208"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 19,
+      "economic": "Destinar cotizaciones a cuentas individuales reduce recursos del reparto durante la transición si las pensiones existentes se mantienen. Aportaciones adicionales elevan ahorro obligatorio y reducen renta disponible actual. Comisiones, rendimientos, garantías e inflación determinan la pensión futura.",
+      "legal": "Un pilar obligatorio necesita ley sobre aportaciones, supervisión, inversión y protección del ahorro. Los planes de pensiones complementarios actuales no equivalen por sí solos a sustituir cotizaciones públicas; deben protegerse derechos y obligaciones en transición.",
+      "instrument": "Reforma de LGSS y regulación de cuentas, gestores y garantías.",
+      "authority": "Estado y supervisores competentes; marco europeo de inversión y previsión.",
+      "uncertainties": [
+        "Financiación de transición",
+        "Riesgo financiero y comisiones",
+        "Distribución por ingresos y carreras interrumpidas"
+      ],
+      "sources": [
+        {
+          "title": "Ley General de la Seguridad Social",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+          "locator": "financiación y acción protectora"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 41 y 50"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 20,
+      "economic": "Ampliar cobertura dental requiere definir prestaciones, población, frecuencia y personal. El coste no se obtiene solo por número de habitantes: hay tratamientos caros y necesidades acumuladas. La financiación debe separar contratación de profesionales, equipamiento y posibles convenios.",
+      "legal": "La cartera común ya incluye atención bucodental con alcance delimitado. La ampliación requiere el procedimiento de cartera del SNS y coordinación autonómica; una mera partida presupuestaria no especifica el derecho prestacional.",
+      "instrument": "Real decreto de cartera, acuerdos del Consejo Interterritorial y presupuestos de implantación.",
+      "authority": "Estado en cartera común; autonomías en organización y prestación.",
+      "uncertainties": [
+        "Tratamientos incluidos",
+        "Priorización y listas de espera",
+        "Profesionales disponibles"
+      ],
+      "sources": [
+        {
+          "title": "Ley 16/2003, cohesión y calidad del SNS",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-10715",
+          "locator": "art. 8"
+        },
+        {
+          "title": "Real Decreto 1030/2006, cartera común del SNS",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-16212",
+          "locator": "anexo II, atención primaria y salud bucodental"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 21,
+      "economic": "Aumentar presupuesto no garantiza disponibilidad inmediata de psiquiatras, psicólogos clínicos y enfermería especializada. Deben presupuestarse formación, plazas, equipos comunitarios e integración con primaria; conviene medir accesibilidad, continuidad y resultados, además de contrataciones.",
+      "legal": "Salud mental forma parte de las prestaciones del SNS. Ampliar recursos exige decisiones presupuestarias y de personal y, cuando cambie el catálogo, modificación de cartera; buena parte de la ejecución corresponde a servicios autonómicos.",
+      "instrument": "Presupuestos, planes de salud y ofertas de empleo y formación sanitaria.",
+      "authority": "Estado en bases y formación; autonomías en gestión sanitaria.",
+      "uncertainties": [
+        "Disponibilidad de especialistas",
+        "Atención comunitaria y primaria",
+        "Indicadores de acceso y resultados"
+      ],
+      "sources": [
+        {
+          "title": "Ley 16/2003, cohesión y calidad del SNS",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-10715",
+          "locator": "arts. 7–8"
+        },
+        {
+          "title": "Real Decreto 1030/2006, cartera común del SNS",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-16212",
+          "locator": "atención primaria y especializada de salud mental"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 22,
+      "economic": "Comparar gestión directa e indirecta exige costes por caso ajustados por complejidad y calidad. Revertir contratos puede generar costes de transición, personal e indemnizaciones; mantenerlos también compromete pagos futuros. La titularidad por sí sola no prueba eficiencia.",
+      "legal": "La legislación permite distintas formas de gestión y conciertos. Priorizar gestión directa puede exigir reformar reglas de organización y contratación; los contratos vigentes deben analizarse individualmente, sin asumir cancelación gratuita o incorporación automática de toda plantilla.",
+      "instrument": "Norma de gestión sanitaria, contratación y planes de reversión con evaluación contractual.",
+      "authority": "Autonomías gestoras y Estado en bases legales.",
+      "uncertainties": [
+        "Vencimientos e indemnizaciones",
+        "Régimen del personal",
+        "Comparación de calidad y costes homogéneos"
+      ],
+      "sources": [
+        {
+          "title": "Ley 15/1997, formas de gestión del SNS",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-9021",
+          "locator": "artículo único"
+        },
+        {
+          "title": "Ley 9/2017 de Contratos del Sector Público",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+          "locator": "régimen de contratos y extinción"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 23,
+      "economic": "La gratuidad reduce cuotas familiares, pero universalizar acceso necesita plazas, personal, locales y horarios. Bonificar plazas existentes y construir una red pública tienen costes y plazos distintos. Debe medirse demanda efectiva, no sumar automáticamente todos los menores al coste de plaza completa.",
+      "legal": "La LOE prevé aumento progresivo de oferta y extensión de gratuidad del primer ciclo. El despliegue exige regulación de centros y acuerdos de financiación; educación 0–3 no equivale a escolarización obligatoria.",
+      "instrument": "Desarrollo de LOE, normativa autonómica, presupuestos y creación o financiación de plazas.",
+      "authority": "Estado en bases; autonomías y entidades locales en oferta.",
+      "uncertainties": [
+        "Número de plazas adicionales",
+        "Horarios y ratios",
+        "Gasto de personal y comedores"
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 2/2006 de Educación",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899",
+          "locator": "arts. 12–15"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Funcionamiento de plazas ilustrativo",
+        "assumptions": "100.000 plazas nuevas; coste anual hipotético de 6.000 € por plaza; inversión excluida.",
+        "formula": "100.000 × 6.000 €",
+        "result": "600 millones de € por curso.",
+        "caveat": "No es el coste real nacional ni incluye construcción, suelo o financiación existente."
+      }
+    },
+    {
+      "question": 24,
+      "economic": "Ampliar becas puede mejorar acceso y permanencia, pero el gasto depende de umbrales, cuantías, tasas, residencia y tasas de solicitud. Conviene medir retrasos de pago y cobertura; una beca que llega tarde puede no resolver una restricción de liquidez al matricularse.",
+      "legal": "La LOE reconoce becas para igualdad de oportunidades y reserva al Estado reglas básicas. Los requisitos académicos y económicos necesitan desarrollo reglamentario y convocatorias; beca universitaria y gratuidad general de matrícula son medidas diferentes.",
+      "instrument": "Reforma reglamentaria de becas, convocatorias y dotaciones presupuestarias.",
+      "authority": "Estado y autonomías en sus competencias de becas y educación.",
+      "uncertainties": [
+        "Umbrales y cuantías",
+        "Plazos de resolución",
+        "Beneficiarios adicionales y compatibilidades"
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 2/2006 de Educación",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899",
+          "locator": "art. 83"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 25,
+      "economic": "Una prestación universal genera gasto recurrente por menor elegible. El coste bruto depende de edad, cuantía y meses; el neto exige descontar prestaciones sustituidas y efectos tributarios. Una deducción reembolsable y una transferencia universal no tienen necesariamente idéntica cobertura.",
+      "legal": "Debe aprobarse el derecho, residencia exigida, edad, titularidad y compatibilidad con IMV, ayudas autonómicas y deducciones. No cabe sumar ayudas existentes sin comprobar reglas de acumulación.",
+      "instrument": "Ley de prestación y financiación, o reforma tributaria si se instrumenta mediante deducción.",
+      "authority": "Estado; coordinación con prestaciones autonómicas y Seguridad Social.",
+      "uncertainties": [
+        "Edad máxima y residencia",
+        "Sustitución o acumulación",
+        "Número real de menores y gestión"
+      ],
+      "sources": [
+        {
+          "title": "Ley 19/2021 del ingreso mínimo vital",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+          "locator": "complemento de ayuda para la infancia"
+        },
+        {
+          "title": "Ley 35/2006 del IRPF",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764",
+          "locator": "arts. 81 y 81 bis"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Prestación universal ilustrativa",
+        "assumptions": "Un millón de menores; 200 € mensuales; doce meses.",
+        "formula": "1.000.000 × 200 € × 12",
+        "result": "2.400 millones de € anuales brutos.",
+        "caveat": "No es la población elegible real ni descuenta ayudas sustituidas o retorno fiscal."
+      }
+    },
+    {
+      "question": 26,
+      "economic": "El coste de más semanas depende de nacimientos, salarios cubiertos, uso efectivo y sustituciones. Hay gasto de Seguridad Social y costes organizativos empresariales distintos. No es correcto valorar semanas adicionales como si todas fueran necesariamente tomadas por todos los progenitores.",
+      "legal": "La ampliación de 2025 establece 19 semanas con distribución y reglas propias, y 32 en monoparentalidad; el permiso parental de ocho semanas tiene régimen diferenciado. Una nueva ampliación debe identificar de cuál permiso parte y modificar también prestaciones.",
+      "instrument": "Reforma de ET, EBEP y LGSS, con calendario y reglas de disfrute.",
+      "authority": "Estado; Seguridad Social y empleadores en gestión.",
+      "uncertainties": [
+        "Base legal y semanas ya reconocidas",
+        "Uso real y sustituciones",
+        "Familias monoparentales y trabajo autónomo"
+      ],
+      "sources": [
+        {
+          "title": "Real Decreto-ley 9/2025, permisos de nacimiento y cuidado",
+          "url": "https://www.boe.es/eli/es/rdl/2025/07/29/9/dof/spa/html",
+          "locator": "arts. primero a tercero"
+        },
+        {
+          "title": "Estatuto de los Trabajadores",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+          "locator": "arts. 48 y 48 bis"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 27,
+      "economic": "Mantener el cierre obliga a cubrir generación y flexibilidad con alternativas; extender operación requiere inversiones, combustible, mantenimiento y gestión de residuos. El balance debe comparar costes del sistema completo, emisiones y seguridad de suministro, sin tratar una planta amortizada como energía sin coste.",
+      "legal": "El PNIEC contempla un calendario 2027–2035. Cada central depende de autorizaciones y requisitos de seguridad: modificar un plan no renueva automáticamente una licencia ni sustituye la evaluación del regulador.",
+      "instrument": "Planificación energética y autorizaciones de explotación, desmantelamiento y residuos.",
+      "authority": "Estado, Consejo de Seguridad Nuclear y titulares; marco Euratom.",
+      "uncertainties": [
+        "Inversiones y licencias por central",
+        "Respaldo, almacenamiento y red",
+        "Provisión para residuos y desmantelamiento"
+      ],
+      "sources": [
+        {
+          "title": "MITECO: PNIEC 2023-2030 aprobado en 2024",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/energia/files-1/pniec-2023-2030/PNIEC_2024_240924.pdf",
+          "locator": "escenario de cese nuclear 2027–2035"
+        },
+        {
+          "title": "Ley 24/2013 del Sector Eléctrico",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-13645",
+          "locator": "planificación y seguridad del suministro"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 28,
+      "economic": "Más capacidad renovable reduce exposición a combustible importado, pero su aprovechamiento depende de red, almacenamiento y demanda. El coste combina inversión privada y pública, conexión y respaldo. Potencia instalada, energía generada y ahorro en factura son magnitudes distintas.",
+      "legal": "El autoconsumo y la generación necesitan cumplir reglas eléctricas, acceso y conexión y evaluación ambiental aplicable. Una meta nacional no elimina permisos ni derechos de terceros; deben diferenciarse autoconsumo individual, colectivo y grandes plantas.",
+      "instrument": "Planificación, regulación de autoconsumo y conexión, permisos e incentivos.",
+      "authority": "Estado, autonomías, ayuntamientos y gestores de red.",
+      "uncertainties": [
+        "Capacidad de conexión",
+        "Almacenamiento y vertidos",
+        "Coste de capital y reparto de beneficios"
+      ],
+      "sources": [
+        {
+          "title": "Ley 24/2013 del Sector Eléctrico",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-13645",
+          "locator": "arts. 9 y 33"
+        },
+        {
+          "title": "MITECO: PNIEC 2023-2030 aprobado en 2024",
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/energia/files-1/pniec-2023-2030/PNIEC_2024_240924.pdf",
+          "locator": "medidas sobre renovables y autoconsumo"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 29,
+      "economic": "Integrar empresas o funciones no garantiza ahorro: deben compararse coordinación, mantenimiento, inversión, competencia y calidad. La reestructuración puede tener costes de personal, sistemas y contratos. Cercanías, mercancías y alta velocidad tienen financiación y demanda diferentes.",
+      "legal": "El marco europeo admite determinadas estructuras integradas bajo garantías de independencia e imparcialidad; no autoriza ignorar acceso no discriminatorio ni reglas contables. Un monopolio exclusivo de operación y una coordinación pública de infraestructura son propuestas distintas.",
+      "instrument": "Reforma de la Ley del Sector Ferroviario y estructura empresarial compatible con normativa europea.",
+      "authority": "Estado; regulador y gestores; UE; autonomías en servicios de su competencia.",
+      "uncertainties": [
+        "Acceso de operadores",
+        "Deudas y contratos heredados",
+        "Calidad por servicio y financiación de obligaciones públicas"
+      ],
+      "sources": [
+        {
+          "title": "Ley 38/2015 del sector ferroviario",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10440",
+          "locator": "administración de infraestructuras y prestación de servicios"
+        },
+        {
+          "title": "Directiva (UE) 2016/2370, gobernanza ferroviaria",
+          "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016L2370",
+          "locator": "independencia, imparcialidad y empresas integradas"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 30,
+      "economic": "Las bonificaciones reducen tarifa para el viajero y trasladan financiación al presupuesto o al operador. Si aumentan demanda sin oferta pueden elevar saturación; más frecuencias requieren personal y material. Hay que distinguir compensación por viajes ya realizados e inversión adicional.",
+      "legal": "Debe definirse qué administración subvenciona cada título y cómo compensa al operador. Los convenios y obligaciones de servicio público condicionan financiación y rendición de cuentas; una ayuda temporal no constituye gratuidad permanente garantizada.",
+      "instrument": "Presupuestos, convenios de financiación, tarifas y compensación de servicio público.",
+      "authority": "Estado, autonomías, consorcios y entidades locales.",
+      "uncertainties": [
+        "Viajeros adicionales",
+        "Ingresos sustituidos",
+        "Capacidad de oferta y continuidad financiera"
+      ],
+      "sources": [
+        {
+          "title": "Ley 38/2015 del sector ferroviario",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10440",
+          "locator": "obligaciones de servicio público"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "distribución de competencias y presupuestos"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Compensación tarifaria ilustrativa",
+        "assumptions": "Diez millones de viajes; descuento medio financiado de 2 € por viaje.",
+        "formula": "10.000.000 × 2 €",
+        "result": "20 millones de € de compensación.",
+        "caveat": "No incluye nueva oferta ni representa coste real de un abono nacional."
+      }
+    },
+    {
+      "question": 31,
+      "economic": "La regularización puede facilitar empleo formal y cotización, pero su saldo fiscal no se deduce solo de cuántas autorizaciones se conceden. Importan salarios, acceso al empleo, edad, servicios usados y capacidad de tramitación. Deben medirse también plazos y reconocimiento de cualificaciones.",
+      "legal": "La LO de extranjería contempla residencia temporal por circunstancias excepcionales. Abrir o estabilizar vías requiere definir requisitos y encaje reglamentario o legal; residencia, permiso de trabajo, asilo y nacionalidad tienen procedimientos diferentes.",
+      "instrument": "Reforma legal o reglamentaria de extranjería y dotación administrativa.",
+      "authority": "Estado; servicios autonómicos y locales de integración y empleo.",
+      "uncertainties": [
+        "Criterios y fechas de acceso",
+        "Capacidad de tramitación",
+        "Inserción laboral efectiva"
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 4/2000 de extranjería",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+          "locator": "arts. 31 y 36"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 32,
+      "economic": "Los requisitos por necesidad y residencia redistribuyen el acceso a ayudas de presupuesto limitado. La incidencia depende de prestación, renta y hogares elegibles; no puede asignarse un coste uniforme a todas las personas extranjeras. Conviene separar ayudas básicas, contributivas y prestaciones con residencia legal exigida.",
+      "legal": "La LO de extranjería reconoce igualdad de residentes en Seguridad Social y servicios sociales, y servicios básicos para todas las personas. El IMV tiene requisitos específicos de residencia legal y efectiva. Nacionalidad y situación administrativa no son el mismo criterio.",
+      "instrument": "Leyes y reglamentos de cada prestación con requisitos compatibles con igualdad y derecho europeo.",
+      "authority": "Estado, autonomías y municipios según ayuda.",
+      "uncertainties": [
+        "Prestación concreta y residencia exigida",
+        "Presupuesto y listas de acceso",
+        "No discriminación y situaciones protegidas"
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 4/2000 de extranjería",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544",
+          "locator": "art. 14"
+        },
+        {
+          "title": "Ley 19/2021 del ingreso mínimo vital",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+          "locator": "art. 10"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 13–14"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 33,
+      "economic": "Elevar gasto militar compromete inversión y gasto recurrente de personal, mantenimiento y operación. Un porcentaje del PIB necesita definir el perímetro de cómputo y el año; pedidos plurianuales, pagos anuales y entregas no son equivalentes. Debe explicarse financiación y coste de oportunidad.",
+      "legal": "Las autorizaciones presupuestarias y compromisos plurianuales necesitan instrumentos internos; un compromiso internacional no sustituye por sí mismo la aprobación y control del gasto. Debe distinguirse clasificación de gasto OTAN y contabilidad presupuestaria.",
+      "instrument": "Presupuestos, contratos, créditos y autorizaciones según el tipo de compromiso.",
+      "authority": "Gobierno y Cortes; órganos de control y marco internacional.",
+      "uncertainties": [
+        "PIB y perímetro del porcentaje",
+        "Calendario de pagos",
+        "Financiación y contratos ya firmados"
+      ],
+      "sources": [
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 66, 97 y 134"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      },
+      "scenario": {
+        "label": "Porcentaje del PIB ilustrativo",
+        "assumptions": "PIB supuesto de 2.000.000 millones de €; incremento de un punto porcentual.",
+        "formula": "2.000.000 millones × 0,01",
+        "result": "20.000 millones de € al año.",
+        "caveat": "No es el PIB oficial ni un cálculo del incremento presupuestario de ninguna formación."
+      }
+    },
+    {
+      "question": 34,
+      "economic": "La salida puede cambiar contribuciones, compromisos y planificación, pero no elimina automáticamente todo gasto de defensa ni contratos previos. Hay que presupuestar la reorganización y definir capacidades alternativas; ahorro presupuestario y cambio de estrategia son cuestiones distintas.",
+      "legal": "El artículo 13 del Tratado establece un año desde la notificación de denuncia. El artículo 96.2 CE remite para la denuncia al procedimiento previsto para aprobación. Salir de la estructura militar y denunciar el Tratado no son actos idénticos.",
+      "instrument": "Denuncia del Tratado con procedimiento interno y revisión de acuerdos conexos.",
+      "authority": "Estado, Cortes y Gobierno; depositario y aliados en el plano internacional.",
+      "uncertainties": [
+        "Alcance exacto de la salida",
+        "Acuerdos bilaterales y contratos",
+        "Coste y calendario de la estrategia alternativa"
+      ],
+      "sources": [
+        {
+          "title": "Tratado del Atlántico Norte",
+          "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1949/04/04/the-north-atlantic-treaty?selectedLocale=es",
+          "locator": "art. 13"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 94 y 96.2"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 35,
+      "economic": "El coste administrativo directo incluye adaptar censo, información y medios electorales; el efecto principal es representativo. No existe una relación automática entre ampliar el electorado y un cambio presupuestario o partidista determinado.",
+      "legal": "La LOREG exige mayoría de edad; la CE fija en 18 años la mayoría de edad y reconoce participación política. Rebajar sufragio a 16 requiere al menos reforma electoral orgánica y resolver su encaje constitucional. No se afirma aquí que baste ley ordinaria ni que una concreta vía de reforma sea pacífica.",
+      "instrument": "Reforma orgánica electoral y examen constitucional del diseño elegido.",
+      "authority": "Cortes Generales, administración electoral y Oficina del Censo.",
+      "uncertainties": [
+        "Alcance por elecciones",
+        "Interpretación de los arts. 12 y 23 CE",
+        "Actualización de censo y educación cívica"
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 5/1985 del Régimen Electoral General",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+          "locator": "art. 2"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 12, 23, 81 y 167–168"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 36,
+      "economic": "Más capacidad fiscal puede aumentar autonomía de ingresos, pero no implica más recursos para todas las comunidades a la vez. Deben separarse cesión de recaudación, capacidad normativa, nivelación y aportaciones de solidaridad; cualquier simulación exige un modelo territorial completo.",
+      "legal": "El régimen común se articula mediante LOFCA y leyes de cesión; los regímenes forales tienen bases propias. Aumentar porcentajes o facultades requiere la reforma correspondiente y respetar coordinación y solidaridad, sin presumir que todo cambio exige reforma constitucional.",
+      "instrument": "Reforma de LOFCA, financiación y cesión; acuerdos y normas específicas en regímenes forales.",
+      "authority": "Estado, comunidades autónomas y órganos de coordinación.",
+      "uncertainties": [
+        "Población ajustada y nivelación",
+        "Recaudación y capacidad normativa",
+        "Transición, deuda y cláusulas de garantía"
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 8/1980 de financiación autonómica",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-21166",
+          "locator": "arts. 2, 10–12 y 19"
+        },
+        {
+          "title": "Ley 22/2009, financiación autonómica",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2009-20375",
+          "locator": "sistema de financiación y competencias normativas"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 156–158"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 37,
+      "economic": "Inventariar, documentar y auditar algoritmos necesita personal, herramientas y acceso contractual. La revisión humana tiene coste y exige capacidad real de corregir; publicar código sin documentación ni evaluación no garantiza transparencia útil o ausencia de sesgo.",
+      "legal": "Ya existen obligaciones para actuación administrativa automatizada y decisiones basadas en datos personales; la IA de alto riesgo tiene requisitos adicionales europeos con calendario y excepciones. No todos los algoritmos son IA de alto riesgo ni toda decisión automatizada está prohibida.",
+      "instrument": "Reglas administrativas, contratación y cumplimiento de protección de datos e IA; inventarios y evaluaciones.",
+      "authority": "Administraciones responsables y autoridades supervisoras de datos e IA.",
+      "uncertainties": [
+        "Sistema y clasificación de riesgo",
+        "Calendario europeo y excepciones",
+        "Secreto legítimo frente a explicabilidad y recurso"
+      ],
+      "sources": [
+        {
+          "title": "Ley 40/2015 de Régimen Jurídico del Sector Público",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+          "locator": "art. 41"
+        },
+        {
+          "title": "Reglamento General de Protección de Datos",
+          "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
+          "locator": "art. 22"
+        },
+        {
+          "title": "Comisión Europea: AI Act Explorer y texto consolidado",
+          "url": "https://ai-act-service-desk.ec.europa.eu/es/ai-act-explorer",
+          "locator": "supervisión humana, transparencia y calendario vigente"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 38,
+      "economic": "Retirar subvenciones afecta solo a gasto identificado; prohibir la actividad tiene un alcance distinto y puede afectar empleo, contratos y compensaciones. El análisis debe separar presupuestos públicos, actividad privada y posibles costes de transición, sin sumar todo el volumen de negocio como ahorro.",
+      "legal": "La Ley 18/2013 establece protección cultural de la tauromaquia. Retirar ayudas concretas puede requerir decisiones presupuestarias; una prohibición general exige examinar esa ley, competencias culturales y jurisprudencia constitucional. No se equipara abolición con una simple supresión de una partida.",
+      "instrument": "Reforma legal cultural cuando corresponda; cambios de subvenciones y regulación de espectáculos.",
+      "authority": "Estado, autonomías y entidades locales, según medida.",
+      "uncertainties": [
+        "Subvenciones y contratos concretos",
+        "Alcance territorial de una prohibición",
+        "Transición e impacto sobre terceros"
+      ],
+      "sources": [
+        {
+          "title": "Ley 18/2013, tauromaquia como patrimonio cultural",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-11837",
+          "locator": "arts. 1–5"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 44, 46 y 149.2"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 39,
+      "economic": "Mejor control puede prevenir pérdidas, pero no existe un ahorro recuperable igual a cualquier cifra agregada de corrupción. Inspección, contratación abierta, protección de alertadores y justicia requieren recursos. La evaluación debe medir prevención, detección, recuperación y plazos por separado.",
+      "legal": "Las medidas pueden afectar transparencia, contratación, incompatibilidades, financiación política o derecho penal: cada una necesita instrumento propio. Publicidad debe respetar datos y excepciones legales; una auditoría no sustituye una sentencia ni acredita culpabilidad.",
+      "instrument": "Reformas de transparencia y contratación; reglas de control e integridad según medida.",
+      "authority": "Estado y demás administraciones; tribunales y órganos de fiscalización.",
+      "uncertainties": [
+        "Coste de implantación",
+        "Independencia y medios de control",
+        "Recuperación efectiva y garantías procesales"
+      ],
+      "sources": [
+        {
+          "title": "Ley 19/2013 de transparencia",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+          "locator": "publicidad activa y acceso a información"
+        },
+        {
+          "title": "Ley 9/2017 de Contratos del Sector Público",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+          "locator": "integridad, publicidad y contratación"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 24 y 136"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    },
+    {
+      "question": 40,
+      "economic": "Una prueba común puede reducir diferencias de formato y comparabilidad, pero requiere coordinación, elaboración, corrección y medidas de accesibilidad. Igual examen no iguala por sí solo contenidos impartidos, recursos ni criterios de admisión; deben evaluarse efectos distributivos.",
+      "legal": "La LOE y el RD 534/2024 fijan bases y organización de acceso. Un examen idéntico nacional exige concretar diseño y coordinación con competencias educativas, lenguas y autonomía universitaria; cambiar contenidos básicos y sustituir toda organización territorial son decisiones distintas.",
+      "instrument": "Reforma del real decreto y, si afecta a las bases legales, de LOE; acuerdos de organización.",
+      "authority": "Estado, autonomías y universidades en sus competencias.",
+      "uncertainties": [
+        "Currículos y lenguas",
+        "Criterios de corrección y admisión",
+        "Accesibilidad y convocatorias"
+      ],
+      "sources": [
+        {
+          "title": "Ley Orgánica 2/2006 de Educación",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899",
+          "locator": "art. 38"
+        },
+        {
+          "title": "Real Decreto 534/2024, acceso universitario",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858",
+          "locator": "características básicas de la prueba y procedimientos de admisión"
+        },
+        {
+          "title": "Constitución Española",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+          "locator": "arts. 27 y 149.1.30"
+        }
+      ],
+      "cost": {
+        "status": "no-independent-estimate",
+        "explanation": "No se ha elaborado una memoria independiente del coste total de esta propuesta. El análisis identifica partidas y condiciones; las cifras ilustrativas no se atribuyen a una formación."
+      }
+    }
+  ]
+}
