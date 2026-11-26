@@ -39,3 +39,13 @@ El monitor no modifica automáticamente el catálogo o el test. La comparación 
 El buscador distingue coincidencia direccional y mera relación temática en las consultas que interpreta. El desglose del test muestra resultados por temática sin convertir silencios en rechazo. El monitor separa fechas publicadas de fechas de observación y conserva evidencias correctas ante fallos.
 
 `data/document-index.json` y `data/document-index/*.json` permiten buscar términos en páginas del texto íntegro de las fuentes descargables. `scripts/build_document_index.py` los regenera diariamente. El índice es una relación alfabética de palabras y páginas, no una copia de frases ni un generador de posiciones políticas. Los bloqueos de descarga se publican.
+
+## Mi papeleta, test ciego y cronología
+
+`Mi papeleta` filtra comparador y resultados del test por las listas al Congreso de una provincia. El cruce usa las denominaciones oficiales corregidas y las referencias del directorio: las listas sin programa vinculado permanecen como tales, sin heredar posiciones de sus socios. No se obtiene geolocalización ni se guarda la provincia.
+
+El modo ciego está activado por defecto. Oculta formaciones y fuentes en las preguntas y las revela al terminar. El modo con fuentes permite consultarlas durante el recorrido. Consultar propuestas en otras secciones tras empezar, desactivar el modo ciego o revisar respuestas después del resultado marca `positionsSeenBeforeCompletion`; volver a ocultarlas no borra ese hecho. El cálculo es idéntico en ambos modos. La exportación incluye provincia, listas, referencias y metadatos del modo, además de las respuestas y evidencias del ámbito elegido.
+
+La cronología agrupa por fechas verificables y permite formación, tipo, rango y vista de tarjetas. Distingue publicación, observación y registro técnico. Un `verified-change` solo se cuenta como contrastado si aporta textos anterior/posterior distintos, originales HTTPS diferenciados y `context` con método de contraste. Dos fragmentos de la misma URL no acreditan dos versiones. Las entradas incompletas no se incluyen en ese recuento. `beforeDate` y `afterDate` son opcionales y se muestran cuando son fechas válidas; no se deducen de la fecha del registro. El resaltado es textual, no un dictamen del alcance de la modificación.
+
+Las diferencias técnicas muestran huellas cuando se registraron, sin convertirlas en giros políticos ni afirmar que la versión antigua esté archivada. Las pruebas con ejemplos sintéticos se limitan al test o a la previsualización local: no se publican en `noticias.json`.

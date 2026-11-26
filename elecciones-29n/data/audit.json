@@ -48,6 +48,10 @@
     {
       "title": "Fecha de noticia y fecha de observación separadas",
       "detail": "Los titulares sin fecha de publicación comprobable muestran fecha de observación. Cambiar la URL de un canal crea una nueva línea de base; no se etiqueta como cambio de promesas."
+    },
+    {
+      "title": "Mi papeleta, test ciego y cronología visual",
+      "detail": "Filtro por las listas reales al Congreso de una provincia, con candidaturas sin programa visibles; modo ciego con revelación final y trazabilidad de la consulta de fuentes; cronología con rangos, originales y resaltado, sin convertir diferencias de archivo en cambios políticos."
     }
   ],
   "limitations": [
@@ -60,7 +64,7 @@
     "La interfaz se comprueba en Chrome de escritorio y en ancho equivalente a móvil. No se dispone aquí de teléfono físico, Safari móvil ni certificación independiente WCAG.",
     "El corpus y su codificación han sido preparados con asistencia de IA y fuentes primarias. No cuentan con revisión experta independiente de cada posición."
   ],
-  "validationSummary": "31 pruebas automatizadas: integridad documental, direcciones y denominadores, buscador e intención, filtros y suplencias, registro completo, análisis de 40 preguntas, directorio y fuentes de perfiles, validación de dominios, fechas de publicación y observación, fallos y seguimiento. La verificación de navegador y despliegue se documenta en AUDITORIA.md.",
+  "validationSummary": "38 pruebas automatizadas: integridad documental, direcciones y denominadores, buscador e intención, filtros y suplencias, registro completo, análisis de 40 preguntas, directorio y fuentes de perfiles, validación de dominios, fechas de publicación y observación, fallos y seguimiento. La verificación de navegador y despliegue se documenta en AUDITORIA.md. Se verifican filtro por listas provinciales, modo ciego, fuentes consultadas antes de terminar y cronología con fechas y originales.",
   "sources": [
     {
       "title": "Convocatoria · Real Decreto 806/2026",

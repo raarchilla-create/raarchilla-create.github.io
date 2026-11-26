@@ -90,3 +90,15 @@ Permanecen límites reales: el índice resumido no codifica cada frase de cada p
 El commit de código y datos `dbe62567b058ac02cdacdfafc5e77cf211dd7db5` se publicó en main. El workflow de pruebas y seguimiento 45774581266 terminó correctamente y creó el commit automático 6b979d359b84a6a0a7eeecc24747c9b728f3f0e7 con datos renovados. La publicación se verificó en Chrome en https://raarchilla-create.github.io/elecciones-29n/: panorama 40/331/40/52; agricultura con 28 documentos coincidentes y 48/49 índices disponibles; registro conjunto de Ceuta con 36 entradas; seguimiento con 77 fuentes y 73 descargas válidas. Las URL del índice y del catálogo respondieron HTTP 200.
 
 La mejora de 47 a 48 documentos indexados se produjo en la ejecución de GitHub, cuyas condiciones de acceso difieren del entorno local. Los recuentos de este informe documentan observaciones concretas: el estado actual del índice y del monitor se consulta en la web, con sus fechas respectivas. No se fuerza la coincidencia entre intentos ejecutados en instantes y entornos distintos.
+
+## Ampliación funcional: Mi papeleta, test ciego y cronología
+
+Se añadieron siete regresiones automatizadas: selección territorial por candidaturas reales, coaliciones sin atribución automática, listas sin programa, preservación de selecciones, requisitos documentales de los cambios, resaltado seguro y filtros cronológicos. El total es 38 casos (24 Node y 14 Python).
+
+En Chrome se comprobó Madrid con sus 14 listas y León con 12, incluida una sin referencia programática vinculada. El comparador y el resultado del test se limitan al ámbito seleccionado; se puede volver al catálogo completo. La exportación de una prueba completa de Madrid contenía 14 listas y 14 referencias, `blindMode=true`, `positionsSeenBeforeCompletion=false` y ninguna medida de fuera del ámbito. No se almacena provincia ni respuestas en un servidor.
+
+Se recorrieron las 40 preguntas con identidades y fuentes ocultas, se comprobó su revelación al terminar y se verificó que desactivar/activar el modo o revisar después de ver el resultado conserva el aviso de exposición. El cálculo no cambia. Los controles nuevos conservan etiquetas y no se detectaron IDs duplicados.
+
+La cronología mostró el registro real en 21 grupos de fechas, permitió filtrar las 41 diferencias técnicas presentes en esa consulta y rechazó un rango invertido. La vista de tarjetas mantiene el mismo conjunto de entradas. No había cambios programáticos contrastados con dos originales completos: no se añadieron ejemplos ficticios a los datos reales.
+
+La vista antes/después y sus enlaces se probaron con un ejemplo sintético aislado en la previsualización, rotulado expresamente como prueba técnica y ausente del repositorio. El resaltado distinguió 12/18 en dos textos de ejemplo y las dos referencias. A 340 píxeles CSS la página medía 337, y los originales se apilaron en una columna de 236, sin desbordamiento. La muestra de prueba se retiró antes de publicar.
