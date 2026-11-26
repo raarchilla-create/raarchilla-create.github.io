@@ -2,7 +2,7 @@
 
 Repositorio: `raarchilla-create/raarchilla-create.github.io`, directorio `elecciones-29n`.
 
-## Alcance real
+## Alcance observado en la validación local
 
 | Elemento | Cobertura incorporada |
 |---|---|
@@ -81,6 +81,12 @@ Se observó ancho de 340 píxeles CSS, contenido de 337 y comparador apilado en 
 
 ## Despliegue y límites pendientes de evidencia externa
 
-La URL de publicación es https://raarchilla-create.github.io/elecciones-29n/ . El workflow y sus registros públicos permiten verificar el resultado de cada ejecución: https://github.com/raarchilla-create/raarchilla-create.github.io/actions/workflows/electoral-monitor.yml . La publicación anterior del 25/11/2026 se verificó con HTTP 200 y GitHub Pages correcto; la edición actual se comprueba públicamente después de su actualización.
+La URL de publicación es https://raarchilla-create.github.io/elecciones-29n/ . El workflow y sus registros públicos permiten verificar el resultado de cada ejecución: https://github.com/raarchilla-create/raarchilla-create.github.io/actions/workflows/electoral-monitor.yml . La publicación anterior del 25/11/2026 se verificó con HTTP 200 y GitHub Pages correcto; La comprobación pública de la ampliación se detalla al final de este informe.
 
 Permanecen límites reales: el índice resumido no codifica cada frase de cada programa; dos documentos no se pueden descargar completos; algunas coaliciones o formaciones no tienen programa propio verificado en esta revisión; las coberturas del test son desiguales; no hay biografías profesionales verificadas de todos los candidatos; faltan memorias económicas independientes y un archivo retrospectivo íntegro de versiones. No se han rellenado esos huecos con posiciones o datos inventados. El corpus no cuenta con validación experta independiente de cada codificación.
+
+## Comprobación pública de la ampliación · 26/11/2026
+
+El commit de código y datos `dbe62567b058ac02cdacdfafc5e77cf211dd7db5` se publicó en main. El workflow de pruebas y seguimiento 45774581266 terminó correctamente y creó el commit automático 6b979d359b84a6a0a7eeecc24747c9b728f3f0e7 con datos renovados. La publicación se verificó en Chrome en https://raarchilla-create.github.io/elecciones-29n/: panorama 40/331/40/52; agricultura con 28 documentos coincidentes y 48/49 índices disponibles; registro conjunto de Ceuta con 36 entradas; seguimiento con 77 fuentes y 73 descargas válidas. Las URL del índice y del catálogo respondieron HTTP 200.
+
+La mejora de 47 a 48 documentos indexados se produjo en la ejecución de GitHub, cuyas condiciones de acceso difieren del entorno local. Los recuentos de este informe documentan observaciones concretas: el estado actual del índice y del monitor se consulta en la web, con sus fechas respectivas. No se fuerza la coincidencia entre intentos ejecutados en instantes y entornos distintos.
